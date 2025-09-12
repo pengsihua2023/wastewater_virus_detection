@@ -1,4 +1,3 @@
-```bash
 #!/bin/bash
 #SBATCH --job-name=Human-Viral-3000-Selection
 #SBATCH --partition=bahl_p
@@ -533,4 +532,4 @@ echo "🎯 Specifically optimized for wastewater virus monitoring applications"
 echo ""
 echo "Next step: Run bash download_selected_genomes.sh to download genomes"
 echo "======================================="
-```
+
