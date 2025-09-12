@@ -22,7 +22,7 @@ echo "Start Time: $(date)"
 echo "CPU Cores: ${SLURM_CPUS_PER_TASK}"
 echo "Memory: ${SLURM_MEM_PER_NODE}MB"
 echo ""
-echo "🎯 Optimization Strategy: Biased towards human host viruses, suitable for wastewater monitoring"
+echo "🧬 Optimization Strategy: Biased towards human host viruses, suitable for wastewater monitoring"
 
 # Return to submission directory
 cd "$SLURM_SUBMIT_DIR"
@@ -30,18 +30,18 @@ echo "Working Directory: $(pwd)"
 
 # Load environment
 echo ""
-echo "🔧 Loading computational environment..."
+echo "🧬 Loading computational environment..."
 ml Miniforge3/24.11.3-0
 source $(conda info --base)/etc/profile.d/conda.sh
 conda activate nextflow
 
 # Check necessary tools
 echo ""
-echo "🛠️ Checking necessary tools..."
+echo "🧬 Checking necessary tools..."
 tools=("wget" "awk" "sort" "bc")
 for tool in "${tools[@]}"; do
     if command -v "$tool" &> /dev/null; then
-        echo "  ✅ $tool available"
+        echo "  🧬 $tool available"
     else
         echo "  ❌ $tool missing"
         exit 1
@@ -72,7 +72,7 @@ if [ ! -f "assembly_summary.txt" ]; then
         exit 1
     fi
 else
-    echo "✅ assembly_summary.txt already exists"
+    echo "🧬 assembly_summary.txt already exists"
 fi
 
 # Record processing start time
@@ -167,11 +167,11 @@ echo "Filtering human host viruses..."
 } | sort -nr | awk '!seen[$4]++ {print}' > human_viruses_priority1.txt
 
 human_priority_count=$(wc -l < human_viruses_priority1.txt)
-echo "✅ Identified $human_priority_count high-priority human viruses"
+echo "🧬 Identified $human_priority_count high-priority human viruses"
 
 # Step 2: Wastewater-related viruses (high priority)
 echo ""
-echo "🚰 Step 2: Wastewater-related viruses (high priority)"  
+echo "🧬 Step 2: Wastewater-related viruses (high priority)"  
 echo "============================================="
 
 cat > wastewater_virus_keywords.txt << 'EOF'
@@ -215,11 +215,11 @@ echo "Filtering wastewater-related viruses..."
 } | sort -nr | awk '!seen[$4]++ {print}' > wastewater_viruses_priority2.txt
 
 wastewater_priority_count=$(wc -l < wastewater_viruses_priority2.txt)
-echo "✅ Identified $wastewater_priority_count wastewater-related viruses"
+echo "🧬 Identified $wastewater_priority_count wastewater-related viruses"
 
 # Step 3: Other medically important viruses (medium priority)
 echo ""
-echo "🏥 Step 3: Other medically important viruses (medium priority)"
+echo "🧬 Step 3: Other medically important viruses (medium priority)"
 echo "========================================"
 
 cat > medical_virus_keywords.txt << 'EOF'
@@ -257,11 +257,11 @@ echo "Filtering medically important viruses..."
 } | sort -nr | awk '!seen[$4]++ {print}' > medical_viruses_priority3.txt
 
 medical_priority_count=$(wc -l < medical_viruses_priority3.txt)
-echo "✅ Identified $medical_priority_count medically important viruses"
+echo "🧬 Identified $medical_priority_count medically important viruses"
 
 # Step 4: Viral family representatives
 echo ""
-echo "🌳 Step 4: Viral family representatives"
+echo "🧬 Step 4: Viral family representatives"
 echo "============================="
 
 echo "Analyzing viral family representatives..."
@@ -292,11 +292,11 @@ awk -F'\t' '$12=="Complete Genome" && $11=="latest" {
 }' assembly_summary.txt | sort -nr > family_representatives.txt
 
 family_rep_count=$(wc -l < family_representatives.txt)
-echo "✅ Identified $family_rep_count viral family representatives"
+echo "🧬 Identified $family_rep_count viral family representatives"
 
 # Step 5: Large genome supplementation (information completeness)
 echo ""
-echo "📏 Step 5: Large genome supplementation (information completeness)"
+echo "🧬 Step 5: Large genome supplementation (information completeness)"
 echo "================================="
 
 echo "Filtering large genomes (>10KB)..."
@@ -314,11 +314,11 @@ awk -F'\t' '$12=="Complete Genome" && $11=="latest" && $9 != "na" {
 }' assembly_summary.txt | sort -nr > large_genomes.txt
 
 large_genome_count=$(wc -l < large_genomes.txt)
-echo "✅ Identified $large_genome_count large genomes (>10KB)"
+echo "🧬 Identified $large_genome_count large genomes (>10KB)"
 
 # Step 6: Smart merge to select 3000
 echo ""
-echo "🧠 Step 6: Smart merge to select 3000 optimal genomes"
+echo "🧬 Step 6: Smart merge to select 3000 optimal genomes"
 echo "======================================="
 
 echo "Merging all candidate genomes by priority..."
@@ -351,7 +351,7 @@ awk '{
 }' all_candidates.txt | sort -nr | head -3000 > selected_3000_genomes.txt
 
 selected_count=$(wc -l < selected_3000_genomes.txt)
-echo "✅ Finally selected $selected_count viral genomes"
+echo "🧬 Finally selected $selected_count viral genomes"
 
 # Analyze statistics of final selection
 echo ""
@@ -392,7 +392,7 @@ human_percentage=$(echo "scale=1; $human_related*100/3000" | bc -l)
 echo "  Human-related viruses: $human_related ($human_percentage%)"
 
 echo ""
-echo "🏆 Top 20 highest priority viruses:"
+echo "🧬 Top 20 highest priority viruses:"
 head -20 selected_3000_genomes.txt | while read score size url species accession priority; do
     size_kb=$(echo "scale=1; $size/1000" | bc -l)
     priority_short=$(echo $priority | cut -c1-12)
@@ -407,7 +407,7 @@ cut -f2,3,4,5,6 selected_3000_genomes.txt > human_focused_3000_detailed.txt
 
 # Create download script
 echo ""
-echo "🚀 Creating automatic download script..."
+echo "🧬 Creating automatic download script..."
 
 cat > download_selected_genomes.sh << 'EOF'
 #!/bin/bash
@@ -462,13 +462,13 @@ if [ $downloaded_files -gt 0 ]; then
         echo ""
         echo "Building minimap2 index..."
         minimap2 -d human_focused_viral_genomes_3000.fa.mmi human_focused_viral_genomes_3000.fa
-        echo "✅ Index creation completed"
+        echo "🧬 Index creation completed"
     else
-        echo "⚠️ minimap2 not found, skipping index creation"
+        echo "🧬 minimap2 not found, skipping index creation"
     fi
     
     echo ""
-    echo "✅ 3000 human-biased viral genome database created successfully!"
+    echo "🧬 3000 human-biased viral genome database created successfully!"
     echo "Database file: human_focused_viral_genomes_3000.fa"
     echo "Index file: human_focused_viral_genomes_3000.fa.mmi"
 else
@@ -483,7 +483,7 @@ processing_end=$(date +%s)
 processing_duration=$((processing_end - processing_start))
 
 echo ""
-echo "✅ Generated files:"
+echo "🧬 Generated files:"
 echo "  human_focused_3000_urls.txt     - Download URLs for 3000 selected viruses ⭐"
 echo "  human_focused_3000_detailed.txt - Detailed information (size, species, priority)"
 echo "  selected_3000_genomes.txt       - Complete selection results"
@@ -497,7 +497,7 @@ echo "  Final selection count: $selected_count"
 echo "  Selection efficiency: $(echo "scale=2; $selected_count*100/$latest_only" | bc -l)%"
 
 echo ""
-echo "🚀 Next steps:"
+echo "🧬 Next steps:"
 echo "1. Run the download script: bash download_selected_genomes.sh"
 echo "2. Or manually download: while read url; do wget -q \"\${url}/*_genomic.fna.gz\"; done < human_focused_3000_urls.txt"
 
@@ -509,7 +509,7 @@ echo "  Improvement: Coverage +6%, Human virus proportion +$(echo "scale=1; $hum
 
 # Clean up temporary files
 echo ""
-echo "🗑️ Cleaning up temporary files..."
+echo "🧬 Cleaning up temporary files..."
 rm -f human_virus_keywords.txt wastewater_virus_keywords.txt medical_virus_keywords.txt
 rm -f human_viruses_priority1.txt wastewater_viruses_priority2.txt medical_viruses_priority3.txt
 rm -f family_representatives.txt large_genomes.txt all_candidates.txt
@@ -520,15 +520,15 @@ total_duration=$((end_time - $(date -d "$(echo $SLURM_JOB_START_TIME)" +%s)))
 
 echo ""
 echo "======================================="
-echo "🎊 Human-biased viral genome selection completed!"
+echo "🧬 Human-biased viral genome selection completed!"
 echo "======================================="
 echo "Job ID: $SLURM_JOB_ID"
 echo "Total runtime: $total_duration seconds ($(($total_duration/60)) minutes)"
 echo "End time: $(date)"
 echo ""
-echo "✅ Successfully created 3000 human-biased viral genome selection scheme"
+echo "🧬 Successfully created 3000 human-biased viral genome selection scheme"
 echo "📁 Working directory: $(pwd)"
-echo "🎯 Specifically optimized for wastewater virus monitoring applications"
+echo "🧬 Specifically optimized for wastewater virus monitoring applications"
 echo ""
 echo "Next step: Run bash download_selected_genomes.sh to download genomes"
 echo "======================================="
