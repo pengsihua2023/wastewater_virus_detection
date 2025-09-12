@@ -90,7 +90,7 @@ echo "  Latest versions: $latest_only"
 
 # Step 1: Identify human host viruses (highest priority)
 echo ""
-echo "🎯 Step 1: Identify human host viruses (highest priority)"
+echo "🧬 Step 1: Identify human host viruses (highest priority)"
 echo "================================================"
 
 cat > human_virus_keywords.txt << 'EOF'
