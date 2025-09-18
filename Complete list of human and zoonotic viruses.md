@@ -1,5 +1,5 @@
 
-# 🧬 Accurate List of Human and Animal Viruses
+# 🧬 Accurate List of Human and Zoonotic Viruses 
 
 ## 📋 Overview
 
