@@ -517,7 +517,7 @@ The total number of virus species is 539 (485 human viruses + 54 zoonotic viruse
 
 ### **Other Important Zoonotic Viruses (26 species)**
 
-29. **Rabies virus** – Dog/bat transmission
+29. **Rabies virus** – Dog/bat transmission  
     30–36. **Hantaviruses (HTNV, SEOV, PUUV, DOBV, SNV, ANDV, LANV)** – Rodent-borne  
 30. **Lassa virus** – Rodent-borne  
 31. **LCMV** – Rodent-borne  
