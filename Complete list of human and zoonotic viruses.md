@@ -491,47 +491,47 @@ The total number of virus species is 539 (485 human viruses + 54 zoonotic viruse
 
 ### **Respiratory Zoonotic Viruses (12 species)**
 
-1–7. **Influenza A viruses H5N1, H7N9, H1N1, H3N2, H5N6, H9N2, H10N3** – Avian/pig influenza
-8\. **SARS-CoV** – Bat-to-human transmission
-9\. **MERS-CoV** – Camel-to-human transmission
-10\. **SARS-CoV-2** – Bat-to-human transmission
-11\. **Nipah virus** – Bat-to-human transmission
-12\. **Hendra virus** – Bat-to-human transmission
+1–7. **Influenza A viruses H5N1, H7N9, H1N1, H3N2, H5N6, H9N2, H10N3** – Avian/pig influenza  
+8. **SARS-CoV** – Bat-to-human transmission  
+9. **MERS-CoV** – Camel-to-human transmission  
+10. **SARS-CoV-2** – Bat-to-human transmission  
+11. **Nipah virus** – Bat-to-human transmission  
+12. **Hendra virus** – Bat-to-human transmission  
 
 ### **Enteric Zoonotic Viruses (6 species)**
 
-13–15. **Rotaviruses A–C** – Zoonotic
-16\. **Norovirus GII.4** – Zoonotic
-17\. **Astrovirus** – Zoonotic
-18\. **Adenovirus** – Zoonotic
+13–15. **Rotaviruses A–C** – Zoonotic  
+16. **Norovirus GII.4** – Zoonotic  
+17. **Astrovirus** – Zoonotic  
+18. **Adenovirus** – Zoonotic  
 
 ### **Blood-borne Zoonotic Viruses (10 species)**
 
-19–22. **Dengue viruses 1–4** – Mosquito-borne
-23\. **Zika virus** – Mosquito-borne
-24\. **West Nile virus** – Mosquito-borne
-25\. **Yellow fever virus** – Mosquito-borne
-26\. **Japanese encephalitis virus** – Mosquito-borne
-27\. **Tick-borne encephalitis virus** – Tick-borne
-28\. **Chikungunya virus** – Mosquito-borne
+19–22. **Dengue viruses 1–4** – Mosquito-borne  
+23. **Zika virus** – Mosquito-borne  
+24. **West Nile virus** – Mosquito-borne  
+25. **Yellow fever virus** – Mosquito-borne  
+26. **Japanese encephalitis virus** – Mosquito-borne  
+27. **Tick-borne encephalitis virus** – Tick-borne  
+28. **Chikungunya virus** – Mosquito-borne  
 
 ### **Other Important Zoonotic Viruses (26 species)**
 
 29. **Rabies virus** – Dog/bat transmission
-    30–36. **Hantaviruses (HTNV, SEOV, PUUV, DOBV, SNV, ANDV, LANV)** – Rodent-borne
-30. **Lassa virus** – Rodent-borne
-31. **LCMV** – Rodent-borne
-    39–43. **Junín, Machupo, Guanarito, Sabia, Chapare viruses** – Rodent-borne
-32. **Lujo virus** – Rodent-borne
-33. **CCHF virus** – Tick-borne
-34. **Rift Valley fever virus** – Mosquito-borne
-    47–48. **Sandfly fever virus, Toscana virus** – Sandfly-borne
-35. **Ebola virus** – Bat-borne
-36. **Marburg virus** – Bat-borne
-37. **Monkeypox virus** – Primate-borne
-38. **Cowpox virus** – Cattle-borne
-39. **Orf virus (Sheep pox virus)** – Sheep-borne
-40. **Hepatitis E virus** – Pig-borne
+    30–36. **Hantaviruses (HTNV, SEOV, PUUV, DOBV, SNV, ANDV, LANV)** – Rodent-borne  
+30. **Lassa virus** – Rodent-borne  
+31. **LCMV** – Rodent-borne  
+    39–43. **Junín, Machupo, Guanarito, Sabia, Chapare viruses** – Rodent-borne  
+32. **Lujo virus** – Rodent-borne  
+33. **CCHF virus** – Tick-borne  
+34. **Rift Valley fever virus** – Mosquito-borne  
+    47–48. **Sandfly fever virus, Toscana virus** – Sandfly-borne  
+35. **Ebola virus** – Bat-borne  
+36. **Marburg virus** – Bat-borne  
+37. **Monkeypox virus** – Primate-borne  
+38. **Cowpox virus** – Cattle-borne  
+39. **Orf virus (Sheep pox virus)** – Sheep-borne  
+40. **Hepatitis E virus** – Pig-borne  
 
 ---
 
