@@ -517,21 +517,33 @@ The total number of virus species is 539 (485 human viruses + 54 zoonotic viruse
 
 ### **Other Important Zoonotic Viruses (26 species)**
 
-29. **Rabies virus** – Dog/bat transmission  
-    30–36. **Hantaviruses (HTNV, SEOV, PUUV, DOBV, SNV, ANDV, LANV)** – Rodent-borne  
-30. **Lassa virus** – Rodent-borne  
-31. **LCMV** – Rodent-borne  
-    39–43. **Junín, Machupo, Guanarito, Sabia, Chapare viruses** – Rodent-borne  
-32. **Lujo virus** – Rodent-borne  
-33. **CCHF virus** – Tick-borne  
-34. **Rift Valley fever virus** – Mosquito-borne  
-    47–48. **Sandfly fever virus, Toscana virus** – Sandfly-borne  
-35. **Ebola virus** – Bat-borne  
-36. **Marburg virus** – Bat-borne  
-37. **Monkeypox virus** – Primate-borne  
-38. **Cowpox virus** – Cattle-borne  
-39. **Orf virus (Sheep pox virus)** – Sheep-borne  
-40. **Hepatitis E virus** – Pig-borne  
+### **Other Important Zoonotic Viruses (26 Species)**  
+29. **Rabies Virus** - Transmitted by dogs, bats  
+30. **Hantavirus** - Transmitted by rodents  
+31. **Seoul Virus** - Transmitted by rodents  
+32. **Puumala Virus** - Transmitted by rodents  
+33. **Dobrova Virus** - Transmitted by rodents  
+34. **Sin Nombre Virus** - Transmitted by rodents  
+35. **Andes Virus** - Transmitted by rodents  
+36. **Laguna Negra Virus** - Transmitted by rodents  
+37. **Lassa Virus** - Transmitted by rodents  
+38. **Lymphocytic Choriomeningitis Virus** - Transmitted by rodents  
+39. **Junin Virus** - Transmitted by rodents  
+40. **Machupo Virus** - Transmitted by rodents  
+41. **Guanarito Virus** - Transmitted by rodents  
+42. **Sabiá Virus** - Transmitted by rodents  
+43. **Chapare Virus** - Transmitted by rodents  
+44. **Lujo Virus** - Transmitted by rodents  
+45. **Crimean-Congo Hemorrhagic Fever Virus** - Transmitted by ticks  
+46. **Rift Valley Fever Virus** - Transmitted by mosquitoes  
+47. **Sandfly Fever Virus** - Transmitted by sandflies  
+48. **Toscana Virus** - Transmitted by sandflies  
+49. **Ebola Virus** - Transmitted by bats  
+50. **Marburg Virus** - Transmitted by bats  
+51. **Monkeypox Virus** - Transmitted by primates  
+52. **Cowpox Virus** - Transmitted by cattle  
+53. **Sheeppox Virus** - Transmitted by sheep  
+54. **Hepatitis E Virus** - Transmitted by pigs
 
 ---
 
