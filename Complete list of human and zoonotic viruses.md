@@ -516,8 +516,6 @@ The total number of virus species is 539 (485 human viruses + 54 zoonotic viruse
 28. **Chikungunya virus** – Mosquito-borne  
 
 ### **Other Important Zoonotic Viruses (26 species)**
-
-### **Other Important Zoonotic Viruses (26 Species)**  
 29. **Rabies Virus** - Transmitted by dogs, bats  
 30. **Hantavirus** - Transmitted by rodents  
 31. **Seoul Virus** - Transmitted by rodents  
