@@ -4,7 +4,7 @@
 ## 📋 Overview
 
 This document provides a **precise** and complete list of viruses, including all 486 human viruses and 54 zoonotic viruses.
-The total number of virus species is 540 (486 human viruses + 54 zoonotic viruses).
+The total number of virus species is 539 (485 human viruses + 54 zoonotic viruses).
 
 ---
 
@@ -110,7 +110,7 @@ The total number of virus species is 540 (486 human viruses + 54 zoonotic viruse
 
 ---
 
-### **RNA Viruses (397 species)**
+### **RNA Viruses (396 species)**
 
 #### **11. Picornaviridae - 25 species**
 90. **Poliovirus type 1** (PV1)  
@@ -540,8 +540,8 @@ The total number of virus species is 540 (486 human viruses + 54 zoonotic viruse
 ### **Total Human Viruses**
 
 * **DNA viruses**: 89 species
-* **RNA viruses**: 397 species
-* **Total**: 486 human viruses
+* **RNA viruses**: 396 species
+* **Total**: 485 human viruses
 
 ### **Total Zoonotic Viruses**
 
@@ -553,7 +553,7 @@ The total number of virus species is 540 (486 human viruses + 54 zoonotic viruse
 
 ### **Database Goals**
 
-* **Target total viruses**: 540 (486 human viruses + 54 zoonotic viruses)
+* **Target total viruses**: 539 (485 human viruses + 54 zoonotic viruses)
 * **No double counting**: Each virus is counted once
 * **Precise counting**: All numbers are exact, no “+” sign
 
