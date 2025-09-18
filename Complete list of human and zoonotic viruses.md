@@ -95,7 +95,18 @@ The total number of virus species is 540 (486 human viruses + 54 zoonotic viruse
 75. **Mimivirus** (MIMV)
 76. **Pandoravirus** (PANDV)
 77. **Pithovirus** (PITHV)
-    78–89. **Giant viruses 1–12** (GIV1–GIV12)
+78. Giant viruses 1
+79. Giant viruses 2
+80. Giant viruses 3
+81. Giant viruses 4
+82. Giant viruses 5
+83. Giant viruses 6
+84. Giant viruses 7
+85. Giant viruses 8
+86. Giant viruses 9
+87. Giant viruses 10
+88. Giant viruses 11
+89. Giant viruses 12
 
 ---
 
