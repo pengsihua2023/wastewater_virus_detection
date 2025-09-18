@@ -410,80 +410,80 @@ The total number of virus species is 540 (486 human viruses + 54 zoonotic viruse
 
 #### **12. Caliciviridae - 7 species**
 
-385. **Norovirus GI.1** (NoV GI.1)
-386. **Norovirus GII.1** (NoV GII.1)
-387. **Norovirus GII.2** (NoV GII.2)
-388. **Norovirus GII.3** (NoV GII.3)
-389. **Norovirus GII.4** (NoV GII.4)
-390. **Sapporo virus** (SaV)
-391. **Human calicivirus** (HuCV)
+384. **Norovirus GI.1** (NoV GI.1)
+385. **Norovirus GII.1** (NoV GII.1)
+386. **Norovirus GII.2** (NoV GII.2)
+387. **Norovirus GII.3** (NoV GII.3)
+388. **Norovirus GII.4** (NoV GII.4)
+389. **Sapporo virus** (SaV)
+390. **Human calicivirus** (HuCV)
 
 #### **13. Astroviridae - 8 species**
 
-392–399. **Human astroviruses 1–8** (HAstV1–HAstV8)
+391–398. **Human astroviruses 1–8** (HAstV1–HAstV8)
 
 #### **14. Reoviridae - 10 species**
 
-400–409. **Rotavirus groups A–J** (RVA–RVJ)
+399–408. **Rotavirus groups A–J** (RVA–RVJ)
 
 #### **15. Coronaviridae - 7 species**
 
-410. **HCoV-229E**
-411. **HCoV-NL63**
-412. **HCoV-OC43**
-413. **HCoV-HKU1**
-414. **SARS-CoV**
-415. **MERS-CoV**
-416. **SARS-CoV-2**
+409. **HCoV-229E**
+410. **HCoV-NL63**
+411. **HCoV-OC43**
+412. **HCoV-HKU1**
+413. **SARS-CoV**
+414. **MERS-CoV**
+415. **SARS-CoV-2**
 
 #### **16. Orthomyxoviridae - 4 species**
 
-417. **Influenza A H1N1**
-418. **Influenza A H3N2**
-419. **Influenza B virus**
-420. **Influenza C virus**
+416. **Influenza A H1N1**
+417. **Influenza A H3N2**
+418. **Influenza B virus**
+419. **Influenza C virus**
 
 #### **17. Paramyxoviridae - 15 species**
 
-421–435. (Measles virus, Mumps virus, RSV A & B, HPIV-1 to 8, HMPV, Nipah virus, Hendra virus)
+420–434. (Measles virus, Mumps virus, RSV A & B, HPIV-1 to 8, HMPV, Nipah virus, Hendra virus)
 
 #### **18. Rhabdoviridae - 2 species**
 
-436. **Rabies virus** (RABV)
-437. **Human rhabdovirus** (HRV)
+435. **Rabies virus** (RABV)
+436. **Human rhabdovirus** (HRV)
 
 #### **19. Flaviviridae - 11 species**
 
-438–448. (Dengue viruses 1–4, Zika virus, West Nile virus, Yellow fever virus, Japanese encephalitis virus, Tick-borne encephalitis virus, Kyasanur Forest disease virus, Omsk hemorrhagic fever virus)
+437–447. (Dengue viruses 1–4, Zika virus, West Nile virus, Yellow fever virus, Japanese encephalitis virus, Tick-borne encephalitis virus, Kyasanur Forest disease virus, Omsk hemorrhagic fever virus)
 
 #### **20. Togaviridae - 5 species**
 
-449–453. (Rubella virus, Chikungunya virus, Mayaro virus, O’nyong-nyong virus, Ross River virus)
+448–452. (Rubella virus, Chikungunya virus, Mayaro virus, O’nyong-nyong virus, Ross River virus)
 
 #### **21. Retroviridae - 6 species**
 
-454–459. (HIV-1, HIV-2, HTLV-1 to HTLV-4)
+453–458. (HIV-1, HIV-2, HTLV-1 to HTLV-4)
 
 #### **22. Arenaviridae - 8 species**
 
-460–467. (Lassa virus, LCMV, Junín virus, Machupo virus, Guanarito virus, Sabia virus, Chapare virus, Lujo virus)
+459–466. (Lassa virus, LCMV, Junín virus, Machupo virus, Guanarito virus, Sabia virus, Chapare virus, Lujo virus)
 
 #### **23. Bunyaviridae - 15 species**
 
-468–482. (Hantaviruses, Crimean-Congo hemorrhagic fever virus, Rift Valley fever virus, Sandfly fever virus, Toscana virus, Human bunyaviruses 1–4)
+467–481. (Hantaviruses, Crimean-Congo hemorrhagic fever virus, Rift Valley fever virus, Sandfly fever virus, Toscana virus, Human bunyaviruses 1–4)
 
 #### **24. Filoviridae - 2 species**
 
-483. **Ebola virus** (EBOV)
-484. **Marburg virus** (MARV)
+482. **Ebola virus** (EBOV)
+483. **Marburg virus** (MARV)
 
 #### **25. Bornaviridae - 1 species**
 
-485. **Borna disease virus** (BDV)
+484. **Borna disease virus** (BDV)
 
 #### **26. Hepeviridae - 1 species**
 
-486. **Hepatitis E virus** (HEV)
+485. **Hepatitis E virus** (HEV)
 
 ---
 
