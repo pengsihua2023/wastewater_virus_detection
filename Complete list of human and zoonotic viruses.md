@@ -10,7 +10,7 @@ The total number of virus species is 540 (486 human viruses + 54 zoonotic viruse
 
 ## 🧬 Accurate List of 486 Human Viruses
 
-### **DNA Viruses (80 species)**
+### **DNA Viruses (89 species)**
 
 #### **1. Herpesviridae - 8 species**
 
