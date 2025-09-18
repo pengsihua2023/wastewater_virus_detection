@@ -1,4 +1,3 @@
-
 # 🧬 Exact Human and Animal Virus List
 
 ## 📋 Overview
@@ -416,205 +415,204 @@ This document provides an **exact**, complete virus list without "+" signs, incl
 381. **Human parechovirus 1** (HPeV1)
 382. **Human parechovirus 2** (HPeV2)
 383. **Human parechovirus 3** (HPeV3)
-384. **Human parechovirus 4** (HPeV4)
+384. **Norovirus GI.1** (NoV GI.1)
 
 #### **12. Caliciviridae - 7 species**
-385. **Norovirus GI.1** (NoV GI.1)
-386. **Norovirus GII.1** (NoV GII.1)
-387. **Norovirus GII.2** (NoV GII.2)
-388. **Norovirus GII.3** (NoV GII.3)
-389. **Norovirus GII.4** (NoV GII.4)
-390. **Sapovirus** (SaV)
-391. **Human calicivirus** (HuCV)
+385. **Norovirus GII.1** (NoV GII.1)
+386. **Norovirus GII.2** (NoV GII.2)
+387. **Norovirus GII.3** (NoV GII.3)
+388. **Norovirus GII.4** (NoV GII.4)
+389. **Sapovirus** (SaV)
+390. **Human calicivirus** (HuCV)
 
 #### **13. Astroviridae - 8 species**
-392. **Human astrovirus 1** (HAstV1)
-393. **Human astrovirus 2** (HAstV2)
-394. **Human astrovirus 3** (HAstV3)
-395. **Human astrovirus 4** (HAstV4)
-396. **Human astrovirus 5** (HAstV5)
-397. **Human astrovirus 6** (HAstV6)
-398. **Human astrovirus 7** (HAstV7)
-399. **Human astrovirus 8** (HAstV8)
+391. **Human astrovirus 1** (HAstV1)
+392. **Human astrovirus 2** (HAstV2)
+393. **Human astrovirus 3** (HAstV3)
+394. **Human astrovirus 4** (HAstV4)
+395. **Human astrovirus 5** (HAstV5)
+396. **Human astrovirus 6** (HAstV6)
+397. **Human astrovirus 7** (HAstV7)
+398. **Human astrovirus 8** (HAstV8)
 
 #### **14. Reoviridae - 10 species**
-400. **Rotavirus A** (RVA)
-401. **Rotavirus B** (RVB)
-402. **Rotavirus C** (RVC)
-403. **Rotavirus D** (RVD)
-404. **Rotavirus E** (RVE)
-405. **Rotavirus F** (RVF)
-406. **Rotavirus G** (RVG)
-407. **Rotavirus H** (RVH)
-408. **Rotavirus I** (RVI)
-409. **Rotavirus J** (RVJ)
+399. **Rotavirus A** (RVA)
+400. **Rotavirus B** (RVB)
+401. **Rotavirus C** (RVC)
+402. **Rotavirus D** (RVD)
+403. **Rotavirus E** (RVE)
+404. **Rotavirus F** (RVF)
+405. **Rotavirus G** (RVG)
+406. **Rotavirus H** (RVH)
+407. **Rotavirus I** (RVI)
+408. **Rotavirus J** (RVJ)
 
 #### **15. Coronaviridae - 7 species**
-410. **Human coronavirus 229E** (HCoV-229E)
-411. **Human coronavirus NL63** (HCoV-NL63)
-412. **Human coronavirus OC43** (HCoV-OC43)
-413. **Human coronavirus HKU1** (HCoV-HKU1)
-414. **SARS coronavirus** (SARS-CoV)
-415. **MERS coronavirus** (MERS-CoV)
-416. **SARS-CoV-2** (SARS-CoV-2)
+409. **Human coronavirus 229E** (HCoV-229E)
+410. **Human coronavirus NL63** (HCoV-NL63)
+411. **Human coronavirus OC43** (HCoV-OC43)
+412. **Human coronavirus HKU1** (HCoV-HKU1)
+413. **SARS coronavirus** (SARS-CoV)
+414. **MERS coronavirus** (MERS-CoV)
+415. **SARS-CoV-2** (SARS-CoV-2)
 
 #### **16. Orthomyxoviridae - 4 species**
-417. **Influenza A virus H1N1** (IAV H1N1)
-418. **Influenza A virus H3N2** (IAV H3N2)
-419. **Influenza B virus** (IBV)
-420. **Influenza C virus** (ICV)
+416. **Influenza A virus H1N1** (IAV H1N1)
+417. **Influenza A virus H3N2** (IAV H3N2)
+418. **Influenza B virus** (IBV)
+419. **Influenza C virus** (ICV)
 
 #### **17. Paramyxoviridae - 15 species**
-421. **Measles virus** (MeV)
-422. **Mumps virus** (MuV)
-423. **Respiratory syncytial virus A** (RSV-A)
-424. **Respiratory syncytial virus B** (RSV-B)
-425. **Human parainfluenza virus 1** (HPIV-1)
-426. **Human parainfluenza virus 2** (HPIV-2)
-427. **Human parainfluenza virus 3** (HPIV-3)
-428. **Human parainfluenza virus 4** (HPIV-4)
-429. **Human metapneumovirus** (HMPV)
-430. **Nipah virus** (NiV)
-431. **Hendra virus** (HeV)
-432. **Human parainfluenza virus 5** (HPIV-5)
-433. **Human parainfluenza virus 6** (HPIV-6)
-434. **Human parainfluenza virus 7** (HPIV-7)
-435. **Human parainfluenza virus 8** (HPIV-8)
+420. **Measles virus** (MeV)
+421. **Mumps virus** (MuV)
+422. **Respiratory syncytial virus A** (RSV-A)
+423. **Respiratory syncytial virus B** (RSV-B)
+424. **Human parainfluenza virus 1** (HPIV-1)
+425. **Human parainfluenza virus 2** (HPIV-2)
+426. **Human parainfluenza virus 3** (HPIV-3)
+427. **Human parainfluenza virus 4** (HPIV-4)
+428. **Human metapneumovirus** (HMPV)
+429. **Nipah virus** (NiV)
+430. **Hendra virus** (HeV)
+431. **Human parainfluenza virus 5** (HPIV-5)
+432. **Human parainfluenza virus 6** (HPIV-6)
+433. **Human parainfluenza virus 7** (HPIV-7)
+434. **Human parainfluenza virus 8** (HPIV-8)
 
 #### **18. Rhabdoviridae - 2 species**
-436. **Rabies virus** (RABV)
-437. **Human rhabdovirus** (HRV)
+435. **Rabies virus** (RABV)
+436. **Human rhabdovirus** (HRV)
 
 #### **19. Flaviviridae - 11 species**
-438. **Dengue virus 1** (DENV1)
-439. **Dengue virus 2** (DENV2)
-440. **Dengue virus 3** (DENV3)
-441. **Dengue virus 4** (DENV4)
-442. **Zika virus** (ZIKV)
-443. **West Nile virus** (WNV)
-444. **Yellow fever virus** (YFV)
-445. **Japanese encephalitis virus** (JEV)
-446. **Tick-borne encephalitis virus** (TBEV)
-447. **Kyasanur Forest disease virus** (KFDV)
-448. **Omsk hemorrhagic fever virus** (OHFV)
+437. **Dengue virus 1** (DENV1)
+438. **Dengue virus 2** (DENV2)
+439. **Dengue virus 3** (DENV3)
+440. **Dengue virus 4** (DENV4)
+441. **Zika virus** (ZIKV)
+442. **West Nile virus** (WNV)
+443. **Yellow fever virus** (YFV)
+444. **Japanese encephalitis virus** (JEV)
+445. **Tick-borne encephalitis virus** (TBEV)
+446. **Kyasanur Forest disease virus** (KFDV)
+447. **Omsk hemorrhagic fever virus** (OHFV)
 
 #### **20. Togaviridae - 5 species**
-449. **Rubella virus** (RUBV)
-450. **Chikungunya virus** (CHIKV)
-451. **Mayaro virus** (MAYV)
-452. **O'nyong-nyong virus** (ONNV)
-453. **Ross River virus** (RRV)
+448. **Rubella virus** (RUBV)
+449. **Chikungunya virus** (CHIKV)
+450. **Mayaro virus** (MAYV)
+451. **O'nyong-nyong virus** (ONNV)
+452. **Ross River virus** (RRV)
 
 #### **21. Retroviridae - 6 species**
-454. **Human immunodeficiency virus 1** (HIV-1)
-455. **Human immunodeficiency virus 2** (HIV-2)
-456. **Human T-lymphotropic virus 1** (HTLV-1)
-457. **Human T-lymphotropic virus 2** (HTLV-2)
-458. **Human T-lymphotropic virus 3** (HTLV-3)
-459. **Human T-lymphotropic virus 4** (HTLV-4)
+453. **Human immunodeficiency virus 1** (HIV-1)
+454. **Human immunodeficiency virus 2** (HIV-2)
+455. **Human T-lymphotropic virus 1** (HTLV-1)
+456. **Human T-lymphotropic virus 2** (HTLV-2)
+457. **Human T-lymphotropic virus 3** (HTLV-3)
+458. **Human T-lymphotropic virus 4** (HTLV-4)
 
 #### **22. Arenaviridae - 8 species**
-460. **Lassa virus** (LASV)
-461. **Lymphocytic choriomeningitis virus** (LCMV)
-462. **Junin virus** (JUNV)
-463. **Machupo virus** (MACV)
-464. **Guanarito virus** (GTOV)
-465. **Sabia virus** (SABV)
-466. **Chapare virus** (CHAPV)
-467. **Lujo virus** (LUJV)
+459. **Lassa virus** (LASV)
+460. **Lymphocytic choriomeningitis virus** (LCMV)
+461. **Junin virus** (JUNV)
+462. **Machupo virus** (MACV)
+463. **Guanarito virus** (GTOV)
+464. **Sabia virus** (SABV)
+465. **Chapare virus** (CHAPV)
+466. **Lujo virus** (LUJV)
 
 #### **23. Bunyaviridae - 15 species**
-468. **Hantaan virus** (HTNV)
-469. **Seoul virus** (SEOV)
-470. **Puumala virus** (PUUV)
-471. **Dobrava virus** (DOBV)
-472. **Sin Nombre virus** (SNV)
-473. **Andes virus** (ANDV)
-474. **Laguna Negra virus** (LANV)
-475. **Crimean-Congo hemorrhagic fever virus** (CCHFV)
-476. **Rift Valley fever virus** (RVFV)
-477. **Sandfly fever virus** (SFV)
-478. **Toscana virus** (TOSV)
-479. **Human bunyavirus 1** (HBV-1)
-480. **Human bunyavirus 2** (HBV-2)
-481. **Human bunyavirus 3** (HBV-3)
-482. **Human bunyavirus 4** (HBV-4)
+467. **Hantaan virus** (HTNV)
+468. **Seoul virus** (SEOV)
+469. **Puumala virus** (PUUV)
+470. **Dobrava virus** (DOBV)
+471. **Sin Nombre virus** (SNV)
+472. **Andes virus** (ANDV)
+473. **Laguna Negra virus** (LANV)
+474. **Crimean-Congo hemorrhagic fever virus** (CCHFV)
+475. **Rift Valley fever virus** (RVFV)
+476. **Sandfly fever virus** (SFV)
+477. **Toscana virus** (TOSV)
+478. **Human bunyavirus 1** (HBV-1)
+479. **Human bunyavirus 2** (HBV-2)
+480. **Human bunyavirus 3** (HBV-3)
+481. **Human bunyavirus 4** (HBV-4)
 
 #### **24. Filoviridae - 2 species**
-483. **Ebola virus** (EBOV)
-484. **Marburg virus** (MARV)
+482. **Ebola virus** (EBOV)
+483. **Marburg virus** (MARV)
 
 #### **25. Bornaviridae - 1 species**
-485. **Borna disease virus** (BDV)
+484. **Borna disease virus** (BDV)
 
 #### **26. Hepeviridae - 1 species**
-486. **Hepatitis E virus** (HEV)
+485. **Hepatitis E virus** (HEV)
 
 ---
 
 ## 🦠 Zoonotic Viruses (52 species)
 
 ### **Respiratory Zoonotic Viruses (12 species)**
-487. **Influenza A virus H5N1** - Highly pathogenic avian influenza
-488. **Influenza A virus H7N9** - Avian influenza
-489. **Influenza A virus H1N1** - Swine influenza
-490. **Influenza A virus H3N2** - Human-swine influenza
-491. **Influenza A virus H5N6** - Avian influenza
-492. **Influenza A virus H9N2** - Avian influenza
-493. **Influenza A virus H10N3** - Avian influenza
-494. **SARS coronavirus** - Bat-human transmission
-495. **MERS coronavirus** - Camel-human transmission
-496. **SARS-CoV-2** - Bat-human transmission
-497. **Nipah virus** - Bat-human transmission
-498. **Hendra virus** - Bat-human transmission
+486. **Influenza A virus H5N1** - Highly pathogenic avian influenza
+487. **Influenza A virus H7N9** - Avian influenza
+488. **Influenza A virus H1N1** - Swine influenza
+489. **Influenza A virus H3N2** - Human-swine influenza
+490. **Influenza A virus H5N6** - Avian influenza
+491. **Influenza A virus H9N2** - Avian influenza
+492. **Influenza A virus H10N3** - Avian influenza
+493. **SARS coronavirus** - Bat-human transmission
+494. **MERS coronavirus** - Camel-human transmission
+495. **SARS-CoV-2** - Bat-human transmission
+496. **Nipah virus** - Bat-human transmission
+497. **Hendra virus** - Bat-human transmission
 
 ### **Enteric Zoonotic Viruses (6 species)**
-499. **Rotavirus A** - Zoonotic
-500. **Rotavirus B** - Zoonotic
-501. **Rotavirus C** - Zoonotic
-502. **Norovirus GII.4** - Zoonotic
-503. **Astrovirus** - Zoonotic
-504. **Adenovirus** - Zoonotic
+498. **Rotavirus A** - Zoonotic
+499. **Rotavirus B** - Zoonotic
+500. **Rotavirus C** - Zoonotic
+501. **Norovirus GII.4** - Zoonotic
+502. **Astrovirus** - Zoonotic
+503. **Adenovirus** - Zoonotic
 
 ### **Blood-borne Zoonotic Viruses (10 species)**
-505. **Dengue virus 1** - Mosquito-borne
-506. **Dengue virus 2** - Mosquito-borne
-507. **Dengue virus 3** - Mosquito-borne
-508. **Dengue virus 4** - Mosquito-borne
-509. **Zika virus** - Mosquito-borne
-510. **West Nile virus** - Mosquito-borne
-511. **Yellow fever virus** - Mosquito-borne
-512. **Japanese encephalitis virus** - Mosquito-borne
-513. **Tick-borne encephalitis virus** - Tick-borne
-514. **Chikungunya virus** - Mosquito-borne
+504. **Dengue virus 1** - Mosquito-borne
+505. **Dengue virus 2** - Mosquito-borne
+506. **Dengue virus 3** - Mosquito-borne
+507. **Dengue virus 4** - Mosquito-borne
+508. **Zika virus** - Mosquito-borne
+509. **West Nile virus** - Mosquito-borne
+510. **Yellow fever virus** - Mosquito-borne
+511. **Japanese encephalitis virus** - Mosquito-borne
+512. **Tick-borne encephalitis virus** - Tick-borne
+513. **Chikungunya virus** - Mosquito-borne
 
 ### **Other Important Zoonotic Viruses (24 species)**
-515. **Rabies virus** - Dog, bat transmission
-516. **Hantaan virus** - Rodent transmission
-517. **Seoul virus** - Rodent transmission
-518. **Puumala virus** - Rodent transmission
-519. **Dobrava virus** - Rodent transmission
-520. **Sin Nombre virus** - Rodent transmission
-521. **Andes virus** - Rodent transmission
-522. **Laguna Negra virus** - Rodent transmission
-523. **Lassa virus** - Rodent transmission
-524. **Lymphocytic choriomeningitis virus** - Rodent transmission
-525. **Junin virus** - Rodent transmission
-526. **Machupo virus** - Rodent transmission
-527. **Guanarito virus** - Rodent transmission
-528. **Sabia virus** - Rodent transmission
-529. **Chapare virus** - Rodent transmission
-530. **Lujo virus** - Rodent transmission
-531. **Crimean-Congo hemorrhagic fever virus** - Tick-borne
-532. **Rift Valley fever virus** - Mosquito-borne
-533. **Sandfly fever virus** - Sandfly-borne
-534. **Toscana virus** - Sandfly-borne
-535. **Ebola virus** - Bat transmission
-536. **Marburg virus** - Bat transmission
-537. **Monkeypox virus** - Primate transmission
-538. **Cowpox virus** - Cattle transmission
-539. **Orf virus** - Sheep transmission
-540. **Hepatitis E virus** - Pig transmission
+514. **Rabies virus** - Dog, bat transmission
+515. **Hantaan virus** - Rodent transmission
+516. **Seoul virus** - Rodent transmission
+517. **Puumala virus** - Rodent transmission
+518. **Dobrava virus** - Rodent transmission
+519. **Sin Nombre virus** - Rodent transmission
+520. **Andes virus** - Rodent transmission
+521. **Laguna Negra virus** - Rodent transmission
+522. **Lassa virus** - Rodent transmission
+523. **Lymphocytic choriomeningitis virus** - Rodent transmission
+524. **Junin virus** - Rodent transmission
+525. **Machupo virus** - Rodent transmission
+526. **Guanarito virus** - Rodent transmission
+527. **Sabia virus** - Rodent transmission
+528. **Chapare virus** - Rodent transmission
+529. **Lujo virus** - Rodent transmission
+530. **Crimean-Congo hemorrhagic fever virus** - Tick-borne
+531. **Rift Valley fever virus** - Mosquito-borne
+532. **Sandfly fever virus** - Sandfly-borne
+533. **Toscana virus** - Sandfly-borne
+534. **Ebola virus** - Bat transmission
+535. **Marburg virus** - Bat transmission
+536. **Monkeypox virus** - Primate transmission
+537. **Cowpox virus** - Cattle transmission
+538. **Orf virus** - Sheep transmission
+539. **Hepatitis E virus** - Pig transmission
 
 ---
 
@@ -633,7 +631,7 @@ This document provides an **exact**, complete virus list without "+" signs, incl
 - **Total**: 52 zoonotic viruses
 
 ### **Database Target**
-- **Total target viruses**: 540 species (485 human viruses + 52 zoonotic viruses)
+- **Total target viruses**: 537 species (485 human viruses + 52 zoonotic viruses)
 - **No duplicate counting**: Ensure each virus is counted only once
 - **Exact counting**: All numbers are exact, no "+" signs
 
@@ -641,3 +639,4 @@ This document provides an **exact**, complete virus list without "+" signs, incl
 
 *Last updated: 2024*
 *Data sources: ICTV, NCBI, WHO, CDC and other authoritative institutions*
+
