@@ -1,0 +1,42 @@
+Sample: llnl_66ce4dde
+Classification time: Sun Sep 21 20:54:06 EDT 2025
+Input viral reads count: 359
+
+=== Classification Statistics ===
+Total reads: 359
+Classified reads: 45
+Unclassified reads: 314
+Classification rate: 12.53%
+
+=== Detected Viral Species (Top 10) ===
+55884	12 reads
+2107709	7 reads
+2060084	6 reads
+2107708	5 reads
+2080449	5 reads
+1349410	5 reads
+1913572	3 reads
+1349409	1 reads
+1052672	1 reads
+
+=== Kraken2 Classification Report Summary ===
+87.47%	314 reads	unclassified
+12.53%	45 reads	root
+12.53%	45 reads	Viruses
+8.08%	29 reads	unclassified
+6.69%	24 reads	unclassified
+6.69%	24 reads	unclassified
+6.69%	24 reads	Pandoravirus
+1.95%	7 reads	Pandoravirus
+1.39%	5 reads	Pandoravirus
+1.39%	5 reads	Pandoravirus
+0.28%	1 reads	Pandoravirus
+1.39%	5 reads	Acanthamoeba
+4.46%	16 reads	Duplodnaviria
+4.46%	16 reads	Heunggongvirae
+4.46%	16 reads	Uroviricota
+4.46%	16 reads	Caudoviricetes
+3.34%	12 reads	unclassified
+3.34%	12 reads	Enterobacteria
+0.84%	3 reads	Pantevenvirales
+0.84%	3 reads	Straboviridae
