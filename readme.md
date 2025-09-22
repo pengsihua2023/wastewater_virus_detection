@@ -4,4 +4,4 @@
 - enhanced_comprehensive_config_fixed.config: Config file for the workflow.
 - main_viral_enhanced_comprehensive_fixed.nf: workflow file.
 - run_enhanced_comprehensive_workflow.sh: Slurm script file for submission of the workflow to HPC Cluster of UGA.
-
+- viral_enhanced_comp_40626015.out: An example out log file.
