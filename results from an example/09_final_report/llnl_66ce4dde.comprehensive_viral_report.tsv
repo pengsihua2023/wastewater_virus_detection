@@ -1,0 +1,18 @@
+metric	value	description
+sample_id	llnl_66ce4dde	Sample identifier
+input_reads	4998642	Total input clean reads
+viral_reads	359	Detected viral reads
+viral_detection_rate	0.0072%	Percentage of viral reads
+assembled_contigs		Number of assembled viral contigs
+total_assembly_length		Total length of assembled viral sequences (bp)
+assembly_n50		Assembly N50 metric (bp)
+predicted_orfs		Total number of predicted ORFs
+avg_orf_length		Average ORF length (amino acids)
+diamond_hits		Total DIAMOND protein hits
+orfs_with_protein_hits		ORFs with DIAMOND protein matches
+hmmer_hits		Total HMMER profile hits
+orfs_with_profile_hits		ORFs with HMMER profile matches
+high_coverage_contigs		Contigs with >50% coverage
+high_depth_contigs		Contigs with >5x sequencing depth
+kraken2_classified_reads	45	Reads classified by Kraken2
+kraken2_classification_rate	12.53%	Kraken2 classification success rate

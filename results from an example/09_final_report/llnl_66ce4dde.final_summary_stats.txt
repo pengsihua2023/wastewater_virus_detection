@@ -1,0 +1,27 @@
+=== Enhanced Viral Detection Final Report - llnl_66ce4dde ===
+Analysis completed: Sun Sep 21 20:54:35 EDT 2025
+
+📊 DETECTION SUMMARY:
+  Total input reads: 4998642
+  Viral reads detected: 359 (0.0072%)
+  Assembled viral contigs: 
+  Total viral sequence:  bp
+
+🧬 ORF ANALYSIS:
+  Predicted ORFs: 
+  Average ORF length:  aa
+  ORFs with protein hits (DIAMOND): 
+  ORFs with profile hits (HMMER): 
+
+📈 ABUNDANCE ANALYSIS:
+  High coverage contigs (>50%): 
+  High depth contigs (>5x): 
+
+🦠 TAXONOMIC CLASSIFICATION:
+  Kraken2 classified reads: 45
+  Classification rate: 12.53%
+
+⚠️ CONCLUSION: Low-level viral detection
+  - Few viral reads detected
+  - Limited assembly success
+  - Results should be interpreted with caution
