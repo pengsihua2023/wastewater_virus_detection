@@ -5,4 +5,4 @@
 - enhanced_comprehensive_config_fixed.config: [✅ Config file for the workflow.](https://github.com/pengsihua2023/wastewater_viral_detection/blob/main/enhanced_comprehensive_config_fixed.config)
 - main_viral_enhanced_comprehensive_fixed.nf: [✅ workflow file.](https://github.com/pengsihua2023/wastewater_viral_detection/blob/main/main_viral_enhanced_comprehensive_fixed.nf)
 - run_enhanced_comprehensive_workflow.sh: [✅ Slurm script file for submission of the workflow to HPC Cluster of UGA.](https://github.com/pengsihua2023/wastewater_viral_detection/blob/main/run_enhanced_comprehensive_workflow.sh)
-- viral_enhanced_comp_40626015.out: [✅ An example out log file.](https://github.com/pengsihua2023/wastewater_viral_detection/blob/main/viral_enhanced_comp_40626015.out)
+- [✅ An example out log file.](https://github.com/pengsihua2023/wastewater_viral_detection/blob/main/viral_enhanced_comp_40626015.out): viral_enhanced_comp_40626015.out
