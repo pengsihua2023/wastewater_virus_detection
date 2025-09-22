@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-This document provides an **exact**, complete virus list without "+" signs, including all 485 human viruses and all zoonotic viruses.
+This document provides an **exact**, complete virus list, including all 485 human viruses and 54 zoonotic viruses.
 
 ---
 
