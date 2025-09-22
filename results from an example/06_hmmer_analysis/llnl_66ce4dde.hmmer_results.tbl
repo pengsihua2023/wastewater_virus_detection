@@ -1,0 +1,13 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmscan
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SCAN
+# Query file:      llnl_66ce4dde.viral_orfs.faa
+# Target file:     /scratch/sp96859/Meta-genome-data-analysis/Nextflow/databases/viral_hmm/rvdb-prot.hmm
+# Option settings: hmmscan --tblout llnl_66ce4dde.hmmer_results.tbl --domtblout llnl_66ce4dde.hmmer_domains.tbl --noali -E 1e-3 --domE 1e-3 --cpu 16 /scratch/sp96859/Meta-genome-data-analysis/Nextflow/databases/viral_hmm/rvdb-prot.hmm llnl_66ce4dde.viral_orfs.faa 
+# Current dir:     /scratch/sp96859/Meta-genome-data-analysis/Nextflow/work/da/e53785da8598ddeacba2d9bad10419
+# Date:            Sun Sep 21 20:54:23 2025
+# [ok]
