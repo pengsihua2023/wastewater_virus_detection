@@ -633,7 +633,6 @@ This document provides a complete virus list, including all 485 human viruses an
 ### **Database Target**
 - **Total target viruses**: 539 species (485 human viruses + 54 zoonotic viruses)
 - **No duplicate counting**: Ensure each virus is counted only once
-- **Exact counting**: All numbers are exact, no "+" signs
 
 ---
 
