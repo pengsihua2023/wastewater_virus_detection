@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-This document provides a complete virus list, including all 485 human viruses and 54 zoonotic viruses.
+This document provides a complete virus list 539 viruses, including all 485 human viruses and 54 zoonotic viruses.
 
 ---
 
