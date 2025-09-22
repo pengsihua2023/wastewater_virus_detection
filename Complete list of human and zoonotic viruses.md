@@ -1,8 +1,8 @@
-# 🧬 Exact Human and Zoonotic Virus List
+# 🧬 Human and Zoonotic Virus List
 
 ## 📋 Overview
 
-This document provides an **exact**, complete virus list, including all 485 human viruses and 54 zoonotic viruses.
+This document provides a complete virus list, including all 485 human viruses and 54 zoonotic viruses.
 
 ---
 
