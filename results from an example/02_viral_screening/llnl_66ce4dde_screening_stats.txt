@@ -1,0 +1,26 @@
+=== Viral Screening Statistics Report ===
+Sample: llnl_66ce4dde
+Target viral genome count: 23826
+Input clean reads: 4998642
+Detected viral reads: 359
+Viral reads ratio: 0.0072%
+Viral R1 file size: 48K
+Viral R2 file size: 50K
+BAM file size: 1.3G
+=== samtools flagstat results ===
+9997285 + 0 in total (QC-passed reads + QC-failed reads)
+9997284 + 0 primary
+0 + 0 secondary
+1 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+362 + 0 mapped (0.00% : N/A)
+361 + 0 primary mapped (0.00% : N/A)
+9997284 + 0 paired in sequencing
+4998642 + 0 read1
+4998642 + 0 read2
+0 + 0 properly paired (0.00% : N/A)
+4 + 0 with itself and mate mapped
+357 + 0 singletons (0.00% : N/A)
+2 + 0 with mate mapped to a different chr
+2 + 0 with mate mapped to a different chr (mapQ>=5)
