@@ -361,7 +361,7 @@ graph TD
 - **Source**: Human Viral Genome Database (Phage-Free)：Constructed by us.
 
 ## 🦠 Target Virus Categories
-
+#### [A full list of the 539 Human and Zoonotic Viruses](https://github.com/pengsihua2023/wastewater_viral_detection/blob/main/Complete%20list%20of%20human%20and%20zoonotic%20viruses.md)
 ### Human Respiratory Viruses
 - **Influenza A/B/C viruses**: Seasonal and pandemic strains
 - **SARS-CoV-2**: All major variants (Alpha, Beta, Gamma, Delta, Omicron)
@@ -679,6 +679,7 @@ This workflow is intended for research and public health surveillance purposes. 
 **Version**: 1.1 Enhanced Comprehensive Workflow   
 **Database**: Phage-free 539 human and zoonotic viruses (23,826 sequences)  
 **Compatibility**: Nextflow DSL2, SLURM scheduler  
+
 
 
 
