@@ -631,7 +631,7 @@ We welcome contributions! Please follow these steps:
 - **Nextflow Community**: For the excellent workflow framework
 - **SLURM Development Team**: For HPC job scheduling capabilities
 - **Bioconda Contributors**: For maintaining bioinformatics software packages
-- **Public Health Partners**: CDC For validation and real-world testing
+- **Public Health Partners**: CDC conducts verification and practical application testing.
 
 ## 📄 License
 
@@ -679,6 +679,7 @@ This workflow is intended for research and public health surveillance purposes. 
 **Version**: 1.1 Enhanced Comprehensive Workflow   
 **Database**: Phage-free 539 human and zoonotic viruses (23,826 sequences)  
 **Compatibility**: Nextflow DSL2, SLURM scheduler  
+
 
 
 
