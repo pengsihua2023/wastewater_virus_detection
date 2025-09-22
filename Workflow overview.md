@@ -302,13 +302,13 @@ graph TD
 ### Step 9: Enhanced Final Report & Multi-Evidence Integration
 - **Purpose**: Integrate all evidence sources into comprehensive analysis
 - **Language**: Advanced bash scripting with statistical analysis
-- **Evidence Sources**:
-  (1) **Assembly evidence**: Contig length, N50, coverage
-  (2) **Protein evidence**: DIAMOND BLASTP hits and annotations
-  (3) **Profile evidence**: HMMER domain predictions (highest weight)
-  (4) **Abundance evidence**: RPKM/TPM values and coverage depth
-  (5) **Quality evidence**: CheckV completeness and contamination scores
-  (6) **Taxonomic evidence**: Kraken2 classification results
+- **Evidence Sources**:  
+  (1) **Assembly evidence**: Contig length, N50, coverage  
+  (2) **Protein evidence**: DIAMOND BLASTP hits and annotations  
+  (3) **Profile evidence**: HMMER domain predictions (highest weight)  
+  (4) **Abundance evidence**: RPKM/TPM values and coverage depth 
+  (5) **Quality evidence**: CheckV completeness and contamination scores  
+  (6) **Taxonomic evidence**: Kraken2 classification results  
 - **Integration Features**:
   - **Evidence scoring**: Weighted combination of all evidence types
   - **Confidence levels**: HIGH/MEDIUM/LOW/VERY_LOW based on evidence score
@@ -679,6 +679,7 @@ This workflow is intended for research and public health surveillance purposes. 
 **Version**: 1.1 Enhanced Comprehensive Workflow   
 **Database**: Phage-free 539 human and zoonotic viruses (23,826 sequences)  
 **Compatibility**: Nextflow DSL2, SLURM scheduler  
+
 
 
 
