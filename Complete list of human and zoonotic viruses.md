@@ -1,4 +1,4 @@
-# 🧬 Exact Human and Animal Virus List
+# 🧬 Exact Human and Zoonotic Virus List
 
 ## 📋 Overview
 
