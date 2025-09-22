@@ -573,7 +573,7 @@ If you use this workflow in your research, please cite:
   title = {Wastewater Metagenomic Viral Detection Workflow},
   author = {Sihua Peng},
   year = {2025},
-  version = {1.0},
+  version = {1.1},
   url = {https://github.com/pengsihua2023/wastewater_viral_detection},
   note = {Nextflow workflow for detecting human and zoonotic viruses in wastewater}
 }
@@ -679,6 +679,7 @@ This workflow is intended for research and public health surveillance purposes. 
 **Version**: 1.1 Enhanced Comprehensive Workflow   
 **Database**: Phage-free 539 human and zoonotic viruses (23,826 sequences)  
 **Compatibility**: Nextflow DSL2, SLURM scheduler  
+
 
 
 
