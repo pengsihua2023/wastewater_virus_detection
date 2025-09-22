@@ -586,7 +586,7 @@ This document provides an **exact**, complete virus list without "+" signs, incl
 512. **Tick-borne encephalitis virus** - Tick-borne
 513. **Chikungunya virus** - Mosquito-borne
 
-### **Other Important Zoonotic Viruses (24 species)**
+### **Other Important Zoonotic Viruses (26 species)**
 514. **Rabies virus** - Dog, bat transmission
 515. **Hantaan virus** - Rodent transmission
 516. **Seoul virus** - Rodent transmission
@@ -627,11 +627,11 @@ This document provides an **exact**, complete virus list without "+" signs, incl
 - **Respiratory zoonotic viruses**: 12 species
 - **Enteric zoonotic viruses**: 6 species
 - **Blood-borne zoonotic viruses**: 10 species
-- **Other important zoonotic viruses**: 24 species
-- **Total**: 52 zoonotic viruses
+- **Other important zoonotic viruses**: 26 species
+- **Total**: 54 zoonotic viruses
 
 ### **Database Target**
-- **Total target viruses**: 537 species (485 human viruses + 52 zoonotic viruses)
+- **Total target viruses**: 539 species (485 human viruses + 54 zoonotic viruses)
 - **No duplicate counting**: Ensure each virus is counted only once
 - **Exact counting**: All numbers are exact, no "+" signs
 
