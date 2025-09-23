@@ -80,3 +80,20 @@ Currently, we are using **BWA** as the alignment tool for virus screening; our n
 
 - 4 **k-mer matching false positives**  
    Pandoravirus may share conserved genes with human viruses (e.g., DNA replication sequences), causing the k-mers of reads retained after BWA screening to match Pandoravirus, triggering misclassification.
+
+## Although Pandoravirus wasn't our target virus, it was detected. Is Pandoravirus truly present in this wastewater environment?
+1. **Evidence Supporting Pandoravirus Presence**  
+   - **Multiple Read Assignments**: The report lists Pandoravirus at different percentages (6.69%, 1.95%, 1.39%, 0.28%), totaling 42 reads. This consistency suggests that certain reads have been assigned to the Pandoravirus taxID (1349409).  
+   - **Co-occurrence with Acanthamoeba**: The detection of Acanthamoeba (1.39%, 5 reads) is significant, as Pandoravirus is a giant virus that often coexists with Acanthamoeba as its host. This ecological relationship supports the possibility of Pandoravirus being present in the sample.  
+   - **Environmental Context**: Since the data is metagenomic, likely obtained from a complex environment (e.g., soil, water, or human microbiome), and Pandoravirus inhabits such environments, its presence is reasonable.
+
+2. **Potential Misclassification: Classification May Be Due to the Following Factors**  
+   - **Conserved Sequence Similarity**: Pandoravirus may share conserved genes with other viruses (e.g., DNA polymerase), leading to k-mer matches.  
+   - **Database/Tree Bias**: The Kraken2 database, built from 539 human viruses, may not fully represent the sample, and the presence of the Pandoravirus taxID in the classification tree could cause misassignments.  
+   - **Screening Artifacts**: BWA may have retained non-target reads, which Kraken2 then misclassifies due to the tree structure.
+
+3. **Conclusion**  
+   Based solely on this report, it cannot be determined whether Pandoravirus is truly present in the sample. The 42 reads classified as Pandoravirus are more likely a combination of misclassification and potential low-level presence, influenced by the following factors:  
+   - The NCBI Taxonomy tree includes the Pandoravirus taxID.  
+   - BWA retained non-target reads (e.g., Acanthamoeba-related sequences) due to lenient parameters.  
+   - k-mer false positives arise from conserved regions.
