@@ -560,15 +560,6 @@ If you use this workflow in your research, please cite:
 - CheckV quality assessment for genome completeness evaluation
 - Multi-evidence integration with confidence scoring
 
-**Validation Results**:
-- Real-world testing with wastewater sample: **4 minutes 13 seconds** execution time
-- All 9 processes completed successfully: **100% success rate (Exit code: 0)**
-- Viral detection: **359 viral reads** identified from 25M total reads
-- Classification: **45 reads** successfully classified by Kraken2
-
-**Database Features**:
-- **Phage-free curation**: 539 human and zoonotic viruses (bacteriophages excluded)
-- **High specificity**: Focus on medically relevant viruses for wastewater surveillance
 
 ### Support
 - **Issues**: Submit GitHub issues for bug reports and feature requests
@@ -578,15 +569,6 @@ If you use this workflow in your research, please cite:
 - **Group**: Justin Bahl Lab
 - **Institution**: University of Georgia
 - **Partner**: CDC at Atlanta
-
-### Contributing
-We welcome contributions! Please follow these steps:
-
-1. **Fork the repository** and create your feature branch
-2. **Test thoroughly** with your own datasets
-3. **Update documentation** for any new features
-4. **Submit a pull request** with clear description of changes
-5. **Follow coding standards**: PEP 8 for Python, Nextflow DSL2 conventions
 
 ### Acknowledgments
 - **Nextflow Community**: For the excellent workflow framework
@@ -640,6 +622,7 @@ This workflow is intended for research and public health surveillance purposes. 
 **Version**: 1.1 Enhanced Comprehensive Workflow   
 **Database**: Phage-free 539 human and zoonotic viruses (23,826 sequences)  
 **Compatibility**: Nextflow DSL2, SLURM scheduler  
+
 
 
 
