@@ -66,3 +66,17 @@ The reason why 87.47% of sequences were unclassified is:
 **Kraken2 mechanism:** The k-mer matching and LCA algorithm require high specificity, which is not fully consistent with the global alignment used in filtering.   
 
 Currently, we are using **BWA** as the alignment tool for virus screening; our next step is to try using **Bowtie2** instead.
+
+## I used the reference genomes of 539 human viruses to build a Kraken2 database (to reduce computation time), but why does the Kraken2 classification result show a significant number of reads belonging to Pandoravirus?
+
+- 1 **Classification tree contains Pandoravirus taxID**  
+   Kraken2 uses the NCBI Taxonomy classification tree by default, which includes the Pandoravirus taxID. Even though the database only contains taxIDs for 539 human viruses, the classification tree may still introduce Pandoravirus, leading to the LCA algorithm misassigning some reads.
+
+- 2 **BWA screening parameters are too lenient, retaining non-human virus sequences**  
+   The default parameters of BWA-MEM (e.g., `-k 19`, `-T 30`) may allow non-target reads that are partially similar to the 539 viruses (e.g., Pandoravirus or Acanthamoeba-related sequences) to pass through the screening process.  
+
+- 3 **Sample complexity and environmental contamination**  
+   Metagenomic data may contain environmental viruses (e.g., Pandoravirus, which coexists with Acanthamoeba), and the report detected Acanthamoeba (1.39%, 5 sequences), supporting the possibility of sample contamination.
+
+- 4 **k-mer matching false positives**  
+   Pandoravirus may share conserved genes with human viruses (e.g., DNA replication sequences), causing the k-mers of reads retained after BWA screening to match Pandoravirus, triggering misclassification.
