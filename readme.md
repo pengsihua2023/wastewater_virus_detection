@@ -41,7 +41,7 @@ Kraken2 Classification Report Summary
 |                        | Straboviridae   | Phage family                                     |
 | **Non-Bacteriophages** | Pandoravirus    | Giant viruses infecting amoebae                  |
 |                        | Acanthamoeba    | Amoeba host, not a virus                         |
-|                        | Enterobacteria  | Bacteria, hosts of phages                        |
+|                        | Enterobacteria  | **Bacteria**, hosts of phages                        |
 
 ---
 
