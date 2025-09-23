@@ -52,6 +52,6 @@ Kraken2 Classification Report Summary
 I used only human viral genome reference sequences to filter the reads, and the expected result should have been no phage sequences. However, the result was the opposite; most of the aligned sequences were phage sequences. My thoughts are:
 1. Kraken2 is unreliable for classifying reads. I plan to replace it with Centrifuge in the workflow in the next step.
 2. We had too few aligned reads (I set the threshold to 1000 reads before starting the assembly process), which was insufficient for assembly.
-3. The number of human viruses we selected (539) is too small. Next, we plan to use 1,131 human viral species (including zoonotic viruses) to filter the reads, based on this article: Bioinformatics, 2022, DOI: 10.1093/bioinformatics/btac275.
+3. The number of human viruses we selected (539) is too small. Next, we plan to use 1,131 human viral species (including zoonotic viruses) to filter the reads, based on this article: [Bioinformatics, 2022, DOI: 10.1093/bioinformatics/btac275](https://github.com/pengsihua2023/wastewater_viral_detection/blob/main/To%20be%20used%20reference%20genome%20list/An%20atlas%20of%20human%20viruses.pdf).
 4. Our reference genome database includes both DNA and RNA viruses. Our workflow can detect both DNA and RNA viruses. In this example, we used metagenomic paired-end sequencing data, which allows us to detect only DNA viruses. To detect RNA viruses, we would need metatranscriptomic paired-end sequencing data.
 
