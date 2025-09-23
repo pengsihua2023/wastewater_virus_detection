@@ -344,59 +344,6 @@ graph TD
 
 ## 🦠 Target Virus Categories
 #### [A full list of the 539 Human and Zoonotic Viruses](https://github.com/pengsihua2023/wastewater_viral_detection/blob/main/Complete%20list%20of%20human%20and%20zoonotic%20viruses.md)
-### Human Respiratory Viruses
-- **Influenza A/B/C viruses**: Seasonal and pandemic strains
-- **SARS-CoV-2**: All major variants (Alpha, Beta, Gamma, Delta, Omicron)
-- **Human coronaviruses**: HCoV-229E, HCoV-OC43, HCoV-NL63, HCoV-HKU1
-- **Respiratory syncytial virus (RSV)**: Groups A and B
-- **Human rhinoviruses**: Multiple serotypes
-- **Human parainfluenza viruses**: Types 1-4
-- **Human metapneumovirus**: Groups A and B
-- **Adenoviruses**: Respiratory pathogenic serotypes
-
-### Enteric Viruses
-- **Noroviruses**: Genogroups I, II, and IV
-- **Rotaviruses**: Groups A, B, and C
-- **Enteroviruses**: Including polioviruses, coxsackieviruses, echoviruses
-- **Hepatitis A virus**: All genotypes
-- **Hepatitis E virus**: All genotypes
-- **Astroviruses**: Human astroviruses 1-8
-- **Sapoviruses**: All genogroups
-
-### Blood-borne Viruses
-- **Hepatitis B virus**: All genotypes and subtypes
-- **Hepatitis C virus**: All major genotypes
-- **Hepatitis D virus**: All genotypes
-- **Human immunodeficiency virus (HIV)**: HIV-1 and HIV-2
-
-### Vector-borne and Zoonotic Viruses
-- **Dengue virus**: All four serotypes
-- **Zika virus**: Asian and African lineages
-- **Chikungunya virus**: All genotypes
-- **West Nile virus**: Lineages 1 and 2
-- **Japanese encephalitis virus**
-- **Tick-borne encephalitis virus**
-- **Crimean-Congo hemorrhagic fever virus**
-- **Hantaviruses**: Multiple species
-
-### Emerging and Re-emerging Viruses
-- **Monkeypox virus**: All clades
-- **Marburg virus**: All variants
-- **Ebola virus**: All species
-- **Lassa fever virus**
-- **Nipah virus**
-- **Hendra virus**
-- **MERS-CoV**: All known variants
-
-### Other Human Pathogenic Viruses
-- **Human papillomaviruses**: High-risk and low-risk types
-- **Epstein-Barr virus**: All types
-- **Cytomegalovirus**: All genotypes
-- **Herpes simplex viruses**: HSV-1 and HSV-2
-- **Varicella-zoster virus**
-- **Human herpesvirus 6**: Variants A and B
-- **Human herpesvirus 7**
-- **Human herpesvirus 8**: All variants
 
 ## 🛠️ Required Software and Dependencies
 
@@ -603,6 +550,7 @@ This workflow is intended for research and public health surveillance purposes. 
 **Version**: 1.1 Enhanced Comprehensive Workflow   
 **Database**: Phage-free 539 human and zoonotic viruses (23,826 sequences)  
 **Compatibility**: Nextflow DSL2, SLURM scheduler  
+
 
 
 
