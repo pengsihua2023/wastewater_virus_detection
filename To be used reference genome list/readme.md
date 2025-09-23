@@ -1,1 +1,2 @@
-
+"TableS1.xlsx" contains the 1,131 Human virus list.
+This PDF file contains the list of viruses presented in the paper (Table S1).
