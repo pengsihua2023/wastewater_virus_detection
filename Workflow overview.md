@@ -24,6 +24,7 @@ A comprehensive Nextflow workflow for detecting and classifying viral sequences 
 
 - [✅ Note](#-note)
 - [🗄️ Databases](#-databases)
+- [✅ Note2](#-note2)
 
 ## 🎯 Overview
 
@@ -422,7 +423,7 @@ graph TD
 - **Human herpesvirus 8**: All variants
 
 ## 🛠️ Required Software and Dependencies
-
+## ✅ Note2
 ### Core Bioinformatics Tools
 | Tool | Version | Purpose | Installation | Status |
 |------|---------|---------|-------------|--------|
@@ -684,6 +685,7 @@ This workflow is intended for research and public health surveillance purposes. 
 **Version**: 1.1 Enhanced Comprehensive Workflow   
 **Database**: Phage-free 539 human and zoonotic viruses (23,826 sequences)  
 **Compatibility**: Nextflow DSL2, SLURM scheduler  
+
 
 
 
