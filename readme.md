@@ -98,6 +98,6 @@ Currently, we are using **BWA** as the alignment tool for virus screening; our n
    - BWA retained non-target reads (e.g., Acanthamoeba-related sequences) due to lenient parameters.  
    - k-mer false positives arise from conserved regions.
 ## Summary of this workflow
-- This workflow functions correctly, but some steps failed to produce results because the number of filtered reads was too small to trigger the sequence assembly process.
+- This workflow functions correctly, but some steps failed to produce results, including viral_assembly, orf_prediction，diamond_analysis，and abundance_estimation, because the number of filtered reads was too small to trigger the sequence assembly process.
 - Overall, this workflow is just a preliminary exploration and does not yet meet our requirements for wastewater metagenomic virus detection.
 - Further work is needed to continuously optimize and improve the workflow.  
