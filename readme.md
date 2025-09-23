@@ -48,7 +48,7 @@ Kraken2 Classification Report Summary
 |                        | Enterobacteria  | **Bacteria**, hosts of phages                        |
 
 ---
-
+## Why were bacteriophages detected? That's so strange!
 I used only human viral genome reference sequences to filter the reads, and the expected result should have been no phage sequences. However, the result was the opposite; most of the aligned sequences were phage sequences. My thoughts are:
 1. Kraken2 is unreliable for classifying reads. I plan to replace it with Centrifuge in the workflow in the next step.
 2. We had too few aligned reads (I set the threshold to 1000 reads before starting the assembly process), which was insufficient for assembly.
