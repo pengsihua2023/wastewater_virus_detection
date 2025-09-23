@@ -469,25 +469,6 @@ project/
     ├── 08_viral_classification/                 # Kraken2 results
     └── 09_final_report/                         # Final reports 
 ```
-
-## 📋 Workflow Features
-
-| Analysis Component | Implementation | Status |
-|-------------------|----------------|--------|
-| **Quality Control** | fastp quality trimming | Working |
-| **Viral Screening** | BWA + samtools (phage-free database) | Working |
-| **Viral Assembly** | MEGAHIT (enhanced statistics) | Working |
-| **ORF Prediction** | PRODIGAL (protein coding genes) | **SUCCESSFULLY IMPLEMENTED** |
-| **Protein Analysis** | DIAMOND BLASTP (functional annotation) | **SUCCESSFULLY IMPLEMENTED** |
-| **Profile Analysis** | HMMER hmmscan (conserved domains) | **SUCCESSFULLY IMPLEMENTED** |
-| **Abundance Estimation** | RPKM/TPM calculation | **SUCCESSFULLY IMPLEMENTED** |
-| **Quality Assessment** | CheckV integration (genome completeness) | **SUCCESSFULLY IMPLEMENTED** |
-| **Taxonomic Classification** | Kraken2 (enhanced database) | Working |
-| **Evidence Integration** | Multi-evidence scoring | **SUCCESSFULLY IMPLEMENTED** |
-| **Confidence Assessment** | Comprehensive scoring | **SUCCESSFULLY IMPLEMENTED** |
-| **Result Validation** | Cross-method validation | **SUCCESSFULLY IMPLEMENTED** |
-| **Comprehensive Reporting** | Integrated analysis report | **SUCCESSFULLY IMPLEMENTED** |
-
 ## 🚀 Workflow Files
 
 | Component | File | Description |
@@ -622,6 +603,7 @@ This workflow is intended for research and public health surveillance purposes. 
 **Version**: 1.1 Enhanced Comprehensive Workflow   
 **Database**: Phage-free 539 human and zoonotic viruses (23,826 sequences)  
 **Compatibility**: Nextflow DSL2, SLURM scheduler  
+
 
 
 
