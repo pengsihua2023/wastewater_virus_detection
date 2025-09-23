@@ -22,6 +22,8 @@ A comprehensive Nextflow workflow for detecting and classifying viral sequences 
 - [🗄️ Databases and Reference Materials](#databases-and-reference-materials)
 - [🛠️ Required Software and Dependencies](#-required-software-and-dependencies)
 
+  [🛠️ Required Software and Dependencies](#required-software-and-dependencies)
+
 ## 🎯 Overview
 
 This workflow implements a comprehensive multi-step viral detection pipeline specifically designed for wastewater surveillance. It focuses on detecting human and zoonotic viruses from metagenomic sequencing data, providing rapid identification, functional annotation, and quantitative analysis capabilities for public health monitoring.
@@ -681,6 +683,7 @@ This workflow is intended for research and public health surveillance purposes. 
 **Version**: 1.1 Enhanced Comprehensive Workflow   
 **Database**: Phage-free 539 human and zoonotic viruses (23,826 sequences)  
 **Compatibility**: Nextflow DSL2, SLURM scheduler  
+
 
 
 
