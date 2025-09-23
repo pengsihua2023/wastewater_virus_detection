@@ -19,7 +19,7 @@ A comprehensive Nextflow workflow for detecting and classifying viral sequences 
 - [📄 License](#-license)
 - [🔗 References](#-references)
 - [✅ Note](#-Note)
-- [🗄️ Databases and Reference Materials](#-databases-and-reference-materials)
+- [🗄️ Databases and Reference Materials](#databases-and-reference-materials)
 
 ## 🎯 Overview
 
@@ -680,6 +680,7 @@ This workflow is intended for research and public health surveillance purposes. 
 **Version**: 1.1 Enhanced Comprehensive Workflow   
 **Database**: Phage-free 539 human and zoonotic viruses (23,826 sequences)  
 **Compatibility**: Nextflow DSL2, SLURM scheduler  
+
 
 
 
