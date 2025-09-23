@@ -304,10 +304,6 @@ graph TD
 
 ## 🗄️ Databases
 
-## Note3
-
-## ✅ Note5
-
 ### Human Viral Genome Database (Phage-Free)
 - **Name**: Complete Precise Human Animal Viruses (Curated)
 - **Format**: FASTA
@@ -403,7 +399,7 @@ graph TD
 - **Human herpesvirus 8**: All variants
 
 ## 🛠️ Required Software and Dependencies
-## ✅ Note2
+
 ### Core Bioinformatics Tools
 | Tool | Version | Purpose | Installation | Status |
 |------|---------|---------|-------------|--------|
@@ -492,15 +488,6 @@ project/
 | **Result Validation** | Cross-method validation | **SUCCESSFULLY IMPLEMENTED** |
 | **Comprehensive Reporting** | Integrated analysis report | **SUCCESSFULLY IMPLEMENTED** |
 
-## 🎯 Key Advantages
-
-- **Comprehensive Analysis**: Multi-evidence approach combining BWA screening, protein analysis, domain detection, and quality assessment
-- **High Performance**: 4 minutes 13 seconds execution time with 100% success rate
-- **Phage-Free Database**: 539 curated human and zoonotic viruses (23,826 sequences) with bacteriophages removed
-- **Quantitative Results**: RPKM/TPM abundance estimation for precise viral load assessment
-- **Quality Assurance**: CheckV integration for genome completeness and contamination detection
-- **Multi-Method Validation**: Cross-validation between BWA, DIAMOND, HMMER, and Kraken2 results
-
 ## 🚀 Workflow Files
 
 | Component | File | Description |
@@ -508,18 +495,6 @@ project/
 | **Main Workflow** | `main_viral_enhanced_comprehensive_fixed.nf` | Enhanced comprehensive workflow (9 processes) |
 | **Configuration** | `enhanced_comprehensive_config_fixed.config` | Optimized resource allocation and tool settings |
 | **Run Script** | `run_enhanced_comprehensive_workflow.sh` | SLURM submission script with environment setup |
-
-## 📈 Expected Results
-
-### Performance Metrics **VERIFIED PERFORMANCE**
-
-#### Test Sample Performance (25M paired reads, 1.3GB data)
-- **Processing Speed**: **4 minutes 13 seconds** (actual measured time for test sample)
-- **Memory Usage**: Peak 256 GB (configured), optimized allocation  
-- **CPU Usage**: 32 cores with intelligent process distribution
-- **Detection Sensitivity**: **359 viral reads detected** from 25M total reads (0.0014%)
-- **Classification Success**: **45 reads classified** by Kraken2 (87.2% success rate)
-- **Success Rate**: **100% (Exit code: 0)** - All 9 processes completed successfully
 
 ## 🎯 Target Applications
 
@@ -665,6 +640,7 @@ This workflow is intended for research and public health surveillance purposes. 
 **Version**: 1.1 Enhanced Comprehensive Workflow   
 **Database**: Phage-free 539 human and zoonotic viruses (23,826 sequences)  
 **Compatibility**: Nextflow DSL2, SLURM scheduler  
+
 
 
 
