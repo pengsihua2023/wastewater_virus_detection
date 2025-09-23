@@ -6,7 +6,7 @@
 ## Evaluation of the example results
 ### There are bacteriophages and bacteria in the results, how to explain it?
 
-=== Kraken2 Classification Report Summary ===
+Kraken2 Classification Report Summary
 87.47%	314 reads	unclassified
 12.53%	45 reads	root
 12.53%	45 reads	Viruses
