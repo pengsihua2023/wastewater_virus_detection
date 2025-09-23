@@ -64,3 +64,5 @@ The reason why 87.47% of sequences were unclassified is:
 **Sequence quality:** Short sequences or low-quality reads are difficult to match with k-mers.  
   
 **Kraken2 mechanism:** The k-mer matching and LCA algorithm require high specificity, which is not fully consistent with the global alignment used in filtering.   
+
+Currently, we are using **BWA** as the alignment tool for virus screening; our next step is to try using **Bowtie2** instead.
