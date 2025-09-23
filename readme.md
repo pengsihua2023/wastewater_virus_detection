@@ -56,9 +56,10 @@ I used only human viral genome reference sequences to filter the reads, and the 
 4. Our reference genome database includes both DNA and RNA viruses. Therefore, our workflow can detect both DNA and RNA viruses. In this example, we used metagenomic paired-end sequencing data, which allows us to detect only DNA viruses. To detect RNA viruses, we would need metatranscriptomic paired-end sequencing data.
 ## It is puzzling that 87.47% of the putative human viral reads could not be classified by Kraken2 despite being filtered as viral sequences.
 The reason why 87.47% of sequences were unclassified is:  
-Filtering retains non-target sequences: Loose parameters or lack of negative screening allow non-human viruses (e.g., Pandoravirus), human ERVs, or contaminant sequences to pass through the filter. These sequences cannot be matched to the 539 viral taxIDs in Kraken2.  
+**Filtering retains non-target sequences:** Loose parameters or lack of negative screening allow non-human viruses (e.g., Pandoravirus), human ERVs, or contaminant sequences to pass through the filter. These sequences cannot be matched to the 539 viral taxIDs in Kraken2.  
   
-Sequence variation: The target virus in the sample may contain variants that differ significantly from the reference sequences in the database, causing k-mer matching to fail.
-Sequence quality: Short sequences or low-quality reads are difficult to match with k-mers.  
+**Sequence variation:** The target virus in the sample may contain variants that differ significantly from the reference sequences in the database, causing k-mer matching to fail.  
+
+**Sequence quality:** Short sequences or low-quality reads are difficult to match with k-mers.  
   
-Kraken2 mechanism: The k-mer matching and LCA algorithm require high specificity, which is not fully consistent with the global alignment used in filtering.   
+**Kraken2 mechanism:** The k-mer matching and LCA algorithm require high specificity, which is not fully consistent with the global alignment used in filtering.   
