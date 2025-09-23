@@ -4,7 +4,11 @@
 - ✅ A list of 1,111 genomes from human and zoonotic viruses, representing 539 viral species, some of which include multiple distinct strains: complete_precise_human_animal_viral_summary.txt
 - ✅ An example out log file: viral_enhanced_comp_40626015.out
 ## Evaluation of the example results
-### There are bacteriophages and bacteria in the results, how to explain it?
+Thw sample for testing our workflow was download from the repository of CDC.
+<img width="700" height="140" alt="image" src="https://github.com/user-attachments/assets/0506bad9-b15d-4fe3-9182-8e87bfbd65c2" />
+
+
+### A summary of the example results
 ```
 Kraken2 Classification Report Summary
 87.47%	314 reads	unclassified
@@ -45,5 +49,8 @@ Kraken2 Classification Report Summary
 
 ---
 
-
+I used only human viral genome reference sequences to filter the reads, and the expected result should have been no phage sequences. However, the result was the opposite; most of the aligned sequences were phage sequences. My thoughts are:
+1. Kraken2 is unreliable for classifying reads. I plan to replace it with Centrifuge in the workflow.
+2. We had too few aligned reads (I set the threshold to 1000 reads before starting the assembly process), which was insufficient for assembly.
+3. The number of human viruses we selected (539) is too small. Next, we plan to use 1131 human viral reference sequences (including zoonotic viruses) to filter the reads, based on this article: Bioinformatics, 2022, DOI: 10.1093/bioinformatics/btac275.
 
