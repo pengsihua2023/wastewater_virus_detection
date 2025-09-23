@@ -117,7 +117,7 @@ flowchart LR
     I1 --> I2 --> I3 --> I4
 ```
 
-### Enhanced Comprehensive Workflow - Main Architecture
+### Comprehensive Workflow - Main Architecture
 ```mermaid
 graph TD
     A["Raw Paired FASTQ Files<br/>sample_R1.fastq.gz<br/>sample_R2.fastq.gz"] --> B["Step 1: FASTP QC<br/>Quality control & trimming"]
@@ -132,7 +132,7 @@ graph TD
     D --> H["Step 7: Abundance & Quality<br/>RPKM/TPM + CheckV - SUCCESS<br/>Quantitative analysis complete"]
     C --> I["Step 8: Kraken2 Classification<br/>Taxonomic assignment & abundance"]
     
-    F --> J["Step 9: Enhanced Final Report<br/>Multi-Evidence Integration - SUCCESS<br/>Comprehensive analysis complete"]
+    F --> J["Step 9: Final Report<br/>Multi-Evidence Integration - SUCCESS<br/>Comprehensive analysis complete"]
     G --> J
     H --> J
     I --> J
@@ -289,7 +289,7 @@ graph TD
   - Quality scoring (High/Medium/Low/Fragment)
 - **Output**: 07_abundance_estimation/ directory with abundance tables, CheckV quality summaries, coverage statistics
 
-### Step 8: Kraken2 Viral Classification (Enhanced)
+### Step 8: Kraken2 Viral Classification
 - **Purpose**: Taxonomic classification of viral reads
 - **Tool**: Kraken2
 - **Database**: Complete human and animal viruses database
@@ -299,7 +299,7 @@ graph TD
   - Classification confidence scoring
 - **Output**: Classification reports, species summaries
 
-### Step 9: Enhanced Final Report & Multi-Evidence Integration
+### Step 9: Final Report & Multi-Evidence Integration
 - **Purpose**: Integrate all evidence sources into comprehensive analysis
 - **Language**: Advanced bash scripting with statistical analysis
 - **Evidence Sources**:  
@@ -314,7 +314,7 @@ graph TD
   - **Confidence levels**: HIGH/MEDIUM/LOW/VERY_LOW based on evidence score
   - **Quality thresholds**: Automated assessment of result reliability
   - **Multi-method validation**: Cross-validation between different approaches
-- **Enhanced Outputs**:
+- **Outputs**:
   - Comprehensive viral report (TSV format)
   - Evidence integration table with confidence scores
   - Final summary with biological interpretation
@@ -428,7 +428,7 @@ graph TD
 | **Kraken2** | Latest | Taxonomic classification | `conda install -c bioconda kraken2` | Active |
 | **seqtk** | Latest | FASTQ manipulation | `conda install -c bioconda seqtk` | Active |
 
-### Enhanced Analysis Tools (NEW in v1.1)
+### Analysis Tools 
 | Tool | Version | Purpose | Installation | Status |
 |------|---------|---------|-------------|--------|
 | **PRODIGAL** | Latest | ORF prediction in viral genomes | `conda install -c bioconda prodigal` | Active |
@@ -679,6 +679,7 @@ This workflow is intended for research and public health surveillance purposes. 
 **Version**: 1.1 Enhanced Comprehensive Workflow   
 **Database**: Phage-free 539 human and zoonotic viruses (23,826 sequences)  
 **Compatibility**: Nextflow DSL2, SLURM scheduler  
+
 
 
 
