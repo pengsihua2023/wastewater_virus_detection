@@ -5,7 +5,7 @@
 - ✅ An example out log file: viral_enhanced_comp_40626015.out
 ## Evaluation of the example results
 ### There are bacteriophages and bacteria in the results, how to explain it?
-
+```
 Kraken2 Classification Report Summary
 87.47%	314 reads	unclassified
 12.53%	45 reads	root
@@ -27,7 +27,7 @@ Kraken2 Classification Report Summary
 3.34%	12 reads	Enterobacteria
 0.84%	3 reads	Pantevenvirales
 0.84%	3 reads	Straboviridae
----
+```
 
 ### Kraken2 Classification Results (Bacteriophages vs. Non-Bacteriophages)
 
