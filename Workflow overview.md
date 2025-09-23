@@ -2,33 +2,6 @@
 
 A comprehensive Nextflow workflow for detecting and classifying viral sequences in wastewater metagenomic samples using high-performance computing (HPC) clusters.
 
-## 📑 Table of Contents
-
-- [🎯 Overview](#-overview)
-- [📊 Workflow Architecture](#-workflow-architecture)
-- [🔧 Workflow Steps](#-workflow-steps)
-- [🗄️ Databases and Reference Materials](#databases-and-reference-materials)
-- [🦠 Target Virus Categories](#-target-virus-categories)
-- [🛠️ Required Software and Dependencies](#required-software-and-dependencies)
-- [📁 Directory Structure](#-directory-structure)
-- [🎯 Key Advantages](#-key-advantages)
-- [🚀 Workflow Files](#-workflow-files)
-- [📈 Expected Results](#-expected-results)
-- [🎯 Target Applications](#-target-applications)
-- [📞 Support and Citation](#-support-and-citation)
-- [📄 License](#-license)
-- [🔗 References](#-references)
-- [✅ Note](#-Note)
-- [🗄️ Databases and Reference Materials](#databases-and-reference-materials)
-- [🛠️ Required Software and Dependencies](#-required-software-and-dependencies)
-
-- [✅ Note](#-note)
-- [🗄️ Databases](#-databases)
-- [✅ Note2](#-note2)
-- [🗄️ Note3](#note3)
-- [Note3](note3)
-- [✅ Note5](note5)
-
 ## 🎯 Overview
 
 This workflow implements a comprehensive multi-step viral detection pipeline specifically designed for wastewater surveillance. It focuses on detecting human and zoonotic viruses from metagenomic sequencing data, providing rapid identification, functional annotation, and quantitative analysis capabilities for public health monitoring.
@@ -692,6 +665,7 @@ This workflow is intended for research and public health surveillance purposes. 
 **Version**: 1.1 Enhanced Comprehensive Workflow   
 **Database**: Phage-free 539 human and zoonotic viruses (23,826 sequences)  
 **Compatibility**: Nextflow DSL2, SLURM scheduler  
+
 
 
 
