@@ -1,4 +1,4 @@
-# TaxProfiler样本表配置文件
-# 格式: sample,fastq_1,fastq_2,instrument_platform,run_accession
+# TaxProfiler Sample table configuration file
+# Format: sample,fastq_1,fastq_2,instrument_platform,run_accession
 sample,fastq_1,fastq_2,instrument_platform,run_accession
 SRR30162756,/scratch/sp96859/Meta-genome-data-analysis/Apptainer/taxprofiler/data/reads/SRR30162756.ss-sub4_R1.fastq.gz,/scratch/sp96859/Meta-genome-data-analysis/Apptainer/taxprofiler/data/reads/SRR30162756.ss-sub4_R2.fastq.gz,ILLUMINA,run_001
