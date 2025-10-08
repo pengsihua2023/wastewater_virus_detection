@@ -1,0 +1,138 @@
+======================================================================
+Sample 66ce4dde - Venn Diagram Data
+(Species-level, only classifications with direct reads)
+======================================================================
+
+RVDB detected: 386 species
+NCBI detected: 59 species
+Intersection (high confidence): 12 species
+RVDB unique: 374 species
+NCBI unique: 47 species
+
+======================================================================
+Intersection Species List (alphabetically sorted)
+======================================================================
+Astrovirus MLB2
+  RVDB: 2 direct reads (0.00%)
+  NCBI: 12 direct reads (0.00%)
+Betapolyomavirus hominis
+  RVDB: 78 direct reads (0.00%)
+  NCBI: 72 direct reads (0.00%)
+Betapolyomavirus macacae
+  RVDB: 76 direct reads (0.00%)
+  NCBI: 77 direct reads (0.00%)
+Canine astrovirus
+  RVDB: 7 direct reads (0.00%)
+  NCBI: 2 direct reads (0.00%)
+Canine kobuvirus
+  RVDB: 3 direct reads (0.00%)
+  NCBI: 3 direct reads (0.00%)
+Human astrovirus
+  RVDB: 223 direct reads (0.01%)
+  NCBI: 962 direct reads (0.04%)
+Human fecal virus Jorvi2
+  RVDB: 5 direct reads (0.00%)
+  NCBI: 22 direct reads (0.00%)
+Ostreococcus lucimarinus virus 7
+  RVDB: 1 direct reads (0.00%)
+  NCBI: 1 direct reads (0.00%)
+Otarine picobirnavirus
+  RVDB: 1 direct reads (0.00%)
+  NCBI: 4 direct reads (0.00%)
+Picobirnavirus sp.
+  RVDB: 394 direct reads (0.02%)
+  NCBI: 4 direct reads (0.00%)
+Porcine picobirnavirus
+  RVDB: 11505 direct reads (0.45%)
+  NCBI: 19 direct reads (0.00%)
+Wenzhou picorna-like virus 47
+  RVDB: 1 direct reads (0.00%)
+  NCBI: 1 direct reads (0.00%)
+
+======================================================================
+RVDB Unique Species List (Top 20, sorted by reads)
+======================================================================
+Qianjiang picobirna-like virus 2
+  RVDB: 627347 direct reads (24.57%)
+Chrocacirn virus
+  RVDB: 188819 direct reads (7.40%)
+Reoviridae sp.
+  RVDB: 80779 direct reads (3.16%)
+Ripoflyv virus
+  RVDB: 71127 direct reads (2.79%)
+Ripawyrk virus
+  RVDB: 62633 direct reads (2.45%)
+Ripakrys virus
+  RVDB: 41459 direct reads (1.62%)
+Shrew picobirnavirus 5
+  RVDB: 36992 direct reads (1.45%)
+Chronaparn virus
+  RVDB: 35148 direct reads (1.38%)
+Chronamorb virus
+  RVDB: 30652 direct reads (1.20%)
+Narnaviridae sp.
+  RVDB: 17361 direct reads (0.68%)
+Mitoviridae sp.
+  RVDB: 16358 direct reads (0.64%)
+Ripalen virus
+  RVDB: 15754 direct reads (0.62%)
+Shrew picobirnavirus 2
+  RVDB: 15353 direct reads (0.60%)
+Sichuan mamastrovirus 12
+  RVDB: 14903 direct reads (0.58%)
+Bovine astrovirus
+  RVDB: 12417 direct reads (0.49%)
+Ripajynb virus
+  RVDB: 12258 direct reads (0.48%)
+Sobemovirus sp.
+  RVDB: 12015 direct reads (0.47%)
+Ripapent virus
+  RVDB: 11288 direct reads (0.44%)
+Bat spumavirus 1
+  RVDB: 10840 direct reads (0.42%)
+Jingmen rodent bastrovirus 1
+  RVDB: 10647 direct reads (0.42%)
+
+======================================================================
+NCBI Unique Species List (Top 20, sorted by reads)
+======================================================================
+Carjivirus communis
+  NCBI: 47 direct reads (0.00%)
+Tokyovirus A1
+  NCBI: 43 direct reads (0.00%)
+Bat rotavirus
+  NCBI: 30 direct reads (0.00%)
+Feline astrovirus 2
+  NCBI: 17 direct reads (0.00%)
+Astrovirus Er/SZAL6/HUN/2011
+  NCBI: 13 direct reads (0.00%)
+Mouse kobuvirus M-5/USA/2010
+  NCBI: 9 direct reads (0.00%)
+Murine astrovirus
+  NCBI: 9 direct reads (0.00%)
+Shahe hepe-like virus 2
+  NCBI: 7 direct reads (0.00%)
+Gordonia phage GMA1
+  NCBI: 5 direct reads (0.00%)
+Pandoravirus neocaledonia
+  NCBI: 5 direct reads (0.00%)
+Adoxophyes orana nucleopolyhedrovirus
+  NCBI: 4 direct reads (0.00%)
+Noumeavirus
+  NCBI: 3 direct reads (0.00%)
+Erwinia phage vB_EamM_Caitlin
+  NCBI: 3 direct reads (0.00%)
+Betanudivirus hezeae
+  NCBI: 3 direct reads (0.00%)
+Pandoravirus quercus
+  NCBI: 3 direct reads (0.00%)
+Chrysochromulina ericina virus
+  NCBI: 3 direct reads (0.00%)
+Mycobacterium phage Alsfro
+  NCBI: 3 direct reads (0.00%)
+Plasmavirus L2
+  NCBI: 3 direct reads (0.00%)
+Mythimna unipuncta nucleopolyhedrovirus
+  NCBI: 3 direct reads (0.00%)
+Halovirus VNH-1
+  NCBI: 2 direct reads (0.00%)

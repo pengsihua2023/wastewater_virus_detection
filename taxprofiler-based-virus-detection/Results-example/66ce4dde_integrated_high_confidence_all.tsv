@@ -1,0 +1,15 @@
+Taxon_Name	Rank	Rank_Name	Rank_Priority	NCBI_TaxID	Confidence	Priority	Description	In_Both	In_RVDB	In_NCBI	RVDB_Reads_Direct	RVDB_Reads_Total	RVDB_Percent	NCBI_Reads_Direct	NCBI_Reads_Total	NCBI_Percent	Max_Direct_Reads	Max_Percent	Avg_Percent
+Orthornavirae	K	Kingdom	2	2732396	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	108957	1688289	66.12	5	38048	1.49	108957	66.12	33.805
+Bocaparvovirus	G	Genus	7	1507401	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	436	462	0.02	435	453	0.02	436	0.02	0.02
+Rotavirus	G	Genus	7	10912	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	204	16853	0.66	1	880	0.03	204	0.66	0.34500000000000003
+Porcine picobirnavirus	S	Species	8	442302	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	11505	11505	0.45	19	19	0.0	11505	0.45	0.225
+Human astrovirus	S	Species	8	1868658	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	223	223	0.01	962	962	0.04	962	0.04	0.025
+Picobirnavirus sp.	S	Species	8	1907787	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	394	394	0.02	4	4	0.0	394	0.02	0.01
+Rotavirus A	S1	Subspecies	9	28875	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	13475	16616	0.65	838	838	0.03	13475	0.65	0.34
+aichivirus A1	S1	Subspecies	9	1313215	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	235	235	0.01	219	219	0.01	235	0.01	0.01
+Human mastadenovirus F	S1	Subspecies	9	130309	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	99	152	0.01	228	228	0.01	228	0.01	0.01
+Human betaherpesvirus 5	S1	Subspecies	9	10359	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	217	217	0.01	6	6	0.0	217	0.01	0.005
+Human picobirnavirus	S1	Subspecies	9	145856	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	130	130	0.01	22	22	0.0	130	0.01	0.005
+adeno-associated virus 2	S1	Subspecies	9	10804	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	15	15	0.0	101	101	0.0	101	0.0	0.0
+unclassified	U	Unclassified	10	0	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	714819	714819	28.0	2504606	2504606	98.09	2504606	98.09	63.045
+Viruses	R1	R1	99	10239	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	35983	1838082	71.99	732	48690	1.91	35983	71.99	36.949999999999996

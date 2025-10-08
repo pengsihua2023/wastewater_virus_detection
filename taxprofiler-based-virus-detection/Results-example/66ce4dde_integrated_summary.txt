@@ -1,0 +1,53 @@
+======================================================================
+Sample 66ce4dde Virus Classification Integration Report
+Improvement: Only counts direct read classifications, avoiding parent duplication
+======================================================================
+
+Database Information:
+  - RVDB result file: 66ce4dde_kraken2_RVDB.txt
+  - NCBI result file: 66ce4dde_kraken2_NCBI.txt
+
+Integration Parameters:
+  - High confidence reads threshold: 100
+  - Medium confidence reads threshold: 50
+  - Minimum direct reads: 0
+
+Integration Statistics (direct read classifications):
+  - Total classifications: 1034
+  - Both databases: 70
+  - High confidence: 14
+  - Medium confidence: 162
+  - Low confidence: 823
+
+Species-level Statistics:
+  - RVDB species count: 386
+  - NCBI species count: 59
+  - Intersection species: 12
+  - RVDB unique: 374
+  - NCBI unique: 47
+
+======================================================================
+High Confidence Viruses (Top 10)
+======================================================================
+
+1. Porcine picobirnavirus
+   RVDB: 11505 direct reads (0.45%)
+   NCBI: 19 direct reads (0.00%)
+
+2. Human astrovirus
+   RVDB: 223 direct reads (0.01%)
+   NCBI: 962 direct reads (0.04%)
+
+3. Picobirnavirus sp.
+   RVDB: 394 direct reads (0.02%)
+   NCBI: 4 direct reads (0.00%)
+
+======================================================================
+Generated Files List
+======================================================================
+1. 66ce4dde_integrated_full.tsv - Complete integration results
+2. 66ce4dde_integrated_high_confidence_species.tsv - High confidence species results
+3. 66ce4dde_integrated_high_confidence_all.tsv - All-level high confidence results
+4. 66ce4dde_integrated_candidate_viruses.tsv - Candidate virus list
+5. 66ce4dde_integrated_venn_data.txt - Venn diagram data
+6. 66ce4dde_integrated_summary.txt - This summary report

@@ -1,0 +1,1035 @@
+Taxon_Name	Rank	Rank_Name	Rank_Priority	NCBI_TaxID	Confidence	Priority	Description	In_Both	In_RVDB	In_NCBI	RVDB_Reads_Direct	RVDB_Reads_Total	RVDB_Percent	NCBI_Reads_Direct	NCBI_Reads_Total	NCBI_Percent	Max_Direct_Reads	Max_Percent	Avg_Percent
+Orthornavirae	K	Kingdom	2	2732396	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	108957	1688289	66.12	5	38048	1.49	108957	66.12	33.805
+Bocaparvovirus	G	Genus	7	1507401	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	436	462	0.02	435	453	0.02	436	0.02	0.02
+Rotavirus	G	Genus	7	10912	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	204	16853	0.66	1	880	0.03	204	0.66	0.34500000000000003
+Porcine picobirnavirus	S	Species	8	442302	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	11505	11505	0.45	19	19	0.0	11505	0.45	0.225
+Human astrovirus	S	Species	8	1868658	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	223	223	0.01	962	962	0.04	962	0.04	0.025
+Picobirnavirus sp.	S	Species	8	1907787	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	394	394	0.02	4	4	0.0	394	0.02	0.01
+Rotavirus A	S1	Subspecies	9	28875	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	13475	16616	0.65	838	838	0.03	13475	0.65	0.34
+aichivirus A1	S1	Subspecies	9	1313215	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	235	235	0.01	219	219	0.01	235	0.01	0.01
+Human mastadenovirus F	S1	Subspecies	9	130309	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	99	152	0.01	228	228	0.01	228	0.01	0.01
+Human betaherpesvirus 5	S1	Subspecies	9	10359	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	217	217	0.01	6	6	0.0	217	0.01	0.005
+Human picobirnavirus	S1	Subspecies	9	145856	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	130	130	0.01	22	22	0.0	130	0.01	0.005
+adeno-associated virus 2	S1	Subspecies	9	10804	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	15	15	0.0	101	101	0.0	101	0.0	0.0
+unclassified	U	Unclassified	10	0	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	714819	714819	28.0	2504606	2504606	98.09	2504606	98.09	63.045
+Viruses	R1	R1	99	10239	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	35983	1838082	71.99	732	48690	1.91	35983	71.99	36.949999999999996
+Betapolyomavirus hominis	S	Species	8	1891762	Medium-High	2	BothDB-MediumReads(50-99)	Yes	Yes	Yes	78	78	0.0	72	72	0.0	78	0.0	0.0
+Betapolyomavirus macacae	S	Species	8	1891767	Medium-High	2	BothDB-MediumReads(50-99)	Yes	Yes	Yes	76	76	0.0	77	77	0.0	77	0.0	0.0
+Mamastrovirus 1	S1	Subspecies	9	1239565	Medium-High	2	BothDB-MediumReads(50-99)	Yes	Yes	Yes	53	161	0.01	34	34	0.0	53	0.01	0.005
+Norovirus GII	S2	S2	99	122929	Medium-High	2	BothDB-MediumReads(50-99)	Yes	Yes	Yes	92	124	0.0	15	119	0.0	92	0.0	0.0
+Astrovirus VA1	S2	S2	99	645687	Medium-High	2	BothDB-MediumReads(50-99)	Yes	Yes	Yes	13	13	0.0	61	61	0.0	61	0.0	0.0
+Norovirus GII.2	S3	S3	99	490039	Medium-High	2	BothDB-MediumReads(50-99)	Yes	Yes	Yes	1	15	0.0	60	60	0.0	60	0.0	0.0
+Lenarviricota	P	Phylum	3	2732407	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	43461	575556	22.54	0	0	0.0	43461	22.54	22.54
+Pisuviricota	P	Phylum	3	2732408	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	4339	732687	28.7	0	0	0.0	4339	28.7	28.7
+Kitrinoviricota	P	Phylum	3	2732406	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	162	105078	4.12	0	0	0.0	162	4.12	4.12
+Caudoviricetes	C	Class	4	2731619	Medium	3	NCBIOnly-HighReads(≥100)	No	No	Yes	0	0	0.0	339	7882	0.31	339	0.31	0.31
+Picornavirales	O	Order	5	464095	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	549	20321	0.8	0	0	0.0	549	0.8	0.8
+Adenoviridae	F	Family	6	10508	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	320	631	0.02	0	0	0.0	320	0.02	0.02
+Picobirnaviridae	F	Family	6	585893	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	225	641560	25.13	0	0	0.0	225	25.13	25.13
+Qianjiang picobirna-like virus 2	S	Species	8	3348870	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	627347	627347	24.57	0	0	0.0	627347	24.57	24.57
+Chrocacirn virus	S	Species	8	3129344	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	188819	188819	7.4	0	0	0.0	188819	7.4	7.4
+Reoviridae sp.	S	Species	8	2585267	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	80779	80779	3.16	0	0	0.0	80779	3.16	3.16
+Ripoflyv virus	S	Species	8	3130430	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	71127	71127	2.79	0	0	0.0	71127	2.79	2.79
+Ripawyrk virus	S	Species	8	3130181	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	62633	62633	2.45	0	0	0.0	62633	2.45	2.45
+Ripakrys virus	S	Species	8	3130868	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	41459	41459	1.62	0	0	0.0	41459	1.62	1.62
+Shrew picobirnavirus 5	S	Species	8	3139564	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	36992	36992	1.45	0	0	0.0	36992	1.45	1.45
+Chronaparn virus	S	Species	8	3129907	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	35148	35148	1.38	0	0	0.0	35148	1.38	1.38
+Chronamorb virus	S	Species	8	3129893	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	30652	30652	1.2	0	0	0.0	30652	1.2	1.2
+Narnaviridae sp.	S	Species	8	2583949	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	17361	17361	0.68	0	0	0.0	17361	0.68	0.68
+Mitoviridae sp.	S	Species	8	2809572	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	16358	16358	0.64	0	0	0.0	16358	0.64	0.64
+Ripalen virus	S	Species	8	3130538	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	15754	15754	0.62	0	0	0.0	15754	0.62	0.62
+Shrew picobirnavirus 2	S	Species	8	3139561	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	15353	15353	0.6	0	0	0.0	15353	0.6	0.6
+Sichuan mamastrovirus 12	S	Species	8	2933219	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	14903	14903	0.58	0	0	0.0	14903	0.58	0.58
+Bovine astrovirus	S	Species	8	1435485	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	12417	12417	0.49	0	0	0.0	12417	0.49	0.49
+Ripajynb virus	S	Species	8	3130002	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	12258	12258	0.48	0	0	0.0	12258	0.48	0.48
+Sobemovirus sp.	S	Species	8	2809869	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	12015	12015	0.47	0	0	0.0	12015	0.47	0.47
+Ripapent virus	S	Species	8	3130035	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	11288	11288	0.44	0	0	0.0	11288	0.44	0.44
+Bat spumavirus 1	S	Species	8	3128414	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	10840	10840	0.42	0	0	0.0	10840	0.42	0.42
+Jingmen rodent bastrovirus 1	S	Species	8	3077487	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	10647	10647	0.42	0	0	0.0	10647	0.42	0.42
+Bat alphanodavirus 2	S	Species	8	3400609	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	9809	9809	0.38	0	0	0.0	9809	0.38	0.38
+Piper chlorosis virus	S	Species	8	2010222	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	9001	9001	0.35	0	0	0.0	9001	0.35	0.35
+Chrocagynt virus	S	Species	8	3129407	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	8299	8299	0.33	0	0	0.0	8299	0.33	0.33
+Ripaglys virus	S	Species	8	3130696	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	8093	8093	0.32	0	0	0.0	8093	0.32	0.32
+Miniopterus inflatus ribovirus	S	Species	8	3400667	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	8018	8018	0.31	0	0	0.0	8018	0.31	0.31
+Ripaslid virus	S	Species	8	3131201	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	7509	7509	0.29	0	0	0.0	7509	0.29	0.29
+Sichuan mamastrovirus 10	S	Species	8	2933218	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	7305	7305	0.29	0	0	0.0	7305	0.29	0.29
+Ripashof virus	S	Species	8	3131141	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	5689	5689	0.22	0	0	0.0	5689	0.22	0.22
+Chrocagost virus	S	Species	8	3129398	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	5306	5306	0.21	0	0	0.0	5306	0.21	0.21
+Sichuan tescho-like virus 1	S	Species	8	2933258	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	5009	5009	0.2	0	0	0.0	5009	0.2	0.2
+Ripaflad virus	S	Species	8	3130546	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	4912	4912	0.19	0	0	0.0	4912	0.19	0.19
+Changping Tick Virus 1	S	Species	8	1608043	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	4790	4790	0.19	0	0	0.0	4790	0.19	0.19
+Xinjiang alphaflexivirus 2	S	Species	8	2824438	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	4145	4145	0.16	0	0	0.0	4145	0.16	0.16
+Ripishep virus	S	Species	8	3130928	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	4096	4096	0.16	0	0	0.0	4096	0.16	0.16
+Ripathuj virus	S	Species	8	3131458	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	3984	3984	0.16	0	0	0.0	3984	0.16	0.16
+Chrocadirk virus	S	Species	8	3129419	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	3972	3972	0.16	0	0	0.0	3972	0.16	0.16
+Ripagliz virus	S	Species	8	3130681	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	3411	3411	0.13	0	0	0.0	3411	0.13	0.13
+Ripothus virus	S	Species	8	3131351	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	3323	3323	0.13	0	0	0.0	3323	0.13	0.13
+Ripapog virus	S	Species	8	3130955	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	3314	3314	0.13	0	0	0.0	3314	0.13	0.13
+Chrocavyrb virus	S	Species	8	3129683	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	3114	3114	0.12	0	0	0.0	3114	0.12	0.12
+Sopatryb virus	S	Species	8	3131620	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	2729	2729	0.11	0	0	0.0	2729	0.11	0.11
+Sicinivirus sp.	S	Species	8	1930506	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	2676	2676	0.1	0	0	0.0	2676	0.1	0.1
+Ripastyr virus	S	Species	8	3131364	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	2257	2257	0.09	0	0	0.0	2257	0.09	0.09
+Ripakrev virus	S	Species	8	3130833	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	2168	2168	0.08	0	0	0.0	2168	0.08	0.08
+Sapovirus sp.	S	Species	8	1906670	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1953	1953	0.08	0	0	0.0	1953	0.08	0.08
+High Island virus	S	Species	8	2109376	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1941	1941	0.08	0	0	0.0	1941	0.08	0.08
+Chrocasosc virus	S	Species	8	3129659	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1918	1918	0.08	0	0	0.0	1918	0.08	0.08
+Chronabalt virus	S	Species	8	3129710	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1844	1844	0.07	0	0	0.0	1844	0.07	0.07
+Ripiglaq virus	S	Species	8	3130859	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1806	1806	0.07	0	0	0.0	1806	0.07	0.07
+Bat astrovirus	S	Species	8	1697918	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1804	1804	0.07	0	0	0.0	1804	0.07	0.07
+Ripokey virus	S	Species	8	3130967	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1740	1740	0.07	0	0	0.0	1740	0.07	0.07
+Ripaflyv virus	S	Species	8	3130583	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1684	1684	0.07	0	0	0.0	1684	0.07	0.07
+Chrocabarb virus	S	Species	8	3129305	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1604	1604	0.06	0	0	0.0	1604	0.06	0.06
+Ripasluq virus	S	Species	8	3131229	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1504	1504	0.06	0	0	0.0	1504	0.06	0.06
+Sichuan mamastrovirus 8	S	Species	8	2933226	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1288	1288	0.05	0	0	0.0	1288	0.05	0.05
+Alfamovirus AMV	S	Species	8	12321	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1275	1275	0.05	0	0	0.0	1275	0.05	0.05
+Ripaflec virus	S	Species	8	3130560	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1268	1268	0.05	0	0	0.0	1268	0.05	0.05
+Sopatuq virus	S	Species	8	3131685	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1189	1189	0.05	0	0	0.0	1189	0.05	0.05
+Chrocarylt virus	S	Species	8	3129545	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1096	1096	0.04	0	0	0.0	1096	0.04	0.04
+Sopamon virus	S	Species	8	3131721	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1036	1036	0.04	0	0	0.0	1036	0.04	0.04
+Hipposideros jonesi jeilongvirus 1	S	Species	8	3400616	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1030	1030	0.04	0	0	0.0	1030	0.04	0.04
+Chrocaburb virus	S	Species	8	3129338	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1013	1013	0.04	0	0	0.0	1013	0.04	0.04
+Sopafab virus	S	Species	8	3131770	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	993	993	0.04	0	0	0.0	993	0.04	0.04
+Ripagrog virus	S	Species	8	3130723	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	968	968	0.04	0	0	0.0	968	0.04	0.04
+Ripabiq virus	S	Species	8	3130194	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	951	951	0.04	0	0	0.0	951	0.04	0.04
+Chronacard virus	S	Species	8	3129783	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	944	944	0.04	0	0	0.0	944	0.04	0.04
+Partitiviridae sp.	S	Species	8	1955170	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	912	912	0.04	0	0	0.0	912	0.04	0.04
+Ripigleb virus	S	Species	8	3130924	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	886	886	0.03	0	0	0.0	886	0.03	0.03
+Ripachad virus	S	Species	8	3130373	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	877	877	0.03	0	0	0.0	877	0.03	0.03
+Chicken picobirnavirus	S	Species	8	1930304	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	875	875	0.03	0	0	0.0	875	0.03	0.03
+Sopazak virus	S	Species	8	3131671	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	816	816	0.03	0	0	0.0	816	0.03	0.03
+Chrocaturd virus	S	Species	8	3129638	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	757	757	0.03	0	0	0.0	757	0.03	0.03
+Ripagryb virus	S	Species	8	3130702	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	755	755	0.03	0	0	0.0	755	0.03	0.03
+Ripablas virus	S	Species	8	3130199	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	741	741	0.03	0	0	0.0	741	0.03	0.03
+Ripothip virus	S	Species	8	3131327	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	721	721	0.03	0	0	0.0	721	0.03	0.03
+Chronilont virus	S	Species	8	3129882	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	666	666	0.03	0	0	0.0	666	0.03	0.03
+Sopozig virus	S	Species	8	3131662	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	648	648	0.03	0	0	0.0	648	0.03	0.03
+Ripabeq virus	S	Species	8	3130193	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	636	636	0.02	0	0	0.0	636	0.02	0.02
+Flumine luteo-like virus 3	S	Species	8	2941089	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	634	634	0.02	0	0	0.0	634	0.02	0.02
+Hainan picobirnavirus 19	S	Species	8	2933227	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	603	603	0.02	0	0	0.0	603	0.02	0.02
+Ripakrum virus	S	Species	8	3130852	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	578	578	0.02	0	0	0.0	578	0.02	0.02
+Sopatrul virus	S	Species	8	3131609	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	569	569	0.02	0	0	0.0	569	0.02	0.02
+Ripapyds virus	S	Species	8	3130042	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	546	546	0.02	0	0	0.0	546	0.02	0.02
+Sopazov virus	S	Species	8	3131687	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	527	527	0.02	0	0	0.0	527	0.02	0.02
+Chronidysk virus	S	Species	8	3129873	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	429	429	0.02	0	0	0.0	429	0.02	0.02
+Ripanysc virus	S	Species	8	3130028	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	426	426	0.02	0	0	0.0	426	0.02	0.02
+Chrocadyns virus	S	Species	8	3129426	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	412	412	0.02	0	0	0.0	412	0.02	0.02
+Ripaprog virus	S	Species	8	3131032	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	407	407	0.02	0	0	0.0	407	0.02	0.02
+Picobirnaviridae sp.	S	Species	8	2809674	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	401	401	0.02	0	0	0.0	401	0.02	0.02
+Sopigom virus	S	Species	8	3131633	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	400	400	0.02	0	0	0.0	400	0.02	0.02
+Ripahest virus	S	Species	8	3131454	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	378	378	0.01	0	0	0.0	378	0.01	0.01
+Erysiphe necator mitovirus 1	S	Species	8	2052561	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	358	358	0.01	0	0	0.0	358	0.01	0.01
+Ripaflaq virus	S	Species	8	3130555	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	335	335	0.01	0	0	0.0	335	0.01	0.01
+Narnavirus sp.	S	Species	8	2587225	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	315	315	0.01	0	0	0.0	315	0.01	0.01
+Sonafor virus	S	Species	8	3131557	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	311	311	0.01	0	0	0.0	311	0.01	0.01
+Ditton virus	S	Species	8	2170587	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	289	289	0.01	0	0	0.0	289	0.01	0.01
+Anativirus sp.	S	Species	8	2809150	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	288	288	0.01	0	0	0.0	288	0.01	0.01
+Sichuan sapelo-like virus 1	S	Species	8	2933255	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	286	286	0.01	0	0	0.0	286	0.01	0.01
+Hubei farmland noda-like virus	S	Species	8	2824620	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	255	255	0.01	0	0	0.0	255	0.01	0.01
+Ripocynd virus	S	Species	8	3130384	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	232	232	0.01	0	0	0.0	232	0.01	0.01
+Ripogryp virus	S	Species	8	3130806	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	221	221	0.01	0	0	0.0	221	0.01	0.01
+Ripazant virus	S	Species	8	3130007	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	199	199	0.01	0	0	0.0	199	0.01	0.01
+Ripathel virus	S	Species	8	3131427	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	198	198	0.01	0	0	0.0	198	0.01	0.01
+Tolivirales sp.	S	Species	8	2809914	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	196	196	0.01	0	0	0.0	196	0.01	0.01
+Ripastib virus	S	Species	8	3131312	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	189	189	0.01	0	0	0.0	189	0.01	0.01
+Ripipist virus	S	Species	8	3130442	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	174	174	0.01	0	0	0.0	174	0.01	0.01
+Ripakir virus	S	Species	8	3130693	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	174	174	0.01	0	0	0.0	174	0.01	0.01
+Ripojast virus	S	Species	8	3130879	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	174	174	0.01	0	0	0.0	174	0.01	0.01
+Ripanun virus	S	Species	8	3129993	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	164	164	0.01	0	0	0.0	164	0.01	0.01
+Xinjiang mamastrovirus 1	S	Species	8	2920431	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	156	156	0.01	0	0	0.0	156	0.01	0.01
+Chrocacyrn virus	S	Species	8	3129354	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	155	155	0.01	0	0	0.0	155	0.01	0.01
+Sichuan mamastrovirus 11	S	Species	8	2933222	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	152	152	0.01	0	0	0.0	152	0.01	0.01
+Sonafoz virus	S	Species	8	3131559	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	144	144	0.01	0	0	0.0	144	0.01	0.01
+Picornavirales sp.	S	Species	8	1955153	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	141	141	0.01	0	0	0.0	141	0.01	0.01
+Hybomys planifrons jeilongvirus	S	Species	8	3400619	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	141	141	0.01	0	0	0.0	141	0.01	0.01
+Sopapal virus	S	Species	8	3131818	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	135	135	0.01	0	0	0.0	135	0.01	0.01
+White spot syndrome virus	S	Species	8	342409	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	126	126	0.0	0	0	0.0	126	0.0	0.0
+Chrocarord virus	S	Species	8	3129644	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	115	115	0.0	0	0	0.0	115	0.0	0.0
+Picornaviridae sp.	S	Species	8	1530251	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	107	107	0.0	0	0	0.0	107	0.0	0.0
+Pithovirus LCPAC101	S	Species	8	2506586	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	107	107	0.0	0	0	0.0	107	0.0	0.0
+Bat aichivirus	S	Species	8	3071093	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	105	105	0.0	0	0	0.0	105	0.0	0.0
+Ripastaq virus	S	Species	8	3131268	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	101	101	0.0	0	0	0.0	101	0.0	0.0
+Lymantria dispar multiple nucleopolyhedrovirus	S1	Subspecies	9	10449	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	66287	66287	2.6	0	0	0.0	66287	2.6	2.6
+ssRNA phage SRR5466369_2	S1	Subspecies	9	2786405	Medium	3	NCBIOnly-HighReads(≥100)	No	No	Yes	0	0	0.0	23595	23595	0.92	23595	0.92	0.92
+Felid alphaherpesvirus 1	S1	Subspecies	9	10334	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	21093	21093	0.83	0	0	0.0	21093	0.83	0.83
+ssRNA phage SRR5466337_3	S1	Subspecies	9	2786389	Medium	3	NCBIOnly-HighReads(≥100)	No	No	Yes	0	0	0.0	9426	9426	0.37	9426	0.37	0.37
+Streptomyces phage Omar	S1	Subspecies	9	2059882	Medium	3	NCBIOnly-HighReads(≥100)	No	No	Yes	0	0	0.0	3690	3690	0.14	3690	0.14	0.14
+Mamastrovirus 3	S1	Subspecies	9	1239567	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	3013	3013	0.12	0	0	0.0	3013	0.12	0.12
+Aphis citricidus bunyavirus	S1	Subspecies	9	2599343	Medium	3	NCBIOnly-HighReads(≥100)	No	No	Yes	0	0	0.0	2454	2454	0.1	2454	0.1	0.1
+Langya virus	S1	Subspecies	9	2971765	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	2359	2359	0.09	0	0	0.0	2359	0.09	0.09
+Semliki Forest virus	S1	Subspecies	9	11033	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1763	1763	0.07	0	0	0.0	1763	0.07	0.07
+Influenza A virus	S1	Subspecies	9	11320	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1699	1701	0.07	0	0	0.0	1699	0.07	0.07
+Enterobacteria phage P7	S1	Subspecies	9	10682	Medium	3	NCBIOnly-HighReads(≥100)	No	No	Yes	0	0	0.0	1274	1274	0.05	1274	0.05	0.05
+macacine betaherpesvirus 3	S1	Subspecies	9	47929	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1165	1165	0.05	0	0	0.0	1165	0.05	0.05
+Bovine kobuvirus	S1	Subspecies	9	1476554	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1092	1092	0.04	0	0	0.0	1092	0.04	0.04
+avian paramyxovirus 1	S1	Subspecies	9	2560319	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	964	964	0.04	0	0	0.0	964	0.04	0.04
+Lihan tick virus	S1	Subspecies	9	1608056	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	506	506	0.02	0	0	0.0	506	0.02	0.02
+Serratia phage Muldoon	S1	Subspecies	9	2601678	Medium	3	NCBIOnly-HighReads(≥100)	No	No	Yes	0	0	0.0	485	485	0.02	485	0.02	0.02
+Burkholderia phage Bp-AMP1	S1	Subspecies	9	1432428	Medium	3	NCBIOnly-HighReads(≥100)	No	No	Yes	0	0	0.0	470	470	0.02	470	0.02	0.02
+chicken chapparvovirus HK	S1	Subspecies	9	2849623	Medium	3	NCBIOnly-HighReads(≥100)	No	No	Yes	0	0	0.0	407	407	0.02	407	0.02	0.02
+Bovine rhinitis A virus	S1	Subspecies	9	1155188	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	195	195	0.01	0	0	0.0	195	0.01	0.01
+African swine fever virus	S1	Subspecies	9	10497	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	194	194	0.01	0	0	0.0	194	0.01	0.01
+Human immunodeficiency virus 1	S1	Subspecies	9	11676	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	151	155	0.01	0	0	0.0	151	0.01	0.01
+Escherichia phage RCS47	S1	Subspecies	9	1590550	Medium	3	NCBIOnly-HighReads(≥100)	No	No	Yes	0	0	0.0	121	121	0.0	121	0.0	0.0
+unclassified Leviviricetes	C1	C1	99	2852991	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	2958	204369	8.0	0	0	0.0	2958	8.0	8.0
+Human rotavirus A	S2	S2	99	10941	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	2433	2433	0.1	0	0	0.0	2433	0.1	0.1
+Riboviria	R2	R2	99	2559587	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1856	1709250	66.94	0	0	0.0	1856	66.94	66.94
+unclassified Birnaviridae	F1	F1	99	41995	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1844	54189	2.12	0	0	0.0	1844	2.12	2.12
+Human alphaherpesvirus 1 strain RH2	S2	S2	99	946522	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	1611	1611	0.06	0	0	0.0	1611	0.06	0.06
+unclassified Amabiliviricetes	C1	C1	99	2788836	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	621	207396	8.12	0	0	0.0	621	8.12	8.12
+unclassified Mitoviridae	F1	F1	99	2788892	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	417	97284	3.81	0	0	0.0	417	3.81	3.81
+Porcine rotavirus A	S2	S2	99	10967	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	404	407	0.02	0	0	0.0	404	0.02	0.02
+Escherichia phage DE3	S2	S2	99	482822	Medium	3	NCBIOnly-HighReads(≥100)	No	No	Yes	0	0	0.0	333	333	0.01	333	0.01	0.01
+root	R	R	99	1	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	332	1838477	72.0	0	0	0.0	332	72.0	72.0
+unclassified Peribunyaviridae	F1	F1	99	39718	Medium	3	RVDBOnly-HighReads(≥100)	No	Yes	No	171	171	0.01	0	0	0.0	171	0.01	0.01
+Amabiliviricetes	C	Class	4	2732498	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	70	226455	8.87	0	0	0.0	70	8.87	8.87
+Paramyxoviridae	F	Family	6	11158	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	63	4568	0.18	0	0	0.0	63	0.18	0.18
+Chrocurosk virus	S	Species	8	3129322	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	91	91	0.0	0	0	0.0	91	0.0	0.0
+Qianjiang levi-like virus 25	S	Species	8	3348433	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	88	88	0.0	0	0	0.0	88	0.0	0.0
+Ripafrof virus	S	Species	8	3130610	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	87	87	0.0	0	0	0.0	87	0.0	0.0
+Ripables virus	S	Species	8	3130211	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	87	87	0.0	0	0	0.0	87	0.0	0.0
+Ripastys virus	S	Species	8	3131367	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	87	87	0.0	0	0	0.0	87	0.0	0.0
+Ripajosc virus	S	Species	8	3130000	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	83	83	0.0	0	0	0.0	83	0.0	0.0
+Riponysc virus	S	Species	8	3130951	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	79	79	0.0	0	0	0.0	79	0.0	0.0
+Sopawol virus	S	Species	8	3131668	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	68	68	0.0	0	0	0.0	68	0.0	0.0
+Narnaviridae sp. gcode 4	S	Species	8	2930535	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	68	68	0.0	0	0	0.0	68	0.0	0.0
+Hainan mito-like virus 18	S	Species	8	2937081	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	67	67	0.0	0	0	0.0	67	0.0	0.0
+Sonazoj virus	S	Species	8	3131543	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	60	60	0.0	0	0	0.0	60	0.0	0.0
+Ripagruv virus	S	Species	8	3130741	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	56	56	0.0	0	0	0.0	56	0.0	0.0
+Ripazac virus	S	Species	8	3131421	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	56	56	0.0	0	0	0.0	56	0.0	0.0
+Sonahax virus	S	Species	8	3131568	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	55	55	0.0	0	0	0.0	55	0.0	0.0
+Ripamap virus	S	Species	8	3130916	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	53	53	0.0	0	0	0.0	53	0.0	0.0
+Mute swan feces associated narna-like virus 3	S	Species	8	2832217	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	52	52	0.0	0	0	0.0	52	0.0	0.0
+Human mastadenovirus A	S1	Subspecies	9	129875	Low-Medium	4	NCBIOnly-MediumReads(50-99)	No	No	Yes	0	0	0.0	92	92	0.0	92	0.0	0.0
+Mycobacterium phage Pharaoh	S1	Subspecies	9	2530140	Low-Medium	4	NCBIOnly-MediumReads(50-99)	No	No	Yes	0	0	0.0	65	65	0.0	65	0.0	0.0
+Mycobacterium phage Bernal13	S1	Subspecies	9	1486424	Low-Medium	4	NCBIOnly-MediumReads(50-99)	No	No	Yes	0	0	0.0	61	61	0.0	61	0.0	0.0
+Equid alphaherpesvirus 1	S1	Subspecies	9	10326	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	53	53	0.0	0	0	0.0	53	0.0	0.0
+Salmonella phage SJ46	S1	Subspecies	9	1815968	Low-Medium	4	NCBIOnly-MediumReads(50-99)	No	No	Yes	0	0	0.0	53	53	0.0	53	0.0	0.0
+Synechococcus phage S-SZBM1	S1	Subspecies	9	2926475	Low-Medium	4	NCBIOnly-MediumReads(50-99)	No	No	Yes	0	0	0.0	51	51	0.0	51	0.0	0.0
+Bovine rotavirus A	S2	S2	99	35333	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	82	107	0.0	0	0	0.0	82	0.0	0.0
+Human adenovirus 12	S2	S2	99	28282	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	77	77	0.0	0	0	0.0	77	0.0	0.0
+Human astrovirus 5	S2	S2	99	35741	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	73	73	0.0	0	0	0.0	73	0.0	0.0
+Small ruminant lentivirus	S2	S2	99	254355	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	53	53	0.0	0	0	0.0	53	0.0	0.0
+Human adenovirus 41	S2	S2	99	10524	Low-Medium	4	RVDBOnly-MediumReads(50-99)	No	Yes	No	53	53	0.0	0	0	0.0	53	0.0	0.0
+Cressdnaviricota	P	Phylum	3	2732416	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	49	0.0	0	0	0.0	1	0.0	0.0
+Negarnaviricota	P	Phylum	3	2497569	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	12113	0.47	0	0	0.0	1	0.47	0.47
+Pisoniviricetes	C	Class	4	2732506	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	41	33159	1.3	0	0	0.0	41	1.3	1.3
+Durnavirales	O	Order	5	2732549	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	31	642954	25.18	0	0	0.0	31	25.18	25.18
+Reovirales	O	Order	5	2732541	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	99605	3.9	0	0	0.0	3	3.9	3.9
+Nodamuvirales	O	Order	5	2732546	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	16299	0.64	0	0	0.0	1	0.64	0.64
+Imitervirales	O	Order	5	2732554	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	75	0.0	0	0	0.0	1	0.0	0.0
+Orthoherpesviridae	F	Family	6	3044472	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	28	24273	0.95	0	0	0.0	28	0.95	0.95
+Astroviridae	F	Family	6	39733	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	17	52228	2.05	3	1143	0.04	17	2.05	1.045
+Kyanoviridae	F	Family	6	2946160	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	12	63	0.0	12	0.0	0.0
+Solemoviridae	F	Family	6	2169577	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	8	12691	0.5	0	0	0.0	8	0.5	0.5
+Petromyzontidae	F	Family	6	7746	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Potyviridae	F	Family	6	39729	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	7	0.0	0	0	0.0	1	0.0	0.0
+Mimiviridae	F	Family	6	549779	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	16	0.0	1	0.0	0.0
+Caliciviridae	F	Family	6	11974	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	2142	0.08	0	0	0.0	1	0.08	0.08
+Baculoviridae	F	Family	6	10442	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	66296	2.6	0	0	0.0	1	2.6	2.6
+Suoliviridae	F	Family	6	2942966	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	15	0.0	1	0.0	0.0
+Straboviridae	F	Family	6	2946170	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	22	0.0	1	0.0	0.0
+Dependoparvovirus	G	Genus	7	10803	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	44	108	0.0	0	0	0.0	44	0.0	0.0
+Traversvirus	G	Genus	7	1981157	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	42	74	0.0	42	0.0	0.0
+Pandoravirus	G	Genus	7	2060084	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	33	44	0.0	31	45	0.0	33	0.0	0.0
+Tsamsavirus	G	Genus	7	3044849	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	29	29	0.0	29	0.0	0.0
+Mastadenovirus	G	Genus	7	10509	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	12	307	0.01	21	469	0.02	21	0.02	0.015
+Cimandefvirus	G	Genus	7	2843366	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	21	25	0.0	21	0.0	0.0
+Orthopicobirnavirus	G	Genus	7	2948851	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	19	13585	0.53	0	0	0.0	19	0.53	0.53
+Lambdavirus	G	Genus	7	186765	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	12	345	0.01	12	0.01	0.01
+Mamastrovirus	G	Genus	7	249588	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	12	39522	1.55	0	0	0.0	12	1.55	1.55
+Zewailvirus	G	Genus	7	3152914	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	11	11	0.0	11	0.0	0.0
+Kobuvirus	G	Genus	7	194960	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	10	1480	0.06	2	237	0.01	10	0.06	0.034999999999999996
+Cyamitesvirus	G	Genus	7	3044697	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	10	10	0.0	10	0.0	0.0
+Yuavirus	G	Genus	7	1299429	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	8	19	0.0	8	0.0	0.0
+Attisvirus	G	Genus	7	2169652	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	5	6	0.0	5	0.0	0.0
+Varicellovirus	G	Genus	7	10319	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	2	21175	0.83	5	19	0.0	5	0.83	0.415
+Torbevirus	G	Genus	7	2732653	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Barbavirus	G	Genus	7	2733095	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Plateaulakevirus	G	Genus	7	2843436	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	6	0.0	3	0.0	0.0
+Torovirus	G	Genus	7	11155	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	32	0.0	0	0	0.0	3	0.0	0.0
+Carjivirus	G	Genus	7	2948652	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	83	0.0	3	0.0	0.0
+Mimivirus	G	Genus	7	315393	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Pipefishvirus	G	Genus	7	1982899	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Septimatrevirus	G	Genus	7	1921544	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Punavirus	G	Genus	7	186789	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	1465	0.06	3	0.06	0.06
+Cepunavirus	G	Genus	7	1982583	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Benedictvirus	G	Genus	7	2946819	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Myrnavirus	G	Genus	7	2948833	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	12	0.0	2	0.0	0.0
+Lightbulbvirus	G	Genus	7	1918522	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Lahexavirus	G	Genus	7	2843411	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	26	0.0	2	0.0	0.0
+Beograduvirus	G	Genus	7	2946820	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Epseptimavirus	G	Genus	7	2732017	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Phayathaivirus	G	Genus	7	3153015	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Menderavirus	G	Genus	7	2843421	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Tulanevirus	G	Genus	7	2560244	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Lillamyvirus	G	Genus	7	2843418	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Fukuivirus	G	Genus	7	2843384	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Bronvirus	G	Genus	7	1623278	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Sugarlandvirus	G	Genus	7	2560233	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	7	0.0	1	0.0	0.0
+Cervidpoxvirus	G	Genus	7	573055	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Kratiovirus	G	Genus	7	2948788	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Bixzunavirus	G	Genus	7	680114	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	6	0.0	1	0.0	0.0
+Tobamovirus	G	Genus	7	12234	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	9007	0.35	0	0	0.0	1	0.35	0.35
+Schiekvirus	G	Genus	7	2732968	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Chlorovirus	G	Genus	7	181083	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	4	0.0	0	0	0.0	1	0.0	0.0
+Molluscipoxvirus	G	Genus	7	10278	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	7	0.0	0	0	0.0	1	0.0	0.0
+Shenzhenvirus	G	Genus	7	2732038	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	8	0.0	1	0.0	0.0
+Alphabaculovirus	G	Genus	7	558016	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	27	0.0	1	0.0	0.0
+Wizardvirus	G	Genus	7	2169658	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Betapleolipovirus	G	Genus	7	1911605	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Lazarusvirus	G	Genus	7	2842820	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Bosavirus	G	Genus	7	2946834	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Wbetavirus	G	Genus	7	1623308	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Bastillevirus	G	Genus	7	1918010	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Avastrovirus	G	Genus	7	249589	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	7	0.0	0	0	0.0	1	0.0	0.0
+Sozzivirus	G	Genus	7	2843458	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Sapovirus	G	Genus	7	95341	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	2012	0.08	0	0	0.0	1	0.08	0.08
+Ripakub virus	S	Species	8	3130874	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	49	49	0.0	0	0	0.0	49	0.0	0.0
+Carjivirus communis	S	Species	8	2955582	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	47	47	0.0	47	0.0	0.0
+Tokyovirus A1	S	Species	8	1826170	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	43	43	0.0	43	0.0	0.0
+Chronabum virus	S	Species	8	3129894	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	42	42	0.0	0	0	0.0	42	0.0	0.0
+Chrocaryrb virus	S	Species	8	3129548	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	40	40	0.0	0	0	0.0	40	0.0	0.0
+Ripaglac virus	S	Species	8	3130411	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	40	40	0.0	0	0	0.0	40	0.0	0.0
+Adeno-associated virus	S	Species	8	272636	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	40	40	0.0	0	0	0.0	40	0.0	0.0
+Ripomam virus	S	Species	8	3130190	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	39	39	0.0	0	0	0.0	39	0.0	0.0
+Hainan alphaflexivirus 2	S	Species	8	2824425	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	36	36	0.0	0	0	0.0	36	0.0	0.0
+Hydrurga leptonyx papillomavirus 3	S	Species	8	3053742	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	35	35	0.0	0	0	0.0	35	0.0	0.0
+Ripakrisk virus	S	Species	8	3130842	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	32	32	0.0	0	0	0.0	32	0.0	0.0
+Diaporthe negative-stranded RNA virus 1	S	Species	8	3035782	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	31	31	0.0	0	0	0.0	31	0.0	0.0
+Bat rotavirus	S	Species	8	1340801	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	30	30	0.0	30	0.0	0.0
+Chronadom virus	S	Species	8	3129803	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	28	28	0.0	0	0	0.0	28	0.0	0.0
+Namao virus	S	Species	8	1302812	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	27	27	0.0	0	0	0.0	27	0.0	0.0
+Sobelivirales sp.	S	Species	8	2809868	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	26	26	0.0	0	0	0.0	26	0.0	0.0
+Chrocapint virus	S	Species	8	3129634	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	26	26	0.0	0	0	0.0	26	0.0	0.0
+Ripadiz virus	S	Species	8	3130515	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	25	25	0.0	0	0	0.0	25	0.0	0.0
+Qianjiang marna-like virus 162	S	Species	8	3347588	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	24	24	0.0	0	0	0.0	24	0.0	0.0
+Human fecal virus Jorvi2	S	Species	8	2017081	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	5	5	0.0	22	22	0.0	22	0.0	0.0
+Chronadern virus	S	Species	8	3129930	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	21	21	0.0	0	0	0.0	21	0.0	0.0
+Ripachaz virus	S	Species	8	3130383	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	21	21	0.0	0	0	0.0	21	0.0	0.0
+Sugarcane mild mosaic virus	S	Species	8	126071	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	21	21	0.0	0	0	0.0	21	0.0	0.0
+Rhizoctonia cerealis duamitovirus	S	Species	8	3068666	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	20	20	0.0	0	0	0.0	20	0.0	0.0
+Ripakryf virus	S	Species	8	3130858	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	19	19	0.0	0	0	0.0	19	0.0	0.0
+Ripatris virus	S	Species	8	3131522	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	18	18	0.0	0	0	0.0	18	0.0	0.0
+Durnavirales sp.	S	Species	8	2809355	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	18	18	0.0	0	0	0.0	18	0.0	0.0
+Ripafren virus	S	Species	8	3130475	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	18	18	0.0	0	0	0.0	18	0.0	0.0
+ticpantry virus 7	S	Species	8	3003954	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	18	18	0.0	0	0	0.0	18	0.0	0.0
+Feline astrovirus 2	S	Species	8	1389204	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	17	17	0.0	17	0.0	0.0
+Sopaded virus	S	Species	8	3131761	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	17	17	0.0	0	0	0.0	17	0.0	0.0
+Eidolon dupreanum sapovirus 3	S	Species	8	3153944	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	16	16	0.0	0	0	0.0	16	0.0	0.0
+Ripathug virus	S	Species	8	3131450	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	16	16	0.0	0	0	0.0	16	0.0	0.0
+Kobuvirus sp.	S	Species	8	2094719	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	16	16	0.0	0	0	0.0	16	0.0	0.0
+Ripagrom virus	S	Species	8	3130725	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	16	16	0.0	0	0	0.0	16	0.0	0.0
+Ripachij virus	S	Species	8	3130407	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	15	15	0.0	0	0	0.0	15	0.0	0.0
+Ripatirn virus	S	Species	8	3130065	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	15	15	0.0	0	0	0.0	15	0.0	0.0
+Human astrovirus UK1	S	Species	8	1570321	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	15	15	0.0	0	0	0.0	15	0.0	0.0
+Sichuan orthohepevirus	S	Species	8	2824490	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	14	14	0.0	0	0	0.0	14	0.0	0.0
+Picobirnavirus HK-2014	S	Species	8	1566334	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	14	14	0.0	0	0	0.0	14	0.0	0.0
+Astrovirus Er/SZAL6/HUN/2011	S	Species	8	1671382	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	13	13	0.0	13	0.0	0.0
+Ripazusk virus	S	Species	8	3130191	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	13	13	0.0	0	0	0.0	13	0.0	0.0
+Human rotavirus	S	Species	8	1906931	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	12	12	0.0	0	0	0.0	12	0.0	0.0
+Mongoose picobirnavirus	S	Species	8	2684263	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	12	12	0.0	0	0	0.0	12	0.0	0.0
+Kobuvirus aichi	S	Species	8	72149	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	12	251	0.01	0	0	0.0	12	0.01	0.01
+Astrovirus MLB2	S	Species	8	683172	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	2	2	0.0	12	12	0.0	12	0.0	0.0
+Fox fecal picobirnavirus	S	Species	8	1504556	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	12	12	0.0	0	0	0.0	12	0.0	0.0
+Sugarcane bacilliform virus	S	Species	8	12435	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	12	12	0.0	0	0	0.0	12	0.0	0.0
+Zea mays	S	Species	8	4577	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	12	12	0.0	0	0	0.0	12	0.0	0.0
+Elemess virus	S	Species	8	2800913	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	11	11	0.0	0	0	0.0	11	0.0	0.0
+Hepacivirus hominis	S	Species	8	3052230	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	11	21	0.0	0	0	0.0	11	0.0	0.0
+Sichuan orthomyxo-like virus 1	S	Species	8	2933244	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	11	11	0.0	0	0	0.0	11	0.0	0.0
+Cytomegalovirus humanbeta5	S	Species	8	3050295	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	10	227	0.01	0	0	0.0	10	0.01	0.01
+Ripazal virus	S	Species	8	3130003	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	10	10	0.0	0	0	0.0	10	0.0	0.0
+Mollivirus shaoxing	S	Species	8	3402185	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	10	10	0.0	0	0	0.0	10	0.0	0.0
+Mouse kobuvirus M-5/USA/2010	S	Species	8	1074213	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	9	9	0.0	9	0.0	0.0
+Human fecal virus Tarto	S	Species	8	2017080	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	9	9	0.0	0	0	0.0	9	0.0	0.0
+Murine astrovirus	S	Species	8	1141625	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	9	9	0.0	9	0.0	0.0
+Hainan mamastrovirus	S	Species	8	2933223	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	9	9	0.0	0	0	0.0	9	0.0	0.0
+Cressdnaviricota sp.	S	Species	8	2748378	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	9	9	0.0	0	0	0.0	9	0.0	0.0
+Ossirvirus eru	S	Species	8	3431518	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	8	8	0.0	0	0	0.0	8	0.0	0.0
+Sopazas virus	S	Species	8	3131675	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	8	8	0.0	0	0	0.0	8	0.0	0.0
+Armillaria borealis mitovirus 1	S	Species	8	3031847	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	8	8	0.0	0	0	0.0	8	0.0	0.0
+Chronawarn virus	S	Species	8	3129829	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	8	8	0.0	0	0	0.0	8	0.0	0.0
+Catovirus CTV1	S	Species	8	1977631	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	7	7	0.0	0	0	0.0	7	0.0	0.0
+Shahe hepe-like virus 2	S	Species	8	1923416	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	7	7	0.0	7	0.0	0.0
+Canine astrovirus	S	Species	8	1157338	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	7	7	0.0	2	2	0.0	7	0.0	0.0
+Virus NIOZ-UU157	S	Species	8	2763269	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	7	7	0.0	0	0	0.0	7	0.0	0.0
+Chronawust virus	S	Species	8	3129990	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	7	7	0.0	0	0	0.0	7	0.0	0.0
+Torovirus sp.	S	Species	8	2529475	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	6	6	0.0	0	0	0.0	6	0.0	0.0
+Ripaster virus	S	Species	8	3131287	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	6	6	0.0	0	0	0.0	6	0.0	0.0
+Sopabow virus	S	Species	8	3131732	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	6	6	0.0	0	0	0.0	6	0.0	0.0
+Pandoravirus kuranda	S	Species	8	3019033	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	6	6	0.0	0	0	0.0	6	0.0	0.0
+Totiviridae sp.	S	Species	8	1955172	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	6	6	0.0	0	0	0.0	6	0.0	0.0
+Virus sp. Punuivirus latens	S	Species	8	3412679	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	6	6	0.0	0	0	0.0	6	0.0	0.0
+Armadillidium vulgare clopovirus	S	Species	8	2984284	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	6	6	0.0	0	0	0.0	6	0.0	0.0
+Ripolox virus	S	Species	8	3130829	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	6	6	0.0	0	0	0.0	6	0.0	0.0
+Gossypium raimondii	S	Species	8	29730	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	6	6	0.0	0	0	0.0	6	0.0	0.0
+Lymphocryptovirus humangamma4	S	Species	8	3050299	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	5	35	0.0	0	0	0.0	5	0.0	0.0
+Virus Rctr197k	S	Species	8	1924548	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	5	5	0.0	0	0	0.0	5	0.0	0.0
+Ripasum virus	S	Species	8	3131358	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	5	5	0.0	0	0	0.0	5	0.0	0.0
+Gordonia phage GMA1	S	Species	8	1647470	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	5	5	0.0	5	0.0	0.0
+Bat adeno-associated virus 1	S	Species	8	3128228	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	5	5	0.0	0	0	0.0	5	0.0	0.0
+Leishmania braziliensis leishbuvirus 1	S	Species	8	3398440	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	5	5	0.0	0	0	0.0	5	0.0	0.0
+Rhizoctonia solani mitovirus 40	S	Species	8	2818416	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	5	5	0.0	0	0	0.0	5	0.0	0.0
+Pandoravirus neocaledonia	S	Species	8	2107708	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	5	5	0.0	5	0.0	0.0
+Chrocasess virus	S	Species	8	3129583	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Adenovirus sp.	S	Species	8	1967472	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Ripotrun virus	S	Species	8	3131324	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Ripablyc virus	S	Species	8	3130031	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Beijing sediment noda-like virus 6	S	Species	8	2824388	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Adoxophyes orana nucleopolyhedrovirus	S	Species	8	542343	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+Otarine picobirnavirus	S	Species	8	1187973	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	1	1	0.0	4	4	0.0	4	0.0	0.0
+Apis mellifera filamentous virus	S	Species	8	1100043	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Encarsia formosa filamentous virus	S	Species	8	3043342	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Harvfovirus sp.	S	Species	8	2487768	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Ripathix virus	S	Species	8	3131440	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Alphabaculovirus bomori	S	Species	8	3047695	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Rhizopus microsporus endornavirus 1	S	Species	8	2918177	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Triticum monococcum	S	Species	8	4568	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Polymycoviridae sp.	S	Species	8	2809687	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Dependoparvovirus primate1	S	Species	8	1511891	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	19	0.0	0	0	0.0	4	0.0	0.0
+Cervid alphaherpesvirus 4	S	Species	8	2599603	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Noumeavirus	S	Species	8	1955558	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Erwinia phage vB_EamM_Caitlin	S	Species	8	1883379	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Oceanusvirus sp.	S	Species	8	3045048	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Phyllostachys edulis	S	Species	8	38705	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Canine bocavirus	S	Species	8	1108949	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Kobuvirus bejaponia	S	Species	8	194965	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	1095	0.04	0	0	0.0	3	0.04	0.04
+Simian bocavirus	S	Species	8	2042693	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Smacoviridae sp.	S	Species	8	2715094	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Medusavirus sp. 'euryale'	S	Species	8	3349365	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Lates calcarifer herpesvirus	S	Species	8	2497408	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Human papillomavirus	S	Species	8	10566	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Betanudivirus hezeae	S	Species	8	3052000	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	4	0.0	3	0.0	0.0
+Ripathoq virus	S	Species	8	3131444	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Mamastrovirus sp.	S	Species	8	1912147	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Bocaparvovirus primate1	S	Species	8	3052040	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	14	0.0	0	0	0.0	3	0.0	0.0
+Satepeofons virus	S	Species	8	3072219	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Tubulavirales sp.	S	Species	8	2833306	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Qianjiang picorna-like virus 16	S	Species	8	3348740	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Pandoravirus quercus	S	Species	8	2107709	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Sopazor virus	S	Species	8	3131683	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Chrysochromulina ericina virus	S	Species	8	455364	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Pandoravirus japonicus	S	Species	8	2823154	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Chrocagosk virus	S	Species	8	3129397	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Mycobacterium phage Alsfro	S	Species	8	1458724	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Plasmavirus L2	S	Species	8	46014	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Chrocapant virus	S	Species	8	3129518	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Sopitak virus	S	Species	8	3131759	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Mythimna unipuncta nucleopolyhedrovirus	S	Species	8	447897	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Canine kobuvirus	S	Species	8	1836608	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	3	3	0.0	3	3	0.0	3	0.0	0.0
+Disporopsis pernyi associated partitivirus	S	Species	8	3409755	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Torque teno midi virus	S	Species	8	432261	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Dicistroviridae sp.	S	Species	8	1955144	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Ripaglin virus	S	Species	8	3130434	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Huchismacovirus sp.	S	Species	8	2809473	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Lagomorph hepacivirus	S	Species	8	3138818	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Metapenaeus joyneri majanivirus	S	Species	8	2984280	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Rhesus macaque picobirnavirus	S	Species	8	2575833	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Bovine picobirnavirus	S	Species	8	1977295	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Bopivirus sp.	S	Species	8	2804202	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Sopajir virus	S	Species	8	3131891	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Chrocahess virus	S	Species	8	3129527	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+TTV-like mini virus	S	Species	8	93678	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Chronazon virus	S	Species	8	3129959	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Hyperionvirus sp.	S	Species	8	2487770	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Soldier fly associated orthomyxo-like virus	S	Species	8	3133262	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Moumouvirus sp. 'Monve'	S	Species	8	1128131	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Halovirus VNH-1	S	Species	8	1500510	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Marnaviridae sp.	S	Species	8	2715102	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Imitervirales sp.	S	Species	8	2809487	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Human betaherpesvirus 6	S	Species	8	10368	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Phasmaviridae sp.	S	Species	8	2809670	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Erwinia phage vB_EamM_ChrisDB	S	Species	8	1883371	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Penaeus monodon majanivirus A	S	Species	8	2984271	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Marseillevirus sp. 'xiwanvirus'	S	Species	8	3234153	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Anagyrus vladimiri dicistrovirus	S	Species	8	2992172	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Capsicum annuum	S	Species	8	4072	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Bactrocera tryoni iflavirus 1	S	Species	8	2795009	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Chlorella virus XW01	S	Species	8	2922419	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Yersinia phage phiR1-37	S	Species	8	331278	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Ripakryr virus	S	Species	8	3130867	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Pandoravirus inopinatum	S	Species	8	1605721	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Riputanb virus	S	Species	8	3130059	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Genomoviridae sp.	S	Species	8	2202565	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Suillus luteus associated bunya-like virus 2	S	Species	8	3067797	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Chlorovirus sp.	S	Species	8	2809302	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Pan troglodytes	S	Species	8	9598	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Porcine picobirnavirus group II	S	Species	8	1138486	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Haptolina ericina virus	S	Species	8	1499985	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Prasinovirus sp.	S	Species	8	2809695	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Shigella phage SfIV	S	Species	8	1407493	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Marseillevirus LCMAC201	S	Species	8	2506605	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Heterobasidion narna-like virus 4	S	Species	8	3016425	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Ripobend virus	S	Species	8	3130072	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Pandoravirus salinus	S	Species	8	1349410	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Pandoravirus aubagnensis	S	Species	8	2848915	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+California sea lion astrovirus 11	S	Species	8	1073952	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Lausannevirus	S	Species	8	999883	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Pandoravirus macleodensis	S	Species	8	2107707	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Leptosphaeria biglobosa botourmiavirus 2	S	Species	8	2985693	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Atrato Virga-like virus 7	S	Species	8	2689346	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Paramyxovirus sp.	S	Species	8	2697572	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Hepatitis E virus	S	Species	8	291484	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Capillovirus mali	S	Species	8	28347	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Sopaluv virus	S	Species	8	3131790	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Medicago sativa trirhavirus 1	S	Species	8	3128976	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Solanum lycopersicum	S	Species	8	4081	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Flavobacterium phage 11b	S	Species	8	294631	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Arteriviridae sp.	S	Species	8	2697055	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Escherichia phage ZCEC5	S	Species	8	2530021	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Turkey astrovirus	S	Species	8	70793	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Carp edema virus	S	Species	8	1653087	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Aparavirus sp.	S	Species	8	1955142	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+HMO Astrovirus B	S	Species	8	682383	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Chili pepper mild mottle virus	S	Species	8	2792284	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Paslahepevirus balayani	S	Species	8	1678143	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	8	0.0	0	0	0.0	1	0.0	0.0
+Orthonairovirus haemorrhagiae	S	Species	8	3052518	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Wenzhou picorna-like virus 47	S	Species	8	1923634	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	1	1	0.0	1	1	0.0	1	0.0	0.0
+Machinavirus machina	S	Species	8	2169990	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Emaravirus fici	S	Species	8	1980427	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Pithovirus LCPAC104	S	Species	8	2506589	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Nephotettix cincticeps negative-stranded RNA virus 1	S	Species	8	2872732	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Picobirnavirus jaguar/URU-01/2009	S	Species	8	1068737	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Chrysochromulina parva virus	S	Species	8	2565304	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Iflavirus aladeformis	S	Species	8	3047792	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	2	0.0	0	0	0.0	1	0.0	0.0
+Bongovirus bongo	S	Species	8	1983750	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Equine molluscum contagiosum-like virus	S	Species	8	2676272	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Endornavirus-like virus	S	Species	8	1906952	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Danio rerio	S	Species	8	7955	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Hangzhou totivirus 2	S	Species	8	2905248	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Ripasteg virus	S	Species	8	3131276	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Rodent coronavirus	S	Species	8	2050018	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Ripaglud virus	S	Species	8	3130689	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Cotesia congregata	S	Species	8	51543	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Melipona quadrifasciata virus 2	S	Species	8	2571178	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Enterobacter phage phiEap-2	S	Species	8	1701257	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Sinorhizobium phage phiLM21	S	Species	8	1524882	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Coleopteran phasma-related virus OKIAV236	S	Species	8	2746310	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Vibrio phage qdvp001	S	Species	8	1003177	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Wenling toga-like virus	S	Species	8	1923542	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Ripador virus	S	Species	8	3130516	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Banana virus X	S	Species	8	307671	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Goose astrovirus	S	Species	8	1349999	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Iflavirus sacbroodi	S	Species	8	3048309	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	2	0.0	0	0	0.0	1	0.0	0.0
+Ripaprit virus	S	Species	8	3131023	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Chipolycivirus sp.	S	Species	8	2809300	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Salivirus sp.	S	Species	8	2039694	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Florenciella sp. virus SA2	S	Species	8	3240092	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+simian adenovirus 65	S	Species	8	3414534	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Astroviridae sp.	S	Species	8	2585114	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Ripasluj virus	S	Species	8	3131271	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Sopigix virus	S	Species	8	3131702	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Ripothyn virus	S	Species	8	3131231	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Salivirus FHB	S	Species	8	1547495	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Mycobacterium phage TheloniousMonk	S	Species	8	1701845	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Dishui Lake virophage 4	S	Species	8	2704065	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Iflaviridae sp.	S	Species	8	1955145	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Rotavirus sp.	S	Species	8	10970	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Ostreococcus lucimarinus virus 7	S	Species	8	1663209	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	1	1	0.0	1	1	0.0	1	0.0	0.0
+Virus sp.	S	Species	8	2202649	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Ripavym virus	S	Species	8	3130176	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Chrocafem virus	S	Species	8	3129449	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Bos taurus papillomavirus 40	S	Species	8	2866022	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Satyrvirus sp.	S	Species	8	2487771	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Freshwater turtle neural virus 1	S	Species	8	3032433	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Tenuivirus oryzabrevis	S	Species	8	3052762	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Camellia chlorotic ringspot virus	S	Species	8	2802541	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Gammapapillomavirus 19	S	Species	8	1513264	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Parramatta River virus	S	Species	8	1708654	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Arizlama virus	S	Species	8	2859451	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Serpentovirales sp.	S	Species	8	2809854	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Vibrio phage SIO-2	S	Species	8	700512	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Polycipiviridae sp.	S	Species	8	2496155	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Papillomaviridae sp. Haddock_c2655	S	Species	8	2863865	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Chronagant virus	S	Species	8	3129966	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+King virus	S	Species	8	1911104	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Betapapillomavirus 2	S	Species	8	333924	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	2	0.0	0	0	0.0	1	0.0	0.0
+Foveavirus mali	S	Species	8	35350	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Ripadip virus	S	Species	8	3130510	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Qianjiang marna-like virus 148	S	Species	8	3347572	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Ranavirus sp.	S	Species	8	1884660	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Orthoreovirus sp.	S	Species	8	2558258	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Botoulivirus sp.	S	Species	8	2809208	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Orbivirus alphaequi	S	Species	8	40050	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Diabrotica toursvirus 3a	S	Species	8	2935083	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Micromonas pusilla virus 12T	S	Species	8	755272	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Ripachus virus	S	Species	8	3130389	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Chicken astrovirus	S	Species	8	336959	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Betapolyomavirus vicugnae	S	Species	8	2169757	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Faustovirus	S	Species	8	1477405	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Klosneuvirus KNV1	S	Species	8	1977640	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Fadolivirus algeromassiliense	S	Species	8	3060017	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Betacoronavirus pandemicum	S	Species	8	3418604	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	39	0.0	0	0	0.0	1	0.0	0.0
+Wufeng shrew nodavirus 10	S	Species	8	3084720	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Sopatylt virus	S	Species	8	3131631	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Only Syngen Nebraska virus 5	S	Species	8	1917232	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+ssDNA virus sp.	S	Species	8	2593122	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Megaviridae environmental sample	S	Species	8	1737588	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Macroptilium mottle virus	S	Species	8	2900370	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Balaenoptera physalus	S	Species	8	9770	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Senquatrovirus SEN4	S	Species	8	2734072	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Bat faecal associated nyami-like virus 1	S	Species	8	2972731	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Scotophilus kuhlii parechovirus	S	Species	8	2940117	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Velanvirus brisbanense	S	Species	8	3433150	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Seadornavirus sp.	S	Species	8	2809846	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Escherichia phage TL-2011b	S	Species	8	1124654	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+uncultured picobirnavirus	S	Species	8	585895	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+simian adenovirus 64	S	Species	8	3414537	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Human mastadenovirus D	S1	Subspecies	9	130310	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	49	52	0.0	43	54	0.0	49	0.0	0.0
+macacine betaherpesvirus 9	S1	Subspecies	9	2560568	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	44	44	0.0	44	0.0	0.0
+Choristoneura fumiferana granulovirus	S1	Subspecies	9	56947	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	43	43	0.0	43	0.0	0.0
+Severe acute respiratory syndrome coronavirus 2	S1	Subspecies	9	2697049	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	38	38	0.0	4	4	0.0	38	0.0	0.0
+Bovine papular stomatitis virus	S1	Subspecies	9	129727	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	34	34	0.0	0	0	0.0	34	0.0	0.0
+uncultured phage cr99_1	S1	Subspecies	9	2986399	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	33	33	0.0	33	0.0	0.0
+human gammaherpesvirus 4	S1	Subspecies	9	10376	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	30	30	0.0	6	7	0.0	30	0.0	0.0
+JC polyomavirus	S1	Subspecies	9	10632	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	24	24	0.0	30	30	0.0	30	0.0	0.0
+Burkholderia phage BcepSauron	S1	Subspecies	9	2530033	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	30	30	0.0	30	0.0	0.0
+Porcine torovirus	S1	Subspecies	9	237020	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	18	18	0.0	30	30	0.0	30	0.0	0.0
+Burkholderia phage BgManors32	S1	Subspecies	9	2894335	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	28	28	0.0	28	0.0	0.0
+Serratia phage BF	S1	Subspecies	9	1962671	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	25	25	0.0	25	0.0	0.0
+Aeromonas phage 4_4572	S1	Subspecies	9	2588517	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	24	24	0.0	24	0.0	0.0
+Feldmannia irregularis virus a	S1	Subspecies	9	231992	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	23	23	0.0	23	0.0	0.0
+Salmonella phage SE2	S1	Subspecies	9	1115478	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	23	23	0.0	23	0.0	0.0
+Watermelon crinkle leaf-associated virus 1	S1	Subspecies	9	2034156	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	21	21	0.0	0	0	0.0	21	0.0	0.0
+ssRNA phage SRR7976300_9	S1	Subspecies	9	2786658	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	21	21	0.0	21	0.0	0.0
+Vibrio phage ValB1MD-2	S1	Subspecies	9	2759177	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	21	21	0.0	21	0.0	0.0
+Synechococcus phage S-CBWM1	S1	Subspecies	9	2053653	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	21	21	0.0	21	0.0	0.0
+Suid alphaherpesvirus 1	S1	Subspecies	9	10345	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	19	19	0.0	0	0	0.0	19	0.0	0.0
+Orf virus	S1	Subspecies	9	10258	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	18	18	0.0	0	0	0.0	18	0.0	0.0
+Prymnesium kappa virus	S1	Subspecies	9	1499987	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	17	17	0.0	17	17	0.0	17	0.0	0.0
+Escherichia phage vB_EcoP_24B	S1	Subspecies	9	866553	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	16	16	0.0	16	0.0	0.0
+Stx converting phage vB_EcoS_P27	S1	Subspecies	9	1792287	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	16	16	0.0	16	0.0	0.0
+Staphylococcus phage Andhra	S1	Subspecies	9	1958907	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	16	16	0.0	16	0.0	0.0
+Human bocavirus 3	S1	Subspecies	9	638313	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	11	11	0.0	15	15	0.0	15	0.0	0.0
+Escherichia phage HY03	S1	Subspecies	9	1654926	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	14	14	0.0	14	0.0	0.0
+Mammalian orthoreovirus	S1	Subspecies	9	351073	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	14	21	0.0	0	0	0.0	14	0.0	0.0
+Gordonia phage Schmidt	S1	Subspecies	9	2301697	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	14	14	0.0	14	0.0	0.0
+Escherichia phage P1	S1	Subspecies	9	2886926	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	14	14	0.0	14	0.0	0.0
+Rotavirus I	S1	Subspecies	9	1637496	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	13	13	0.0	8	8	0.0	13	0.0	0.0
+Merkel cell polyomavirus	S1	Subspecies	9	493803	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	10	10	0.0	10	10	0.0	10	0.0	0.0
+Cryptophlebia peltastica nucleopolyhedrovirus	S1	Subspecies	9	2304025	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	10	10	0.0	10	0.0	0.0
+Human respirovirus 3	S1	Subspecies	9	11216	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	10	10	0.0	5	9	0.0	10	0.0	0.0
+Salmonella phage LPSTLL	S1	Subspecies	9	3071280	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	9	9	0.0	9	0.0	0.0
+Acinetobacter phage AB1	S1	Subspecies	9	889876	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	9	9	0.0	9	0.0	0.0
+Parechovirus A	S1	Subspecies	9	1803956	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	9	9	0.0	0	0	0.0	9	0.0	0.0
+Pseudomonas phage Epa14	S1	Subspecies	9	2719186	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	8	8	0.0	8	0.0	0.0
+Escherichia phage ev099	S1	Subspecies	9	2847061	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	8	8	0.0	8	0.0	0.0
+Gordonia phage Nyceirae	S1	Subspecies	9	1887651	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	8	8	0.0	8	0.0	0.0
+Simian immunodeficiency virus	S1	Subspecies	9	11723	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	8	8	0.0	0	0	0.0	8	0.0	0.0
+Bos taurus papillomavirus 10	S1	Subspecies	9	453461	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	8	8	0.0	0	0	0.0	8	0.0	0.0
+Uncultured Caudovirales phage clone 2F_1	S1	Subspecies	9	2992576	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	8	8	0.0	8	0.0	0.0
+Human mastadenovirus C	S1	Subspecies	9	129951	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	8	12	0.0	8	0.0	0.0
+Equid alphaherpesvirus 3	S1	Subspecies	9	80341	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	8	8	0.0	8	0.0	0.0
+Equid gammaherpesvirus 2	S1	Subspecies	9	12657	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	7	7	0.0	0	0	0.0	7	0.0	0.0
+Swine hepatitis E virus	S1	Subspecies	9	63421	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	7	7	0.0	0	0	0.0	7	0.0	0.0
+Mycobacterium phage Miramae	S1	Subspecies	9	2517961	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	7	7	0.0	7	0.0	0.0
+Porcine bocavirus 1	S1	Subspecies	9	1048219	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	6	6	0.0	0	0	0.0	6	0.0	0.0
+Aphid lethal paralysis virus	S1	Subspecies	9	209529	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	6	6	0.0	0	0	0.0	6	0.0	0.0
+Cyclophragma undans nucleopolyhedrovirus	S1	Subspecies	9	1906244	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	5	5	0.0	5	0.0	0.0
+Bovine torovirus	S1	Subspecies	9	74501	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	5	5	0.0	0	0	0.0	5	0.0	0.0
+Vibrio phage Pontus	S1	Subspecies	9	2590874	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	5	5	0.0	5	0.0	0.0
+Stenotrophomonas phage vB_SM_ytsc_ply2008005c	S1	Subspecies	9	2894587	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	5	5	0.0	5	0.0	0.0
+Erwinia phage phiEaH2	S1	Subspecies	9	1029988	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	5	5	0.0	5	0.0	0.0
+Tomato brown rugose fruit virus	S1	Subspecies	9	1761477	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	4	4	0.0	5	5	0.0	5	0.0	0.0
+Agrobacterium phage Atu_ph07	S1	Subspecies	9	2024264	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	5	5	0.0	5	0.0	0.0
+Bodo saltans virus	S1	Subspecies	9	2024608	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	2	2	0.0	5	5	0.0	5	0.0	0.0
+Meleagrid alphaherpesvirus 1	S1	Subspecies	9	37108	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	4	4	0.0	4	4	0.0	4	0.0	0.0
+Ralstonia phage phiRSL1	S1	Subspecies	9	1980924	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+Corynebacterium phage EmiRose	S1	Subspecies	9	2565372	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+Human mastadenovirus B	S1	Subspecies	9	108098	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	4	4	0.0	1	3	0.0	4	0.0	0.0
+Aeromonas phage AhSzq-1	S1	Subspecies	9	2138298	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+Ambidensovirus sp.	S1	Subspecies	9	2050976	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Murid betaherpesvirus 1	S1	Subspecies	9	10366	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Bovine alphaherpesvirus 5	S1	Subspecies	9	35244	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Mamastrovirus 9	S1	Subspecies	9	1239573	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	31	0.0	0	0	0.0	4	0.0	0.0
+uncultured phage cr8_1	S1	Subspecies	9	2772068	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+Microbacterium phage Pumpernickel	S1	Subspecies	9	2885983	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+ssRNA phage Gephyllon.1_20	S1	Subspecies	9	2786120	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+Human alphaherpesvirus 2	S1	Subspecies	9	10310	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Bacillus phage v_B-Bak10	S1	Subspecies	9	2094736	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+Ralstonia phage Cimandef	S1	Subspecies	9	2759720	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+Faecalibacterium phage FP_Toutatis	S1	Subspecies	9	2070187	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+uncultured phage cr13_1	S1	Subspecies	9	2986396	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+Human papillomavirus 5	S1	Subspecies	9	333923	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+macacine gammaherpesvirus 13	S1	Subspecies	9	2341050	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	3	3	0.0	3	3	0.0	3	0.0	0.0
+Bacillus phage G	S1	Subspecies	9	2884420	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Klebsiella phage LASTA	S1	Subspecies	9	2723758	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Chicken associated huchismacovirus 2	S1	Subspecies	9	2169933	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Canine bocavirus 1	S1	Subspecies	9	1511885	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Mamastrovirus 2	S1	Subspecies	9	1239566	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+bovine alphaherpesvirus 1	S1	Subspecies	9	10320	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Caulobacter phage phiCbK	S1	Subspecies	9	2927985	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Shamonda virus	S1	Subspecies	9	159150	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Sweet potato virus C	S1	Subspecies	9	930881	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Faecalibacterium phage FP_Lugh	S1	Subspecies	9	2070184	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Eptesipox virus	S1	Subspecies	9	1329402	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Avian orthoreovirus	S1	Subspecies	9	38170	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Human alphaherpesvirus 3	S1	Subspecies	9	10335	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Bagaza virus	S1	Subspecies	9	64290	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Heliothis zea nudivirus 1	S1	Subspecies	9	3116536	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Saccharomyces cerevisiae virus L-A	S1	Subspecies	9	11008	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Mycobacterium phage Tonenili	S1	Subspecies	9	1891703	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Erwinia phage vB_EamM_Asesino	S1	Subspecies	9	1883370	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Simian mastadenovirus B	S1	Subspecies	9	1962299	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	9	0.0	3	0.0	0.0
+Aeromonas phage AhSzw-1	S1	Subspecies	9	2138299	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+uncultured phage cr7_1	S1	Subspecies	9	2772086	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Gordonia phage BoyNamedSue	S1	Subspecies	9	2836009	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Klebsiella phage vB_Kpn_IME260	S1	Subspecies	9	1912318	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Pectobacterium phage phiTE	S1	Subspecies	9	1116482	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Nerine virus X	S1	Subspecies	9	333348	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Broad bean wilt virus 1	S1	Subspecies	9	50817	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Gordonia phage Stormageddon	S1	Subspecies	9	2656541	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Brochothrix phage A9	S1	Subspecies	9	857312	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Klebsiella phage Sugarland	S1	Subspecies	9	2053603	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Aeromonas phage vB_AsaM_LPM4	S1	Subspecies	9	2894367	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Bacteroides phage crAss001	S1	Subspecies	9	2301731	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Papaya mosaic virus	S1	Subspecies	9	12181	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Aeromonas phage phiAS5	S1	Subspecies	9	879630	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Caulobacter phage CcrRogue	S1	Subspecies	9	2927986	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Edwardsiella phage Edno5	S1	Subspecies	9	2419942	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Streptomyces phage Rowa	S1	Subspecies	9	2059883	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Varroa destructor virus 1	S1	Subspecies	9	232800	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Aeromonas phage pAEv1810	S1	Subspecies	9	2908744	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Stx2-converting phage 1717	S1	Subspecies	9	563769	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+uncultured phage cr10_1	S1	Subspecies	9	2772066	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Picoa juniperi megatotivirus 1	S1	Subspecies	9	2778517	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Aeromonas phage ZPAH34	S1	Subspecies	9	2924888	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Mycobacterium phage Spikelee	S1	Subspecies	9	2301571	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Bacillus phage W.Ph.	S1	Subspecies	9	764595	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Escherichia phage 500465-1	S1	Subspecies	9	2716351	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Escherichia phage ev243	S1	Subspecies	9	2847063	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Human mastadenovirus E	S1	Subspecies	9	130308	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	2	2	0.0	1	1	0.0	2	0.0	0.0
+Canarypox virus	S1	Subspecies	9	44088	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Mycobacterium phage Gizmo	S1	Subspecies	9	1327936	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Panine betaherpesvirus 2	S1	Subspecies	9	188763	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Potato virus H	S1	Subspecies	9	1046402	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Escherichia phage 2B8	S1	Subspecies	9	2847056	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Cyprinid herpesvirus 3	S1	Subspecies	9	180230	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	2	2	0.0	1	1	0.0	2	0.0	0.0
+Pseudomonas phage YMC12/01/R24	S1	Subspecies	9	2283028	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Klebsiella phage vB_KpM_FBKp24	S1	Subspecies	9	2801834	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Vibrio phage nt-1	S1	Subspecies	9	115992	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Blueberry shock virus	S1	Subspecies	9	747056	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Salmonella phage epsilon15	S1	Subspecies	9	215158	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Molluscum contagiosum virus	S1	Subspecies	9	10279	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	5	0.0	0	0	0.0	2	0.0	0.0
+Grapevine fanleaf virus	S1	Subspecies	9	12274	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Salmonella phage astrithr	S1	Subspecies	9	2713276	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Orpheovirus IHUMI-LCC2	S1	Subspecies	9	2023057	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Potato leafroll virus	S1	Subspecies	9	12045	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	2	2	0.0	2	2	0.0	2	0.0	0.0
+Salanga virus	S1	Subspecies	9	1416745	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Gordonia phage Hedwig	S1	Subspecies	9	1887648	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+uncultured phage cr12_1	S1	Subspecies	9	2986409	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Mycobacterium phage Nyxis	S1	Subspecies	9	1445714	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Bovine viral diarrhea virus 1	S1	Subspecies	9	11099	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Mycobacterium phage Phayonce	S1	Subspecies	9	1647302	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Cassia yellow blotch virus	S1	Subspecies	9	300879	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Mycobacterium phage Myrna	S1	Subspecies	9	546805	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Escherichia phage nepoznato	S1	Subspecies	9	2696431	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Melon necrotic spot virus	S1	Subspecies	9	11987	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	2	2	0.0	2	2	0.0	2	0.0	0.0
+Escherichia phage 186	S1	Subspecies	9	2681630	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Tupanvirus deep ocean	S1	Subspecies	9	2126984	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	1	1	0.0	2	2	0.0	2	0.0	0.0
+Rhizobium phage RHEph01	S1	Subspecies	9	1220601	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Human betaherpesvirus 7	S1	Subspecies	9	10372	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	2	2	0.0	2	2	0.0	2	0.0	0.0
+Erwinia phage pEp_SNUABM_08	S1	Subspecies	9	2593268	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Aeromonas phage 4L372XY	S1	Subspecies	9	2588520	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+West Nile virus	S1	Subspecies	9	11082	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+uncultured phage cr30_1	S1	Subspecies	9	2986411	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Bovine gammaherpesvirus 4	S1	Subspecies	9	10385	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Solenopsis invicta virus 1	S1	Subspecies	9	294369	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	2	2	0.0	2	2	0.0	2	0.0	0.0
+Rhizobium phage RHph_Y65	S1	Subspecies	9	2509785	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Human papillomavirus - 5b	S1	Subspecies	9	10599	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Chicken anemia virus	S1	Subspecies	9	12618	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	2	2	0.0	2	2	0.0	2	0.0	0.0
+Mamestra configurata nucleopolyhedrovirus A	S1	Subspecies	9	207830	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Rotavirus B	S1	Subspecies	9	28876	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Suid betaherpesvirus 2	S1	Subspecies	9	1608255	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Staphylococcus phage vB_SscM-1	S1	Subspecies	9	1868844	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Clostridium phage CpV1	S1	Subspecies	9	926066	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Escherichia phage HK97	S1	Subspecies	9	2681617	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Klebsiella phage Geezett	S1	Subspecies	9	2861002	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Vibrio phage 1.204.O._10N.222.46.F12	S1	Subspecies	9	1881263	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Streptomyces phage Sentinel	S1	Subspecies	9	2767584	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Klebsiella phage ST437-OXA245phi4.1	S1	Subspecies	9	2510486	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Aeromonas phage BUCT551	S1	Subspecies	9	2776735	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Escherichia phage VEc3	S1	Subspecies	9	2783801	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+uncultured phage cr50_1	S1	Subspecies	9	2772059	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+unclassified Adeno-associated dependoparvovirus A	S1	Subspecies	9	2876790	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	2	0.0	1	0.0	0.0
+Mycobacterium phage Weirdo19	S1	Subspecies	9	2601610	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Human polyomavirus 6	S1	Subspecies	9	746830	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	1	1	0.0	1	1	0.0	1	0.0	0.0
+uncultured phage cr53_1	S1	Subspecies	9	2772080	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Cervid alphaherpesvirus 2	S1	Subspecies	9	365327	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	1	1	0.0	1	1	0.0	1	0.0	0.0
+Serratia phage PS2	S1	Subspecies	9	1481112	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Grapevine fabavirus	S1	Subspecies	9	1849838	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Citrobacter phage CR8	S1	Subspecies	9	1455076	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+bat pestivirus	S1	Subspecies	9	3070196	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Cacao swollen shoot Togo B virus	S1	Subspecies	9	2560363	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Bean common mosaic virus	S1	Subspecies	9	12196	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Escherichia phage 2H10	S1	Subspecies	9	2847058	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Garlic common latent virus	S1	Subspecies	9	47900	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	1	1	0.0	1	1	0.0	1	0.0	0.0
+Mycobacterium phage SuperGrey	S1	Subspecies	9	1913038	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+uncultured phage cr107_1	S1	Subspecies	9	2772061	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Sacbrood virus	S1	Subspecies	9	89463	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Mycobacterium phage Adawi	S1	Subspecies	9	1354507	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Gordonia phage CherryonLim	S1	Subspecies	9	2652411	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Canine kobuvirus 1	S1	Subspecies	9	1300945	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	2	0.0	0	0	0.0	1	0.0	0.0
+Gordonia phage Schnabeltier	S1	Subspecies	9	1821561	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Wheat spindle streak mosaic virus	S1	Subspecies	9	35285	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Streptomyces phage Celia	S1	Subspecies	9	2590946	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Human papillomavirus 111	S1	Subspecies	9	518630	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+human papillomavirus 12	S1	Subspecies	9	10604	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Erwinia phage pEa_SNUABM_17	S1	Subspecies	9	2869545	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Deformed wing virus	S1	Subspecies	9	198112	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+ssRNA phage SRR6960799_12	S1	Subspecies	9	2786568	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Betacoronavirus 1	S1	Subspecies	9	694003	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Macrophomina phaseolina hypovirus 2	S1	Subspecies	9	2741642	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Burkholderia phage DC1	S1	Subspecies	9	2881398	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Turnip yellow mosaic virus	S1	Subspecies	9	12154	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Chrysodeixis chalcites nucleopolyhedrovirus	S1	Subspecies	9	320432	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Pseudomonas phage AAT-1	S1	Subspecies	9	1775248	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Gordonia phage Kvothe	S1	Subspecies	9	1838071	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+uncultured phage cr56_1	S1	Subspecies	9	2772081	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Gordonia phage Bantam	S1	Subspecies	9	1887641	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Serratia phage vB_SmaM-Otaku	S1	Subspecies	9	2932867	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Artibeus jamaicensis parvovirus 1	S1	Subspecies	9	1131485	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Acanthocystis turfacea chlorella virus 1	S1	Subspecies	9	411359	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Gordonia phage Pupper	S1	Subspecies	9	2571249	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Prunus necrotic ringspot virus	S1	Subspecies	9	37733	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Enterobacter phage phiT5282H	S1	Subspecies	9	2340712	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Escherichia phage 4A7	S1	Subspecies	9	2847059	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+uncultured phage cr85_1	S1	Subspecies	9	2772074	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Synechococcus phage S-SKS1	S1	Subspecies	9	754042	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Vibrio phage Aphrodite1	S1	Subspecies	9	2070057	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Human papillomavirus 28	S1	Subspecies	9	37111	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Penicillium italicum chrysovirus	S1	Subspecies	9	2587492	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Spodoptera cosmioides nucleopolyhedrovirus	S1	Subspecies	9	2605774	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Stenotrophomonas phage Piffle	S1	Subspecies	9	2859656	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Bacillus phage vB_BmeM-Goe8	S1	Subspecies	9	2593638	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Macacine alphaherpesvirus 1	S1	Subspecies	9	10325	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Lactococcus phage 1358	S1	Subspecies	9	741942	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Bean rugose mosaic virus	S1	Subspecies	9	128790	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Feline kobuvirus	S1	Subspecies	9	1379496	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Acidovorax phage ACP17	S1	Subspecies	9	2010329	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Rhodococcus phage Trina	S1	Subspecies	9	2027905	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Bell pepper mottle virus	S1	Subspecies	9	368735	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Mycobacterium phage Nigel	S1	Subspecies	9	543152	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+uncultured phage cr114_1	S1	Subspecies	9	2772088	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Escherichia phage Av-05	S1	Subspecies	9	1527519	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Bacillus phage vB_BsuM-Goe3	S1	Subspecies	9	1933063	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Pseudomonas virus Yua	S1	Subspecies	9	462590	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Bacteriophage DSS3_VP1	S1	Subspecies	9	2664196	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Aotine betaherpesvirus 1	S1	Subspecies	9	50290	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Sweet potato feathery mottle virus	S1	Subspecies	9	12844	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Faecalibacterium phage FP_Mushu	S1	Subspecies	9	2070185	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Gordonia phage Pickett	S1	Subspecies	9	2910954	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Klebsiella phage vB_Kpn_F48	S1	Subspecies	9	2070028	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+uncultured phage cr1_1	S1	Subspecies	9	2772064	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Janthinobacterium phage vB_JliS-Donnerlittchen	S1	Subspecies	9	2948610	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Microbacterium phage Ariadne	S1	Subspecies	9	2656546	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Bat pegivirus	S1	Subspecies	9	1112699	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Canine circovirus	S1	Subspecies	9	1194757	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+MW polyomavirus	S1	Subspecies	9	1203539	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	1	1	0.0	1	1	0.0	1	0.0	0.0
+Olene mendosa nucleopolyhedrovirus	S1	Subspecies	9	2933796	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Bean white chlorosis mosaic virus	S1	Subspecies	9	2169732	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+ssRNA phage SRR6960509_8	S1	Subspecies	9	2786535	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Leuconostoc phage phiMH1	S1	Subspecies	9	912321	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Porcine parvovirus	S1	Subspecies	9	10796	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	1	1	0.0	1	1	0.0	1	0.0	0.0
+Porcine reproductive and respiratory syndrome virus	S1	Subspecies	9	28344	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Norwalk virus	S1	Subspecies	9	11983	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	129	0.01	0	0	0.0	1	0.01	0.01
+Persea americana chrysovirus	S1	Subspecies	9	1587509	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+aichivirus A8	S1	Subspecies	9	1141624	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Edwardsiella phage PEi21	S1	Subspecies	9	1325372	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Circoviridae sp.	S1	Subspecies	9	1954248	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Rhinovirus A	S1	Subspecies	9	147711	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Pseudomonas phage PhiPA3	S1	Subspecies	9	998086	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Grapevine rupestris stem pitting-associated virus	S1	Subspecies	9	196400	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Erwinia phage EtG	S1	Subspecies	9	2014586	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Vibrio phage Ceto	S1	Subspecies	9	2570300	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Gordonia phage BritBrat	S1	Subspecies	9	1838064	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Streptomyces phage phiHau3	S1	Subspecies	9	1204524	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Spodoptera littoralis nucleopolyhedrovirus	S1	Subspecies	9	10456	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Staphylococcus phage CSA13	S1	Subspecies	9	2108359	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Aeromonas phage LAh10	S1	Subspecies	9	2591025	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Caprine kobuvirus	S1	Subspecies	9	1452516	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Erwinia phage pEp_SNUABM_01	S1	Subspecies	9	2601643	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Avian leukosis virus	S1	Subspecies	9	11864	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Mycobacterium phage Firehouse51	S1	Subspecies	9	2776877	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Pseudomonas phage vB_PaeS_PAJD-1	S1	Subspecies	9	2822848	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Cotonvirus japonicus	S1	Subspecies	9	2811091	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Physalis rugose mosaic virus	S1	Subspecies	9	2607629	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Aureococcus anophagefferens virus	S1	Subspecies	9	1474867	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Vombatid gammaherpesvirus 1	S1	Subspecies	9	2052651	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Lactococcus phage GE1	S1	Subspecies	9	1698369	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Salmonella phage GRNsp27	S1	Subspecies	9	2959429	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Grapevine leafroll-associated virus 4	S1	Subspecies	9	70177	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Burkholderia phage Bcep22	S1	Subspecies	9	2883944	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Gordonia phage GAL1	S1	Subspecies	9	1647469	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Cowpox virus	S1	Subspecies	9	10243	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Melon yellow spot virus	S1	Subspecies	9	89471	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	1	1	0.0	1	1	0.0	1	0.0	0.0
+Stx2-converting phage Stx2a_WGPS2	S1	Subspecies	9	1226260	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Achromobacter phage Mano	S1	Subspecies	9	2767570	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Mycobacterium phage Rockstar	S1	Subspecies	9	1034144	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Human coronavirus HKU1	S1	Subspecies	9	290028	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	1	1	0.0	1	1	0.0	1	0.0	0.0
+Aeromonas phage PS1	S1	Subspecies	9	2591406	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Aeromonas phage 2L372X	S1	Subspecies	9	2588515	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Fusobacterium phage Fnu1	S1	Subspecies	9	2530024	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Pseudomonas phage NV1	S1	Subspecies	9	2079543	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Escherichia phage ev017	S1	Subspecies	9	2847060	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+ssRNA phage SRR6960799_36	S1	Subspecies	9	2786594	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Gordonia phage EMoore	S1	Subspecies	9	2656534	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Helicoverpa zea nudivirus 2	S1	Subspecies	9	1128424	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Norovirus GII.17	S3	S3	99	552592	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	7	7	0.0	43	43	0.0	43	0.0	0.0
+unclassified Coccolithovirus	G1	G1	99	372443	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	42	42	0.0	0	0	0.0	42	0.0	0.0
+Rotavirus G3	S2	S2	99	73036	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	36	55	0.0	0	0	0.0	36	0.0	0.0
+Rotavirus A Hu/6784/2000/ARN/Cameroon	S3	S3	99	545676	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	34	34	0.0	0	0	0.0	34	0.0	0.0
+Halorubrum sodomense tailed virus 4	S2	S2	99	2878013	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	32	32	0.0	32	0.0	0.0
+Astrovirus MLB1	S2	S2	99	568715	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	26	26	0.0	27	27	0.0	27	0.0	0.0
+Bovine rotavirus	S4	S4	99	10927	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	25	25	0.0	0	0	0.0	25	0.0	0.0
+Simian adenovirus 18	S2	S2	99	909210	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	22	22	0.0	22	0.0	0.0
+unclassified Mamastrovirus	G1	G1	99	526119	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	20	36276	1.42	0	0	0.0	20	1.42	1.42
+unclassified Nimaviridae	F1	F1	99	2133791	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	19	29	0.0	0	0	0.0	19	0.0	0.0
+Human astrovirus 4	S2	S2	99	35300	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	17	17	0.0	0	0	0.0	17	0.0	0.0
+Simian adenovirus 16	S2	S2	99	1715778	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	16	16	0.0	16	0.0	0.0
+Rotavirus A human/Bethesda/DC5544/1991/G3P[8]	S4	S4	99	641358	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	14	14	0.0	0	0	0.0	14	0.0	0.0
+Rotavirus G1	S2	S2	99	72132	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	14	26	0.0	0	0	0.0	14	0.0	0.0
+Mesangiospermae	C1	C1	99	1437183	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	14	47	0.0	0	0	0.0	14	0.0	0.0
+Astrovirus PA	S2	S2	99	1659650	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	13	13	0.0	0	0	0.0	13	0.0	0.0
+Mammalian orthoreovirus 3 Dearing	S3	S3	99	10886	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	13	13	0.0	13	0.0	0.0
+Rotavirus A human/Vanderbilt/VU05-06-23/2005/G1P[8]	S3	S3	99	1004844	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	12	12	0.0	0	0	0.0	12	0.0	0.0
+unclassified Orthopicobirnavirus	G1	G1	99	2960910	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	12	13435	0.53	1	28	0.0	12	0.53	0.265
+Human adenovirus 54	S2	S2	99	651580	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	11	11	0.0	11	0.0	0.0
+Sapovirus GV.1	S3	S3	99	1658270	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	11	11	0.0	0	0	0.0	11	0.0	0.0
+Rotavirus A human/Bethesda/DC1359/1980/G4P[8]	S3	S3	99	757017	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	10	10	0.0	0	0	0.0	10	0.0	0.0
+Pseudomonas phage PaMx74	S2	S2	99	1175663	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	10	10	0.0	10	0.0	0.0
+Thermoproteus tenax virus 1	S2	S2	99	10479	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	9	9	0.0	9	0.0	0.0
+Sapovirus GV	S2	S2	99	515180	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	9	25	0.0	0	0	0.0	9	0.0	0.0
+Hepatitis C virus subtype 1b	S2	S2	99	31647	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	9	9	0.0	0	0	0.0	9	0.0	0.0
+Equine rotavirus A	S2	S2	99	31590	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	9	9	0.0	0	0	0.0	9	0.0	0.0
+Human rotavirus A RMC437	S3	S3	99	290543	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	9	9	0.0	0	0	0.0	9	0.0	0.0
+Sapovirus GIV.1	S3	S3	99	1658269	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	8	8	0.0	0	0	0.0	8	0.0	0.0
+Eukaryota	R2	R2	99	2759	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	8	63	0.0	0	0	0.0	8	0.0	0.0
+Rotavirus G4	S2	S2	99	35336	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	8	18	0.0	0	0	0.0	8	0.0	0.0
+Simian rotavirus A/SA11	S3	S3	99	10923	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	8	8	0.0	0	0	0.0	8	0.0	0.0
+Human astrovirus 2	S2	S2	99	12701	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	8	8	0.0	0	0	0.0	8	0.0	0.0
+Mycobacterium phage Phabba	S2	S2	99	2027899	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	8	8	0.0	8	0.0	0.0
+Pseudomonas phage PAE1	S2	S2	99	1718273	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	7	7	0.0	7	0.0	0.0
+Human astrovirus 1	S2	S2	99	12456	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	7	7	0.0	0	0	0.0	7	0.0	0.0
+Human rotavirus P[8]	S3	S3	99	370529	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	6	6	0.0	0	0	0.0	6	0.0	0.0
+Porcine rotavirus	S2	S2	99	10913	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	6	6	0.0	0	0	0.0	6	0.0	0.0
+Simian adenovirus 19	S2	S2	99	38416	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	5	5	0.0	5	0.0	0.0
+Molluscum contagiosum virus subtype 1	S2	S2	99	10280	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	3	3	0.0	5	5	0.0	5	0.0	0.0
+Sapovirus Hu/Nagoya/NGY-1/2012/JPN	S3	S3	99	1280920	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	5	5	0.0	5	0.0	0.0
+Mammalian orthoreovirus 3	S2	S2	99	538123	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	5	5	0.0	5	18	0.0	5	0.0	0.0
+Rotavirus A giraffe/UCD/IRL/2007	S3	S3	99	705080	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	5	5	0.0	0	0	0.0	5	0.0	0.0
+Silene sect. Melandrium	G2	G2	99	2777061	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	5	5	0.0	0	0	0.0	5	0.0	0.0
+Norovirus Hu/GII.2/OC080306/2008/JPN	S4	S4	99	697593	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+HIV-1 06TG.HT066	S3	S3	99	587223	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Human adenovirus 31	S2	S2	99	10529	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Human adenovirus 1	S2	S2	99	10533	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+Human lung-associated vientovirus FB	S2	S2	99	2571082	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+Mythimna loreyi densovirus	S3	S3	99	185636	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+Simian adenovirus 49	S2	S2	99	995022	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+Simian Agent 10	S2	S2	99	929831	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	4	4	0.0	4	0.0	0.0
+Norovirus Hu/GII/JP/2012/GII.P16_GII.2/Saitama-121	S4	S4	99	1934272	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Coxsackievirus A6	S2	S2	99	86107	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+papaya mottle-associated virus	S2	S2	99	3071214	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Rotavirus A human/Bethesda/DC23/1976/G3P[8]	S4	S4	99	641354	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	4	4	0.0	0	0	0.0	4	0.0	0.0
+Rotavirus G2	S2	S2	99	73034	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Human astrovirus 6	S2	S2	99	37130	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Sapovirus Hu/Ehime/01-1669/2001	S3	S3	99	255232	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Norovirus Hu/GII/JP/2010/GII.P16_GII.2/Osaka-019	S4	S4	99	1934280	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Rotavirus A pig/India/RU172/G12P[7]	S3	S3	99	757426	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Sapovirus Hu/Dresden/pJG-Sap01/DE	S3	S3	99	291175	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Rotavirus D chicken/05V0049/DEU/2005	S2	S2	99	884200	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Norovirus GI	S2	S2	99	122928	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	3	4	0.0	1	4	0.0	3	0.0	0.0
+unclassified Astroviridae	F1	F1	99	352926	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	3	12682	0.5	2	998	0.04	3	0.5	0.27
+Grapevine virus L	S2	S2	99	2283237	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Rotavirus A RVA/Human-wt/ITA/AV28/2010/G9P8	S3	S3	99	1307163	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+unclassified Botourmiaviridae	F1	F1	99	2587553	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3329	0.13	0	0	0.0	3	0.13	0.13
+unclassified Kobuvirus	G1	G1	99	655314	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	15	0.0	3	0.0	0.0
+unclassified Caudoviricetes	C1	C1	99	2788787	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	22	0.0	3	0.0	0.0
+Norovirus Hu/GII/JP/2014/GII.Pe_GII.2/Saitama-127	S4	S4	99	1934265	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Pseudomonas phage MP1412	S2	S2	99	1204517	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	3	3	0.0	3	0.0	0.0
+Norovirus Hu/GII.4/CHDC2094/1974/US	S4	S4	99	660656	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Sapovirus GI.1	S3	S3	99	1398550	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	3	3	0.0	0	0	0.0	3	0.0	0.0
+Cotia virus SPAn232	S2	S2	99	930275	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Bovine herpesvirus type 1.1	S2	S2	99	79889	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Human rotavirus strain MP409	S3	S3	99	96046	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+unclassified Avastrovirus	G1	G1	99	336962	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	5	0.0	0	0	0.0	2	0.0	0.0
+Human adenovirus 7	S2	S2	99	10519	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Paramecium bursaria Chlorella virus CVA-1	S2	S2	99	42683	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Tree shrew adenovirus 1	S2	S2	99	47680	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+unclassified Rotavirus A	S2	S2	99	375192	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	6	0.0	0	0	0.0	2	0.0	0.0
+Megamimivirinae	F1	F1	99	3044648	Low	5	BothDB-LowReads(<50)	Yes	Yes	Yes	1	5	0.0	2	8	0.0	2	0.0	0.0
+Lamb rotavirus	S3	S3	99	28326	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Simian adenovirus 8	S2	S2	99	413258	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Caulobacter phage Sansa	S2	S2	99	1675600	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Primate norovirus	S3	S3	99	1903318	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+simian adenovirus 1	S2	S2	99	310540	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+human adenovirus 52	S2	S2	99	332179	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Chrysodeixis includens nucleopolyhedrovirus	S2	S2	99	1207438	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Norovirus Hu/GII.4/NIHIC14/2011/USA	S4	S4	99	1383592	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+unclassified Picobirnaviridae	F1	F1	99	1680129	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	627750	24.59	0	0	0.0	2	24.59	24.59
+Sapovirus GII	S2	S2	99	515177	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	4	0.0	0	0	0.0	2	0.0	0.0
+Rotavirus A RVA/Human-wt/NPL/07N1760/2007/G26P[19]	S3	S3	99	1933901	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Mammalian orthoreovirus 2	S2	S2	99	538121	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Rotavirus GB-503	S3	S3	99	199305	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+rhinovirus A12	S2	S2	99	147684	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Norovirus GII/Hu/JP/2002/GII.P5_GII.5/Saitama/T52	S4	S4	99	1529917	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Haloarcula californiae tailed virus 1	S2	S2	99	1273746	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	2	2	0.0	2	0.0	0.0
+Human adenovirus 105	S3	S3	99	3025490	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Norovirus Hu/GII.4/Turramurra/NSW892U/2009/AUS	S4	S4	99	925747	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	2	2	0.0	0	0	0.0	2	0.0	0.0
+Sapovirus Mc10	S3	S3	99	234601	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Simian adenovirus 20	S2	S2	99	585059	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Pseudomonas phage vB_PaeS_PAO1_Ab19	S2	S2	99	1548912	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Human adenovirus 81	S2	S2	99	1972755	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Human respiratory syncytial virus A	S2	S2	99	208893	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Rotavirus G28	S2	S2	99	1842895	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Hepatitis C virus subtype 6n	S2	S2	99	378506	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Astrovirus SG	S2	S2	99	767521	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Rotavirus G8	S2	S2	99	71031	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Sapovirus GII.1	S3	S3	99	1398548	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Rotavirus A RVA/Cow-tc/USA/B223/1983/G10P[11]	S4	S4	99	1835656	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Coxsackievirus A20	S2	S2	99	42782	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Norovirus Hu/GII.12/NIHIC6/2010/USA	S4	S4	99	1292396	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Sapovirus GI	S2	S2	99	515176	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	5	0.0	0	0	0.0	1	0.0	0.0
+Sapovirus GII.3	S3	S3	99	1503998	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Pseudomonas phage NP1	S2	S2	99	1844477	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Acinetobacter phage Acj61	S2	S2	99	760732	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Choristoneura occidentalis alphabaculovirus	S2	S2	99	1367204	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Turkey astrovirus 2	S2	S2	99	246343	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Canine kobuvirus US-PC0082	S2	S2	99	1082189	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Orthocoronavirinae	F1	F1	99	2501931	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	43	0.0	0	0	0.0	1	0.0	0.0
+Astrovirus dogfaeces/Italy/2005	S2	S2	99	566308	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Influenza A virus (A/swine/Denmark/16496-1/2008(H1N1))	S3	S3	99	1640336	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Arquatrovirinae	C1	C1	99	1982875	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	3694	0.14	1	0.14	0.14
+Escherichia phage Ebrios	S2	S2	99	2099356	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+unclassified Chlorovirus	G1	G1	99	346674	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	3	0.0	0	0	0.0	1	0.0	0.0
+Sulfolobus virus Kamchatka 1	S2	S2	99	248496	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Human metapneumovirus CAN97-83	S2	S2	99	694067	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Sapovirus Hu/Arg39/1995/ARG	S3	S3	99	231395	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Sapovirus Hu/GI/Sapporo/MT-2010/1982	S3	S3	99	758863	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Human herpesvirus 4 type 2	S2	S2	99	12509	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Enterovirus A120	S2	S2	99	1435148	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Feline coronavirus	S2	S2	99	12663	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Rotavirus RVA/Human-wt/USA/12US1134/2012/G3P[9]	S3	S3	99	1460005	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+enterovirus A114	S2	S2	99	2760809	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+rhinovirus A89	S2	S2	99	12132	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Cafeteria roenbergensis virus BV-PW1	S2	S2	99	693272	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Norovirus dog/GVI.1/HKU_Ca026F/2007/HKG	S4	S4	99	673457	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Foot-and-mouth disease virus SAT 1	S2	S2	99	12122	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Coxsackievirus A19	S2	S2	99	42778	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Klosneuvirinae	F1	F1	99	1977630	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	17	0.0	0	0	0.0	1	0.0	0.0
+Rotavirus G10	S2	S2	99	263595	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	7	0.0	0	0	0.0	1	0.0	0.0
+Rotavirus A RVA/Human-wt/THA/KKL-117/2014/G9P[23]	S3	S3	99	1907161	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Sapovirus GI.6	S3	S3	99	1697444	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Lapine rotavirus	S2	S2	99	49892	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Parvo-like hybrid virus UC4	S2	S2	99	1395615	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Common bottlenose dolphin gammaherpesvirus 1 strain Sarasota	S2	S2	99	2022783	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Influenza A virus (A/duck/Hunan/1469/2002(H6N8))	S3	S3	99	759584	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Norovirus GI/Hu/JP/2007/GI.P3_GI.3/Shimizu/KK2866	S4	S4	99	1529909	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+unclassified Partitiviridae	F1	F1	99	37960	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1345	0.05	0	0	0.0	1	0.05	0.05
+Norovirus GI.3	S3	S3	99	647516	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Haloferax tailed virus 1	S2	S2	99	2507575	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Rotavirus G9	S2	S2	99	42567	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	4	0.0	0	0	0.0	1	0.0	0.0
+Sapovirus GV.1/B22/Galicia/2011	S3	S3	99	1780317	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	1	0.0	0	0	0.0	1	0.0	0.0
+Adeno-associated virus - 3	S2	S2	99	46350	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Norovirus GII/Hu/JP/2007/GII.P15_GII.15/Sapporo/HK299	S4	S4	99	1529918	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0
+Simian rotavirus A	S2	S2	99	444184	Low	5	RVDBOnly-LowReads(<50)	No	Yes	No	1	9	0.0	0	0	0.0	1	0.0	0.0
+Simian adenovirus DM-2014	S3	S3	99	1560346	Low	5	NCBIOnly-LowReads(<50)	No	No	Yes	0	0	0.0	1	1	0.0	1	0.0	0.0

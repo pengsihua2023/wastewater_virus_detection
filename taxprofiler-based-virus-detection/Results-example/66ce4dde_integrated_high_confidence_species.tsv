@@ -1,0 +1,4 @@
+Taxon_Name	Rank	Rank_Name	Rank_Priority	NCBI_TaxID	Confidence	Priority	Description	In_Both	In_RVDB	In_NCBI	RVDB_Reads_Direct	RVDB_Reads_Total	RVDB_Percent	NCBI_Reads_Direct	NCBI_Reads_Total	NCBI_Percent	Max_Direct_Reads	Max_Percent	Avg_Percent
+Porcine picobirnavirus	S	Species	8	442302	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	11505	11505	0.45	19	19	0.0	11505	0.45	0.225
+Human astrovirus	S	Species	8	1868658	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	223	223	0.01	962	962	0.04	962	0.04	0.025
+Picobirnavirus sp.	S	Species	8	1907787	High	1	BothDB-HighReads(≥100)	Yes	Yes	Yes	394	394	0.02	4	4	0.0	394	0.02	0.01
