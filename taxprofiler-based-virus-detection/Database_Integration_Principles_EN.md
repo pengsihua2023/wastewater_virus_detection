@@ -29,7 +29,7 @@ Using two different databases (e.g., RVDB and NCBI Viral RefSeq) for Kraken2 cla
 │                                                         │
 │  ┌──────────────────────────────────────────┐           │
 │  │    Low Confidence                        │           │
-│  │   ✗ Single DB + Low reads                │           │
+│  │   ✗ Single DB + Low reads               │           │
 │  │       ↓ Potential false positive         │           │
 │  └──────────────────────────────────────────┘           │
 └─────────────────────────────────────────────────────────┘
@@ -568,5 +568,6 @@ By following these principles, you can obtain **comprehensive yet reliable** vir
 **Document Version**: 1.0  
 **Creation Date**: October 7, 2025  
 **Applicable Tools**: integrate_66ce4dde_EN.py / integrate_66ce4dde.py
+
 
 
