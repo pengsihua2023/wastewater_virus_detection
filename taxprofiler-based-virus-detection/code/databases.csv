@@ -1,0 +1,3 @@
+db_name,db_path,tool,db_type
+kraken2_RVDB,/scratch/sp96859/Meta-genome-data-analysis/databases/Kraken2/kraken2_rvdb/,kraken2,short
+kraken2_NCBI,/scratch/sp96859/Meta-genome-data-analysis/databases/Kraken2/Kraken2_Refseq_viral/,kraken2,short
