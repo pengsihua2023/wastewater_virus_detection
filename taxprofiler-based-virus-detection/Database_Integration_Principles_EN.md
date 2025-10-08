@@ -14,24 +14,24 @@ Using two different databases (e.g., RVDB and NCBI Viral RefSeq) for Kraken2 cla
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                  Confidence Pyramid                      │
+│                  Confidence Pyramid                     │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
 │            High Confidence                              │
-│         ✓ Intersection + High reads                    │
+│         ✓ Intersection + High reads                     │
 │              ↓ Direct reporting                         │
 │                                                         │
-│     ┌───────────────────────────────────┐              │
-│     │   Medium Confidence                │              │
-│     │  ! Single DB + High reads          │              │
-│     │      ↓ Validation required         │              │
-│     └───────────────────────────────────┘              │
+│     ┌───────────────────────────────────┐               │
+│     │   Medium Confidence               │               │
+│     │  ! Single DB + High reads         │               │
+│     │      ↓ Validation required        │               │
+│     └───────────────────────────────────┘               │
 │                                                         │
-│  ┌──────────────────────────────────────────┐          │
-│  │    Low Confidence                         │          │
-│  │   ✗ Single DB + Low reads                 │          │
-│  │       ↓ Potential false positive          │          │
-│  └──────────────────────────────────────────┘          │
+│  ┌──────────────────────────────────────────┐           │
+│  │    Low Confidence                        │           │
+│  │   ✗ Single DB + Low reads                │           │
+│  │       ↓ Potential false positive         │           │
+│  └──────────────────────────────────────────┘           │
 └─────────────────────────────────────────────────────────┘
 ```
 
@@ -568,4 +568,5 @@ By following these principles, you can obtain **comprehensive yet reliable** vir
 **Document Version**: 1.0  
 **Creation Date**: October 7, 2025  
 **Applicable Tools**: integrate_66ce4dde_EN.py / integrate_66ce4dde.py
+
 
