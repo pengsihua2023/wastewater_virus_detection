@@ -73,7 +73,7 @@ Comprehensive Analysis Report
 ### 1. Clone or Download Workflow
 
 ```bash
-cd /scratch/sp96859/Meta-genome-data-analysis/Apptainer/mag
+cd /scratch/sp96859/Meta-genome-data-analysis/Apptainer/contig-Kraken2-based
 ```
 
 ### 2. Prepare Input Data
@@ -717,4 +717,5 @@ rm -rf work/
 **Good luck with your analysis!** 🧬🦠
 
 If you have any questions, please refer to the troubleshooting section or check the log files.
+
 
