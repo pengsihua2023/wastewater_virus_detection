@@ -1,0 +1,236 @@
+==========================================
+🧬  fastp + Kraken2 Workflow
+==========================================
+Start time: Wed Oct 15 09:17:47 EDT 2025
+Job ID: 40914729
+Node: ra1-17
+
+🔧 1. Setting up environment...
+🧪 2. Verifying tools...
+✅ Nextflow: /home/sp96859/bin/nextflow
+✅ Apptainer: /usr/bin/apptainer
+
+ℹ️  Note: Workflow execution environment
+   - Quality control (fastp): Conda environment
+   - Assembly tools (MEGAHIT, metaSPAdes): Apptainer containers
+   - Classification tool (Kraken2): Conda environment
+   Container images and Conda environments will be auto-downloaded on first run
+
+🗄️ 3. Verifying databases...
+✅ Kraken2 database: /scratch/sp96859/Meta-genome-data-analysis/Apptainer/databases/kraken2_Viral_ref
+
+📁 4. Verifying input files...
+✅ Samplesheet: samplesheet.csv
+📊 Found 3 samples
+🧹 5. Cleaning previous results...
+🚀 6. Running  fastp + Kraken2 workflow...
+Command: nextflow run metagenome_assembly_classification_workflow_en.nf -c metagenome_assembly_classification_en.config --input samplesheet.csv --outdir results --kraken2_db /scratch/sp96859/Meta-genome-data-analysis/Apptainer/databases/kraken2_Viral_ref
+
+📝 Workflow steps:
+   1. fastp quality control (auto adapter removal, low-quality read filtering)
+   2. MEGAHIT and metaSPAdes parallel assembly
+   3. Kraken2 taxonomic classification
+   4. Comprehensive report generation
+
+
+ N E X T F L O W   ~  version 25.04.7
+
+Launching `metagenome_assembly_classification_workflow_en.nf` [modest_engelbart] DSL2 - revision: 9f135f86e2
+
+
+==========================================
+🧬 Metagenome Assembly and Kraken2 Taxonomic Classification Workflow
+==========================================
+Workflow version: 2.5.0
+Input samplesheet: samplesheet.csv
+Output directory: results
+Kraken2 database: /scratch/sp96859/Meta-genome-data-analysis/Apptainer/databases/kraken2_Viral_ref
+==========================================
+
+[-        ] FASTP                          -
+[-        ] MEGAHIT_ASSEMBLY               -
+[-        ] SPADES_ASSEMBLY                -
+[-        ] KRAKEN2_CLASSIFICATION_MEGAHIT -
+[-        ] KRAKEN2_CLASSIFICATION_SPADES  -
+
+[-        ] FASTP                          | 0 of 1
+[-        ] MEGAHIT_ASSEMBLY               -
+[-        ] SPADES_ASSEMBLY                -
+[-        ] KRAKEN2_CLASSIFICATION_MEGAHIT -
+[-        ] KRAKEN2_CLASSIFICATION_SPADES  -
+[-        ] MERGE_KRAKEN2_REPORTS          -
+
+executor >  slurm (1)
+[2d/4c8e8f] FASTP (llnl_66ce4dde)          | 0 of 1
+[-        ] MEGAHIT_ASSEMBLY               -
+[-        ] SPADES_ASSEMBLY                -
+[-        ] KRAKEN2_CLASSIFICATION_MEGAHIT -
+[-        ] KRAKEN2_CLASSIFICATION_SPADES  -
+[-        ] MERGE_KRAKEN2_REPORTS          -
+
+executor >  slurm (1)
+[2d/4c8e8f] FASTP (llnl_66ce4dde)          | 0 of 1
+[-        ] MEGAHIT_ASSEMBLY               -
+[-        ] SPADES_ASSEMBLY                -
+[-        ] KRAKEN2_CLASSIFICATION_MEGAHIT -
+[-        ] KRAKEN2_CLASSIFICATION_SPADES  -
+[-        ] MERGE_KRAKEN2_REPORTS          -
+
+executor >  slurm (1)
+[2d/4c8e8f] FASTP (llnl_66ce4dde)          | 0 of 1
+[-        ] MEGAHIT_ASSEMBLY               -
+[-        ] SPADES_ASSEMBLY                | 0 of 1
+[-        ] KRAKEN2_CLASSIFICATION_MEGAHIT -
+[-        ] KRAKEN2_CLASSIFICATION_SPADES  -
+[-        ] MERGE_KRAKEN2_REPORTS          -
+
+executor >  slurm (3)
+[2d/4c8e8f] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[7d/564983] MEG…LY (llnl_66ce4dde_MEGAHIT) | 0 of 1
+[8d/35de32] SPA…BLY (llnl_66ce4dde_SPAdes) | 0 of 1
+[-        ] KRAKEN2_CLASSIFICATION_MEGAHIT -
+[-        ] KRAKEN2_CLASSIFICATION_SPADES  -
+[-        ] MERGE_KRAKEN2_REPORTS          -
+
+executor >  slurm (3)
+[2d/4c8e8f] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[7d/564983] MEG…LY (llnl_66ce4dde_MEGAHIT) | 0 of 1
+[8d/35de32] SPA…BLY (llnl_66ce4dde_SPAdes) | 0 of 1
+[-        ] KRAKEN2_CLASSIFICATION_MEGAHIT -
+[-        ] KRAKEN2_CLASSIFICATION_SPADES  -
+[-        ] MERGE_KRAKEN2_REPORTS          -
+
+executor >  slurm (3)
+[2d/4c8e8f] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[7d/564983] MEG…LY (llnl_66ce4dde_MEGAHIT) | 0 of 1
+[8d/35de32] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[-        ] KRAKEN2_CLASSIFICATION_MEGAHIT -
+[-        ] KRAKEN2_CLASSIFICATION_SPADES  -
+[-        ] MERGE_KRAKEN2_REPORTS          -
+
+executor >  slurm (4)
+[2d/4c8e8f] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[7d/564983] MEG…LY (llnl_66ce4dde_MEGAHIT) | 0 of 1
+[8d/35de32] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[-        ] KRAKEN2_CLASSIFICATION_MEGAHIT -
+[ff/e877ac] KRA…DES (llnl_66ce4dde_SPAdes) | 0 of 1
+[-        ] MERGE_KRAKEN2_REPORTS          -
+
+executor >  slurm (4)
+[2d/4c8e8f] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[7d/564983] MEG…LY (llnl_66ce4dde_MEGAHIT) | 0 of 1
+[8d/35de32] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[-        ] KRAKEN2_CLASSIFICATION_MEGAHIT -
+[ff/e877ac] KRA…DES (llnl_66ce4dde_SPAdes) | 0 of 1
+[-        ] MERGE_KRAKEN2_REPORTS          -
+
+executor >  slurm (4)
+[2d/4c8e8f] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[7d/564983] MEG…LY (llnl_66ce4dde_MEGAHIT) | 0 of 1
+[8d/35de32] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[-        ] KRAKEN2_CLASSIFICATION_MEGAHIT -
+[ff/e877ac] KRA…DES (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[-        ] MERGE_KRAKEN2_REPORTS          -
+
+executor >  slurm (4)
+[2d/4c8e8f] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[7d/564983] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[8d/35de32] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[-        ] KRAKEN2_CLASSIFICATION_MEGAHIT | 0 of 1
+[ff/e877ac] KRA…DES (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[-        ] MERGE_KRAKEN2_REPORTS          -
+
+executor >  slurm (5)
+[2d/4c8e8f] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[7d/564983] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[8d/35de32] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[d1/126cb2] KRA…IT (llnl_66ce4dde_MEGAHIT) | 0 of 1
+[ff/e877ac] KRA…DES (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[-        ] MERGE_KRAKEN2_REPORTS          -
+
+executor >  slurm (6)
+[2d/4c8e8f] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[7d/564983] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[8d/35de32] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[d1/126cb2] KRA…IT (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[ff/e877ac] KRA…DES (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[32/60d7d8] MER…N2_REPORTS (llnl_66ce4dde) | 0 of 1
+
+executor >  slurm (6)
+[2d/4c8e8f] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[7d/564983] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[8d/35de32] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[d1/126cb2] KRA…IT (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[ff/e877ac] KRA…DES (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[32/60d7d8] MER…N2_REPORTS (llnl_66ce4dde) | 1 of 1 ✔
+
+executor >  slurm (6)
+[2d/4c8e8f] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[7d/564983] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[8d/35de32] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[d1/126cb2] KRA…IT (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[ff/e877ac] KRA…DES (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[32/60d7d8] MER…N2_REPORTS (llnl_66ce4dde) | 1 of 1 ✔
+
+    ==========================================
+    🎯 Metagenome Assembly and Kraken2 Classification Results
+    ==========================================
+    Pipeline completed successfully!
+    
+    Results directory: results
+    
+    Generated files:
+    - fastp/: Quality control reports (if enabled)
+      * *_fastp.html: HTML quality reports
+      * *_fastp.json: JSON quality data
+    - kraken2_megahit/: Kraken2 classification of MEGAHIT contigs
+      * *_megahit_classification.txt: Detailed classifications
+      * *_megahit_report.txt: Summary reports
+    - kraken2_spades/: Kraken2 classification of SPAdes contigs
+      * *_spades_classification.txt: Detailed classifications
+      * *_spades_report.txt: Summary reports
+    - merged_reports/: Comprehensive analysis (if enabled)
+      * *_merged_report.txt: Combined analysis report
+      * *_merged_report.csv: Detailed comparison data
+    
+    ==========================================
+    
+Completed at: 15-Oct-2025 09:46:01
+Duration    : 28m 6s
+CPU hours   : 20.5
+Succeeded   : 6
+
+
+
+==========================================
+🎯 Workflow Results
+==========================================
+✅ Workflow completed successfully!
+📁 Results directory created: results/
+📊 Generated results:
+  ✅ fastp quality reports: results/fastp/
+     - Generated 1 HTML quality reports
+  ✅ Kraken2 MEGAHIT results: results/kraken2_megahit/
+  ✅ Kraken2 SPAdes results: results/kraken2_spades/
+  ✅ Comprehensive analysis reports: results/merged_reports/
+     - Generated 1 comprehensive reports
+
+📋 Summary of generated files:
+  fastp reports:
+results/fastp/llnl_66ce4dde_fastp.html
+results/fastp/llnl_66ce4dde_fastp.json
+
+  Classification reports:
+results/kraken2_megahit/llnl_66ce4dde_megahit_report.txt
+results/kraken2_megahit/llnl_66ce4dde_megahit_classification.txt
+results/kraken2_spades/llnl_66ce4dde_spades_classification.txt
+results/kraken2_spades/llnl_66ce4dde_spades_report.txt
+
+  Merged reports:
+results/merged_reports/llnl_66ce4dde_merged_report.csv
+results/merged_reports/llnl_66ce4dde_merged_report.txt
+
+Total files: 8
+
+End time: Wed Oct 15 09:46:02 EDT 2025
+==========================================
