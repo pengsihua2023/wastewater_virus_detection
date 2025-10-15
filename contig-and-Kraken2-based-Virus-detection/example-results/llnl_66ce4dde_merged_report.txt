@@ -1,0 +1,126 @@
+================================================================================
+Kraken2 Comprehensive Analysis Report - MEGAHIT vs SPAdes Assembly
+================================================================================
+
+[Overall Statistics]
+--------------------------------------------------------------------------------
+SPAdes total contigs:     988,186.0
+MEGAHIT total contigs:    52,329.0
+
+SPAdes unclassified:      980,538.0 (99.23%)
+MEGAHIT unclassified:     47,812.0 (91.37%)
+
+SPAdes virus classified:  804.0 (0.08%)
+MEGAHIT virus classified: 488.0 (0.93%)
+
+
+[Species Level Comparison]
+--------------------------------------------------------------------------------
+Species Name                                       SPAdes       MEGAHIT     
+--------------------------------------------------------------------------------
+Shigella phage SfIV                                16           13          
+Escherichia phage 500465-1                         17           9           
+Wadgaonvirus wv5004651                             17           9           
+Enterobacteria phage P4                            16           7           
+Klebsiella phage ST147-VIM1phi7.1                  13           7           
+Vimunumvirus ST147VIM1phi71                        13           7           
+Escherichia phage HK639                            10           8           
+Agrobacterium phage Atu_ph07                       10           7           
+Polybotosvirus Atuph07                             10           7           
+Escherichia phage RCS47                            7            10          
+Punavirus RCS47                                    7            10          
+Enterobacter phage vB_EclS_CobraSix                9            6           
+Cobrasixvirus cobrasix                             9            6           
+Radostvirus ev099                                  6            6           
+Escherichia phage ev099                            6            6           
+ssRNA phage SRR5466369_2                           4            7           
+Gihfavirus pelohabitans                            4            7           
+Sawaravirus WGPS2                                  7            3           
+Stx2-converting phage Stx2a_WGPS2                  7            3           
+Gemsvirus gv5004652                                6            4           
+Pseudomonas phage phi3                             6            4           
+Phitrevirus phi3                                   6            4           
+Pumpernickelvirus pumpernickel                     5            5           
+ssRNA phage SRR5466337_3                           7            3           
+Escherichia phage 500465-2                         6            4           
+Kinglevirus lutadaptatum                           7            3           
+Microbacterium phage Pumpernickel                  5            5           
+Escherichia phage D6                               7            2           
+Eganvirus SW9                                      7            2           
+Salmonella phage SEN22                             2            7           
+
+[Genus Level Comparison]
+--------------------------------------------------------------------------------
+Genus Name                                         SPAdes       MEGAHIT     
+--------------------------------------------------------------------------------
+Punavirus                                          10           26          
+Eganvirus                                          28           6           
+Wadgaonvirus                                       17           9           
+Vimunumvirus                                       13           7           
+Lederbergvirus                                     11           9           
+Peduovirus                                         16           4           
+Polybotosvirus                                     10           7           
+Menderavirus                                       12           4           
+Pandoravirus                                       8            8           
+Cobrasixvirus                                      9            6           
+Ludhianavirus                                      9            6           
+Myrnavirus                                         11           2           
+Hpunavirus                                         9            3           
+Radostvirus                                        6            6           
+Gihfavirus                                         4            7           
+Sawaravirus                                        7            3           
+Kinglevirus                                        7            3           
+Likavirus                                          7            3           
+Bertelyvirus                                       8            2           
+Gemsvirus                                          6            4           
+
+[Family Level Comparison]
+--------------------------------------------------------------------------------
+Family Name                                        SPAdes       MEGAHIT     
+--------------------------------------------------------------------------------
+Peduoviridae                                       130          57          
+Straboviridae                                      18           15          
+Steitzviridae                                      11           11          
+Schitoviridae                                      12           9           
+Vilmaviridae                                       14           7           
+Kyanoviridae                                       10           5           
+Stanwilliamsviridae                                10           3           
+Demerecviridae                                     5            5           
+Orthoherpesviridae                                 5            4           
+Mimiviridae                                        3            4           
+Autographiviridae                                  4            3           
+Zierdtviridae                                      5            1           
+Herelleviridae                                     3            3           
+Arenbergviridae                                    3            3           
+Ackermannviridae                                   3            2           
+
+[Unique Findings]
+--------------------------------------------------------------------------------
+
+Species found only in SPAdes (Top 10):
+  - Casadabanvirus R24: 8 contigs
+  - Pseudomonas phage YMC12/01/R24: 8 contigs
+  - Myranavirus phabba: 6 contigs
+  - Myrnavirus phabba: 6 contigs
+  - Mycobacterium phage Phabba: 6 contigs
+  - Streptomyces phage Gilgamesh: 5 contigs
+  - Gilgameshvirus gilgamesh: 5 contigs
+  - Lambdavirus DE3: 5 contigs
+  - Escherichia phage DE3: 5 contigs
+  - Escherichia virus DE3: 5 contigs
+
+Species found only in MEGAHIT (Top 10):
+  - Trichoplusia ni ascovirus 2c: 3 contigs
+  - Tupanvirus salinum: 2 contigs
+  - Gordonia phage VanLee: 2 contigs
+  - Tupanvirus soda lake: 2 contigs
+  - Enterobacteria phage mEp460: 2 contigs
+  - Vanleevirus vanlee: 2 contigs
+  - Aeromonas phage Aes012: 1 contigs
+  - Mycobacterium phage Trixie: 1 contigs
+  - Streptococcus phage phiARI0004: 1 contigs
+  - Lederbergvirus ST64T: 1 contigs
+
+================================================================================
+Analysis Complete
+================================================================================
