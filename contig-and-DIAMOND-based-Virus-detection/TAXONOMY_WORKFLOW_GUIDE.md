@@ -102,11 +102,6 @@ The comprehensive report (`*_merged_report.txt`) now includes:
 ### Running the Workflow
 
 ```bash
-cd /scratch/sp96859/Meta-genome-data-analysis/Apptainer/Contig-Diamond-based
-
-# Clean previous results (if needed)
-rm -rf work results .nextflow*
-
 # Submit job
 sbatch run_metagenome_assembly_classification_en.sh
 ```
@@ -249,4 +244,5 @@ Your workflow now **automatically** generates results with complete taxonomic in
 **Now**: TaxID + Organism name + Complete taxonomy → Direct analysis → Easy visualization
 
 🎉 **One run, complete results!**
+
 
