@@ -42,10 +42,10 @@ This Nextflow pipeline performs **metagenome assembly and viral taxonomic classi
 
 ```
                         ┌─────────────────────────────────────────┐
-                        │   Paired-End Sequencing Reads          │
-                        │   (FASTQ files: R1 + R2)               │
+                        │   Paired-End Sequencing Reads           │
+                        │   (FASTQ files: R1 + R2)                │
                         └──────────────┬──────────────────────────┘
-                                      │
+                                       │
                         ┌─────────────▼──────────────────────────┐
                         │   Step 1: Quality Control (Optional)   │
                         │   Tool: fastp                          │
@@ -937,3 +937,4 @@ And cite all individual tools used (see References section).
 **Last Updated:** October 2025  
 **Version:** 3.0.0  
 **Status:** Production-ready ✅
+
