@@ -49,7 +49,7 @@ October 2025
 
 ### **Challenge: Viral Metagenome Analysis**
 
-❌ **Traditional Kraken2 Limitations:**
+✅ **Traditional Kraken2 Limitations:**
 - DNA-level classification only
 - K-mer based (less sensitive)
 - Limited for divergent sequences
@@ -829,5 +829,6 @@ diamond dbinfo -d RVDB_prot_ref.dmnd
    squeue -u $USER  # Check job status
    sacct -j <job_id> --format=JobID,MaxRSS,Elapsed
    ```
+
 
 
