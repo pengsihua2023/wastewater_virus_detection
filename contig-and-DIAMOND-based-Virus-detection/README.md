@@ -1,8 +1,8 @@
 # Metagenome Assembly and Diamond Taxonomic Classification Workflow
 
 **Version:** 3.0.0  
-**Author:** Bioinformatics Pipeline  
-**Last Updated:** October 2025
+**Author:** Sihua Peng  
+**Last Updated:** October 22, 2025
 
 ---
 
@@ -1010,8 +1010,9 @@ And cite all individual tools used (see References section).
 **Status:** Production-ready ✅
 
 ### Version History
-- **v3.1.0** (Oct 2025): Added assembly contig output (`assembly_megahit/`, `assembly_spades/`)
-- **v3.0.1** (Oct 2025): Fixed TaxID format conversion (float → int → string)
-- **v3.0.0** (Oct 2025): Initial release with full taxonomy resolution
+- **v3.1.0** (Oct 16, 2025): Added assembly contig output (`assembly_megahit/`, `assembly_spades/`)
+- **v3.0.1** (Oct 19, 2025): Fixed TaxID format conversion (float → int → string)
+- **v3.0.0** (Oct 22, 2025): Initial release with full taxonomy resolution
+
 
 
