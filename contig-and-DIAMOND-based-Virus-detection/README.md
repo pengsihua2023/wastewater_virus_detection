@@ -47,24 +47,24 @@ This Nextflow pipeline performs **metagenome assembly and viral taxonomic classi
                         └──────────────┬──────────────────────────┘
                                        │
                         ┌──────────────▼──────────────────────────┐
-                        │   Step 1: Quality Control (Optional)   │
-                        │   Tool: fastp                          │
-                        │   • Adapter trimming                   │
-                        │   • Quality filtering (Q20)            │
-                        │   • Length filtering (≥50bp)           │
+                        │   Step 1: Quality Control (Optional)    │
+                        │   Tool: fastp                           │
+                        │   • Adapter trimming                    │
+                        │   • Quality filtering (Q20)             │
+                        │   • Length filtering (≥50bp)            │
                         └──────────────┬──────────────────────────┘
-                                      │
-              ┌───────────────────────┴───────────────────────┐
+                                       │
+              ┌────────────────────────┴───────────────────────┐
+              │                                                │
+┌─────────────▼──────────────┐                  ┌──────────────▼──────────────┐
+│   Step 2a: MEGAHIT Assembly│                  │   Step 2b: SPAdes Assembly  │
+│   Container: megahit:1.2.9 │                  │   Container: spades:3.15.5  │
+│   • Fast k-mer based       │                  │   • de Bruijn graph based   │
+│   • Memory efficient       │                  │   • High sensitivity        │
+│   • Min contig: 1000 bp    │                  │   • Metagenomic mode        │
+└─────────────┬──────────────┘                  └─────────────┬───────────────┘
               │                                               │
-┌─────────────▼──────────────┐                  ┌─────────────▼──────────────┐
-│   Step 2a: MEGAHIT Assembly│                  │   Step 2b: SPAdes Assembly │
-│   Container: megahit:1.2.9 │                  │   Container: spades:3.15.5 │
-│   • Fast k-mer based       │                  │   • de Bruijn graph based  │
-│   • Memory efficient       │                  │   • High sensitivity       │
-│   • Min contig: 1000 bp    │                  │   • Metagenomic mode       │
-└─────────────┬──────────────┘                  └─────────────┬──────────────┘
-              │                                               │
-              │   Contigs (DNA)                              │   Contigs (DNA)
+              │   Contigs (DNA)                               │   Contigs (DNA)
               │                                               │
 ┌─────────────▼──────────────┐                  ┌─────────────▼──────────────┐
 │   Step 3a: Prodigal        │                  │   Step 3b: Prodigal        │
@@ -75,7 +75,7 @@ This Nextflow pipeline performs **metagenome assembly and viral taxonomic classi
 │   • Output: Proteins (FAA) │                  │   • Output: Proteins (FAA) │
 └─────────────┬──────────────┘                  └─────────────┬──────────────┘
               │                                               │
-              │   Predicted Proteins                         │   Predicted Proteins
+              │   Predicted Proteins                          │   Predicted Proteins
               │                                               │
 ┌─────────────▼──────────────┐                  ┌─────────────▼──────────────┐
 │   Step 4a: Diamond BLASTP  │                  │   Step 4b: Diamond BLASTP  │
@@ -88,7 +88,7 @@ This Nextflow pipeline performs **metagenome assembly and viral taxonomic classi
 │   • Output: TaxIDs         │                  │   • Output: TaxIDs         │
 └─────────────┬──────────────┘                  └─────────────┬──────────────┘
               │                                               │
-              │   Diamond Results (TaxIDs)                   │   Diamond Results (TaxIDs)
+              │   Diamond Results (TaxIDs)                    │   Diamond Results (TaxIDs)
               │                                               │
               └───────────────────────┬───────────────────────┘
                                       │
@@ -106,16 +106,16 @@ This Nextflow pipeline performs **metagenome assembly and viral taxonomic classi
                         │   • Create comparative statistics      │
                         │     (Phylum, Family levels)            │
                         │   • Generate comprehensive reports     │
-                        └──────────────┬──────────────────────────┘
-                                      │
-                        ┌─────────────▼──────────────────────────┐
-                        │   Final Outputs                        │
-                        │                                        │
-                        │   • MEGAHIT + Taxonomy (22 columns)    │
-                        │   • SPAdes + Taxonomy (22 columns)     │
-                        │   • Merged Report (TXT)                │
-                        │   • Comparison Data (CSV)              │
-                        └────────────────────────────────────────┘
+                        └──────────────┬─────────────────────────┘
+                                       │
+                        ┌──────────────▼──────────────────────────┐
+                        │   Final Outputs                         │
+                        │                                         │
+                        │   • MEGAHIT + Taxonomy (22 columns)     │
+                        │   • SPAdes + Taxonomy (22 columns)      │
+                        │   • Merged Report (TXT)                 │
+                        │   • Comparison Data (CSV)               │
+                        └─────────────────────────────────────────┘
 ```
 
 ---
@@ -937,5 +937,6 @@ And cite all individual tools used (see References section).
 **Last Updated:** October 2025  
 **Version:** 3.0.0  
 **Status:** Production-ready ✅
+
 
 
