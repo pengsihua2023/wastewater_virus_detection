@@ -75,7 +75,7 @@ This Nextflow pipeline performs **metagenome assembly and viral taxonomic classi
 │   • Output: Proteins (FAA) │                  │   • Output: Proteins (FAA) │
 └─────────────┬──────────────┘                  └─────────────┬──────────────┘
               │                                               │
-              │   Predicted Proteins                         │   Predicted Proteins
+              │   Predicted Proteins                          │   Predicted Proteins
               │                                               │
 ┌─────────────▼──────────────┐                  ┌─────────────▼──────────────┐
 │   Step 4a: Diamond BLASTP  │                  │   Step 4b: Diamond BLASTP  │
@@ -1013,4 +1013,5 @@ And cite all individual tools used (see References section).
 - **v3.1.0** (Oct 2025): Added assembly contig output (`assembly_megahit/`, `assembly_spades/`)
 - **v3.0.1** (Oct 2025): Fixed TaxID format conversion (float → int → string)
 - **v3.0.0** (Oct 2025): Initial release with full taxonomy resolution
+
 
