@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 header: 'Metagenome Assembly & Diamond Classification Workflow'
-footer: 'Version 3.1.0 | October 2025'
+footer: 'Version 3.1.0 | October 22, 2025'
 style: |
   section {
     font-size: 28px;
@@ -829,4 +829,5 @@ diamond dbinfo -d RVDB_prot_ref.dmnd
    squeue -u $USER  # Check job status
    sacct -j <job_id> --format=JobID,MaxRSS,Elapsed
    ```
+
 
