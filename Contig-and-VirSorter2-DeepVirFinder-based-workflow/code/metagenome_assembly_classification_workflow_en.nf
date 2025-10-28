@@ -719,7 +719,7 @@ process MERGE_VIRAL_REPORTS_MEGAHIT {
         f.write("Viral Identification Comprehensive Analysis Report - MEGAHIT Assembly Results\\n")
         f.write("VirSorter2 + DeepVirFinder\\n")
         f.write("="*80 + "\\n\\n")
-    
+        
         # Overall statistics
         f.write("[Overall Statistics]\\n")
         f.write("-"*80 + "\\n")
@@ -866,46 +866,46 @@ process MERGE_VIRAL_REPORTS_SPADES {
             print(f"Warning: Failed to parse DeepVirFinder results: {e}")
             return {}
     
-    # 解析结果文件
+    # Parse result files
     print(f"Parsing VirSorter2 results: ${virsorter2_results}")
     vs2_dict = parse_virsorter2("${virsorter2_results}")
     
     print(f"Parsing DeepVirFinder results: ${deepvirfinder_results}")
     dvf_dict = parse_deepvirfinder("${deepvirfinder_results}")
     
-    # 合并结果
+    # Merge results
     all_sequences = set(vs2_dict.keys()) | set(dvf_dict.keys())
     
-    # 生成综合报告
+    # Generate comprehensive report
     with open("${sample}_spades_viral_merged_report.txt", 'w', encoding='utf-8') as f:
         f.write("="*80 + "\\n")
-        f.write("病毒识别综合分析报告 - SPAdes组装结果\\n")
+        f.write("Viral Identification Comprehensive Analysis Report - SPAdes Assembly Results\\n")
         f.write("VirSorter2 + DeepVirFinder\\n")
         f.write("="*80 + "\\n\\n")
-        
-        # 总体统计
-        f.write("[总体统计]\\n")
+    
+        # Overall statistics
+        f.write("[Overall Statistics]\\n")
         f.write("-"*80 + "\\n")
-        f.write(f"VirSorter2 识别的病毒序列数:    {len(vs2_dict):,}\\n")
-        f.write(f"DeepVirFinder 识别的病毒序列数: {len(dvf_dict):,}\\n")
-        
-        # 统计共识序列（两个工具都识别为病毒）
+        f.write(f"VirSorter2 identified viral sequences:    {len(vs2_dict):,}\\n")
+        f.write(f"DeepVirFinder identified viral sequences: {len(dvf_dict):,}\\n")
+    
+        # Count consensus sequences (identified by both tools)
         consensus = set(vs2_dict.keys()) & set(dvf_dict.keys())
-        f.write(f"共识病毒序列数（两者都识别）:    {len(consensus):,}\\n")
-        
-        # 仅被一个工具识别
+        f.write(f"Consensus viral sequences (both tools):   {len(consensus):,}\\n")
+    
+        # Identified by only one tool
         vs2_only = set(vs2_dict.keys()) - set(dvf_dict.keys())
         dvf_only = set(dvf_dict.keys()) - set(vs2_dict.keys())
-        f.write(f"仅VirSorter2识别:              {len(vs2_only):,}\\n")
-        f.write(f"仅DeepVirFinder识别:           {len(dvf_only):,}\\n\\n")
-        
-        # DVF显著序列统计（p-value < ${params.deepvirfinder_pvalue}）
+        f.write(f"VirSorter2 only:                          {len(vs2_only):,}\\n")
+        f.write(f"DeepVirFinder only:                       {len(dvf_only):,}\\n\\n")
+    
+        # DVF significant sequences (p-value < ${params.deepvirfinder_pvalue})
         dvf_significant = [seq for seq, data in dvf_dict.items() 
                           if data['dvf_pvalue'] < ${params.deepvirfinder_pvalue}]
-        f.write(f"DeepVirFinder显著序列 (p<${params.deepvirfinder_pvalue}): {len(dvf_significant):,}\\n\\n")
-        
-        # 共识序列详情（推荐的高可信度病毒序列）
-        f.write("\\n[共识病毒序列 (高可信度)]\\n")
+        f.write(f"DeepVirFinder significant sequences (p<${params.deepvirfinder_pvalue}): {len(dvf_significant):,}\\n\\n")
+    
+        # Consensus sequence details (recommended high-confidence viral sequences)
+        f.write("\\n[Consensus Viral Sequences (High Confidence)]\\n")
         f.write("-"*80 + "\\n")
         f.write(f"{'Sequence Name':<40} {'VS2 Score':<12} {'DVF Score':<12} {'DVF P-value':<12}\\n")
         f.write("-"*80 + "\\n")
@@ -954,13 +954,13 @@ process MERGE_VIRAL_REPORTS_SPADES {
     merged_df = pd.DataFrame(merged_data)
     merged_df.to_csv("${sample}_spades_viral_merged_report.csv", index=False)
     
-    # 保存共识序列列表（推荐用于下游分析）
+    # Save consensus sequence list (recommended for downstream analysis)
     with open("${sample}_spades_viral_consensus.txt", 'w') as f:
         for seq in sorted(consensus):
             f.write(seq + "\\n")
     
-    print(f"病毒识别报告生成成功: ${sample} (SPAdes)")
-    print(f"共识病毒序列数: {len(consensus)}")
+    print(f"Viral identification report generated successfully: ${sample} (SPAdes)")
+    print(f"Consensus viral sequences: {len(consensus)}")
     """
 }
 
