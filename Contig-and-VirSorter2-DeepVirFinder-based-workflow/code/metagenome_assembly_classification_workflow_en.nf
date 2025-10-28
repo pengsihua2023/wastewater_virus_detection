@@ -203,7 +203,7 @@ workflow {
     
     // Stage 4: Merge and Compare Viral Identification Results
     if (!params.skip_merge_reports && !params.skip_virsorter2 && !params.skip_deepvirfinder) {
-        // 合并同一样本的VirSorter2和DeepVirFinder结果
+        // Merge VirSorter2 and DeepVirFinder results for the same sample
         VIRSORTER2_MEGAHIT.out.results
             .join(DEEPVIRFINDER_MEGAHIT.out.results)
             .set { ch_viral_megahit }
@@ -389,7 +389,7 @@ process VIRSORTER2_MEGAHIT {
         cp virsorter2_output/final-viral-boundary.tsv ${sample}_megahit_vs2_final-viral-boundary.tsv
     fi
     
-    # 统计识别的病毒序列数量
+    # Count identified viral sequences
     VIRAL_COUNT=\$(tail -n +2 ${sample}_megahit_vs2_final-viral-score.tsv | wc -l || echo 0)
     echo "VirSorter2: Identified \${VIRAL_COUNT} viral sequences from MEGAHIT contigs"
     """
@@ -413,14 +413,14 @@ process VIRSORTER2_SPADES {
     
     script:
     """
-    # 确保使用正确的conda环境
+    # Ensure correct conda environment is used
     export PATH="/home/sp96859/.conda/envs/nextflow_env/bin:\$PATH"
     
     echo "=== VirSorter2 Analysis (SPAdes): ${sample} ==="
     echo "Using Python: \$(which python)"
     echo "Using VirSorter2: \$(which virsorter)"
     
-    # 运行 VirSorter2 进行病毒序列识别
+    # Run VirSorter2 for viral sequence identification
     virsorter run \\
         -i ${contigs} \\
         -w virsorter2_output \\
@@ -430,10 +430,10 @@ process VIRSORTER2_SPADES {
         -j ${task.cpus} \\
         all
     
-    # 复制结果文件
+    # Copy result files
     cp virsorter2_output/final-viral-score.tsv ${sample}_spades_vs2_final-viral-score.tsv
     
-    # 如果有检测到病毒序列，复制病毒contig文件
+    # If viral sequences detected, copy viral contig file
     if [ -f virsorter2_output/final-viral-combined.fa ]; then
         cp virsorter2_output/final-viral-combined.fa ${sample}_spades_vs2_final-viral-combined.fa
     fi
@@ -442,7 +442,7 @@ process VIRSORTER2_SPADES {
         cp virsorter2_output/final-viral-boundary.tsv ${sample}_spades_vs2_final-viral-boundary.tsv
     fi
     
-    # 统计识别的病毒序列数量
+    # Count identified viral sequences
     VIRAL_COUNT=\$(tail -n +2 ${sample}_spades_vs2_final-viral-score.tsv | wc -l || echo 0)
     echo "VirSorter2: Identified \${VIRAL_COUNT} viral sequences from SPAdes contigs"
     """
@@ -521,23 +521,23 @@ process DEEPVIRFINDER_MEGAHIT {
     echo "✅ PYTHONPATH: \$PYTHONPATH"
     echo "✅ KERAS_BACKEND: \$KERAS_BACKEND"
     
-    # 验证h5py可用
+    # Verify h5py is available
     python -c "import h5py; print('✅ h5py available:', h5py.__version__)" || { echo "❌ h5py not found"; exit 1; }
     
-    # 验证keras可用并检查后端
+    # Verify keras is available and check backend
     python -c "import os; os.environ['KERAS_BACKEND']='theano'; import keras; print('✅ Keras available:', keras.__version__); print('✅ Keras backend:', keras.backend.backend())" || { echo "❌ Keras not found or backend error"; exit 1; }
     
-    # 运行 DeepVirFinder 进行病毒序列识别
+    # Run DeepVirFinder for viral sequence identification
     python ${params.deepvirfinder_dir}/dvf.py \\
         -i ${contigs} \\
         -o dvf_output \\
         -l ${params.deepvirfinder_min_length} \\
         -c ${task.cpus}
     
-    # 复制结果文件
+    # Copy result files
     cp dvf_output/${contigs}_gt${params.deepvirfinder_min_length}bp_dvfpred.txt ${sample}_megahit_dvf_output.txt
     
-    # 统计预测为病毒的序列数量（p-value < threshold）
+    # Count predicted viral sequences (p-value < threshold)
     VIRAL_COUNT=\$(awk -v pval="${params.deepvirfinder_pvalue}" 'NR>1 && \$3<pval {count++} END {print count+0}' ${sample}_megahit_dvf_output.txt)
     echo "DeepVirFinder: Predicted \${VIRAL_COUNT} viral sequences from MEGAHIT contigs (p-value < ${params.deepvirfinder_pvalue})"
     """
@@ -616,29 +616,29 @@ process DEEPVIRFINDER_SPADES {
     echo "✅ PYTHONPATH: \$PYTHONPATH"
     echo "✅ KERAS_BACKEND: \$KERAS_BACKEND"
     
-    # 验证h5py可用
+    # Verify h5py is available
     python -c "import h5py; print('✅ h5py available:', h5py.__version__)" || { echo "❌ h5py not found"; exit 1; }
     
-    # 验证keras可用并检查后端
+    # Verify keras is available and check backend
     python -c "import os; os.environ['KERAS_BACKEND']='theano'; import keras; print('✅ Keras available:', keras.__version__); print('✅ Keras backend:', keras.backend.backend())" || { echo "❌ Keras not found or backend error"; exit 1; }
     
-    # 运行 DeepVirFinder 进行病毒序列识别
+    # Run DeepVirFinder for viral sequence identification
     python ${params.deepvirfinder_dir}/dvf.py \\
         -i ${contigs} \\
         -o dvf_output \\
         -l ${params.deepvirfinder_min_length} \\
         -c ${task.cpus}
     
-    # 复制结果文件
+    # Copy result files
     cp dvf_output/${contigs}_gt${params.deepvirfinder_min_length}bp_dvfpred.txt ${sample}_spades_dvf_output.txt
     
-    # 统计预测为病毒的序列数量（p-value < threshold）
+    # Count predicted viral sequences (p-value < threshold)
     VIRAL_COUNT=\$(awk -v pval="${params.deepvirfinder_pvalue}" 'NR>1 && \$3<pval {count++} END {print count+0}' ${sample}_spades_dvf_output.txt)
     echo "DeepVirFinder: Predicted \${VIRAL_COUNT} viral sequences from SPAdes contigs (p-value < ${params.deepvirfinder_pvalue})"
     """
 }
 // Process: Merge Viral Identification Reports for MEGAHIT
-// 整合VirSorter2和DeepVirFinder的结果
+// Integrate VirSorter2 and DeepVirFinder results
 process MERGE_VIRAL_REPORTS_MEGAHIT {
     tag "${sample}_MEGAHIT"
     label 'process_low'
@@ -663,12 +663,12 @@ process MERGE_VIRAL_REPORTS_MEGAHIT {
     
     def parse_virsorter2(file_path):
         \"\"\"
-        解析VirSorter2输出文件
-        列: seqname, dsDNAphage, NCLDV, RNA, ssDNA, lavidaviridae, max_score, max_score_group, length, hallmark, viral_gene, cellular_gene
+        Parse VirSorter2 output file
+        Columns: seqname, dsDNAphage, NCLDV, RNA, ssDNA, lavidaviridae, max_score, max_score_group, length, hallmark, viral_gene, cellular_gene
         \"\"\"
         try:
             df = pd.read_csv(file_path, sep='\\t')
-            # 提取序列名和得分
+            # Extract sequence names and scores
             viral_dict = {}
             for _, row in df.iterrows():
                 seqname = row['seqname']
@@ -685,8 +685,8 @@ process MERGE_VIRAL_REPORTS_MEGAHIT {
     
     def parse_deepvirfinder(file_path):
         \"\"\"
-        解析DeepVirFinder输出文件
-        列: name, len, score, pvalue
+        Parse DeepVirFinder output file
+        Columns: name, len, score, pvalue
         \"\"\"
         try:
             df = pd.read_csv(file_path, sep='\\t')
@@ -703,46 +703,46 @@ process MERGE_VIRAL_REPORTS_MEGAHIT {
             print(f"Warning: Failed to parse DeepVirFinder results: {e}")
             return {}
     
-    # 解析结果文件
+    # Parse result files
     print(f"Parsing VirSorter2 results: ${virsorter2_results}")
     vs2_dict = parse_virsorter2("${virsorter2_results}")
     
     print(f"Parsing DeepVirFinder results: ${deepvirfinder_results}")
     dvf_dict = parse_deepvirfinder("${deepvirfinder_results}")
     
-    # 合并结果
+    # Merge results
     all_sequences = set(vs2_dict.keys()) | set(dvf_dict.keys())
     
-    # 生成综合报告
+    # Generate comprehensive report
     with open("${sample}_megahit_viral_merged_report.txt", 'w', encoding='utf-8') as f:
         f.write("="*80 + "\\n")
-        f.write("病毒识别综合分析报告 - MEGAHIT组装结果\\n")
+        f.write("Viral Identification Comprehensive Analysis Report - MEGAHIT Assembly Results\\n")
         f.write("VirSorter2 + DeepVirFinder\\n")
         f.write("="*80 + "\\n\\n")
-        
-        # 总体统计
-        f.write("[总体统计]\\n")
+    
+        # Overall statistics
+        f.write("[Overall Statistics]\\n")
         f.write("-"*80 + "\\n")
-        f.write(f"VirSorter2 识别的病毒序列数:    {len(vs2_dict):,}\\n")
-        f.write(f"DeepVirFinder 识别的病毒序列数: {len(dvf_dict):,}\\n")
-        
-        # 统计共识序列（两个工具都识别为病毒）
+        f.write(f"VirSorter2 identified viral sequences:    {len(vs2_dict):,}\\n")
+        f.write(f"DeepVirFinder identified viral sequences: {len(dvf_dict):,}\\n")
+    
+        # Count consensus sequences (identified by both tools)
         consensus = set(vs2_dict.keys()) & set(dvf_dict.keys())
-        f.write(f"共识病毒序列数（两者都识别）:    {len(consensus):,}\\n")
-        
-        # 仅被一个工具识别
+        f.write(f"Consensus viral sequences (both tools):   {len(consensus):,}\\n")
+    
+        # Identified by only one tool
         vs2_only = set(vs2_dict.keys()) - set(dvf_dict.keys())
         dvf_only = set(dvf_dict.keys()) - set(vs2_dict.keys())
-        f.write(f"仅VirSorter2识别:              {len(vs2_only):,}\\n")
-        f.write(f"仅DeepVirFinder识别:           {len(dvf_only):,}\\n\\n")
-        
-        # DVF显著序列统计（p-value < ${params.deepvirfinder_pvalue}）
+        f.write(f"VirSorter2 only:                          {len(vs2_only):,}\\n")
+        f.write(f"DeepVirFinder only:                       {len(dvf_only):,}\\n\\n")
+    
+        # DVF significant sequences (p-value < ${params.deepvirfinder_pvalue})
         dvf_significant = [seq for seq, data in dvf_dict.items() 
                           if data['dvf_pvalue'] < ${params.deepvirfinder_pvalue}]
-        f.write(f"DeepVirFinder显著序列 (p<${params.deepvirfinder_pvalue}): {len(dvf_significant):,}\\n\\n")
-        
-        # 共识序列详情（推荐的高可信度病毒序列）
-        f.write("\\n[共识病毒序列 (高可信度)]\\n")
+        f.write(f"DeepVirFinder significant sequences (p<${params.deepvirfinder_pvalue}): {len(dvf_significant):,}\\n\\n")
+    
+        # Consensus sequence details (recommended high-confidence viral sequences)
+        f.write("\\n[Consensus Viral Sequences (High Confidence)]\\n")
         f.write("-"*80 + "\\n")
         f.write(f"{'Sequence Name':<40} {'VS2 Score':<12} {'DVF Score':<12} {'DVF P-value':<12}\\n")
         f.write("-"*80 + "\\n")
@@ -754,10 +754,10 @@ process MERGE_VIRAL_REPORTS_MEGAHIT {
             f.write(f"{seq:<40} {vs2_score:<12.3f} {dvf_score:<12.3f} {dvf_pval:<12.2e}\\n")
         
         f.write("\\n" + "="*80 + "\\n")
-        f.write("分析完成\\n")
+        f.write("Analysis Complete\\n")
         f.write("="*80 + "\\n")
     
-    # 保存CSV格式的详细数据
+    # Save detailed data in CSV format
     merged_data = []
     for seq in all_sequences:
         row = {
@@ -791,13 +791,13 @@ process MERGE_VIRAL_REPORTS_MEGAHIT {
     merged_df = pd.DataFrame(merged_data)
     merged_df.to_csv("${sample}_megahit_viral_merged_report.csv", index=False)
     
-    # 保存共识序列列表（推荐用于下游分析）
+    # Save consensus sequence list (recommended for downstream analysis)
     with open("${sample}_megahit_viral_consensus.txt", 'w') as f:
         for seq in sorted(consensus):
             f.write(seq + "\\n")
     
-    print(f"病毒识别报告生成成功: ${sample} (MEGAHIT)")
-    print(f"共识病毒序列数: {len(consensus)}")
+    print(f"Viral identification report generated successfully: ${sample} (MEGAHIT)")
+    print(f"Consensus viral sequences: {len(consensus)}")
     """
 }
 
@@ -826,12 +826,12 @@ process MERGE_VIRAL_REPORTS_SPADES {
     
     def parse_virsorter2(file_path):
         \"\"\"
-        解析VirSorter2输出文件
-        列: seqname, dsDNAphage, NCLDV, RNA, ssDNA, lavidaviridae, max_score, max_score_group, length, hallmark, viral_gene, cellular_gene
+        Parse VirSorter2 output file
+        Columns: seqname, dsDNAphage, NCLDV, RNA, ssDNA, lavidaviridae, max_score, max_score_group, length, hallmark, viral_gene, cellular_gene
         \"\"\"
         try:
             df = pd.read_csv(file_path, sep='\\t')
-            # 提取序列名和得分
+            # Extract sequence names and scores
             viral_dict = {}
             for _, row in df.iterrows():
                 seqname = row['seqname']
@@ -848,8 +848,8 @@ process MERGE_VIRAL_REPORTS_SPADES {
     
     def parse_deepvirfinder(file_path):
         \"\"\"
-        解析DeepVirFinder输出文件
-        列: name, len, score, pvalue
+        Parse DeepVirFinder output file
+        Columns: name, len, score, pvalue
         \"\"\"
         try:
             df = pd.read_csv(file_path, sep='\\t')
@@ -917,10 +917,10 @@ process MERGE_VIRAL_REPORTS_SPADES {
             f.write(f"{seq:<40} {vs2_score:<12.3f} {dvf_score:<12.3f} {dvf_pval:<12.2e}\\n")
         
         f.write("\\n" + "="*80 + "\\n")
-        f.write("分析完成\\n")
+        f.write("Analysis Complete\\n")
         f.write("="*80 + "\\n")
     
-    # 保存CSV格式的详细数据
+    # Save detailed data in CSV format
     merged_data = []
     for seq in all_sequences:
         row = {
@@ -992,7 +992,7 @@ process COMPARE_ASSEMBLERS {
     from collections import defaultdict
     
     def parse_merged_report(file_path):
-        \"\"\"解析已合并的病毒报告CSV文件\"\"\"
+        \"\"\"Parse merged viral report CSV file\"\"\"
         try:
             df = pd.read_csv(file_path.replace('.txt', '.csv'))
             return df
@@ -1000,80 +1000,80 @@ process COMPARE_ASSEMBLERS {
             print(f"Warning: Failed to parse {file_path}: {e}")
             return pd.DataFrame()
     
-    print(f"解析MEGAHIT结果: ${megahit_report}")
+    print(f"Parsing MEGAHIT results: ${megahit_report}")
     megahit_df = parse_merged_report("${megahit_report}")
     
-    print(f"解析SPAdes结果: ${spades_report}")
+    print(f"Parsing SPAdes results: ${spades_report}")
     spades_df = parse_merged_report("${spades_report}")
     
-    # 提取病毒序列
+    # Extract viral sequences
     megahit_seqs = set(megahit_df['sequence'].tolist()) if 'sequence' in megahit_df.columns else set()
     spades_seqs = set(spades_df['sequence'].tolist()) if 'sequence' in spades_df.columns else set()
     
-    # 计算交集和差异
+    # Calculate intersection and differences
     consensus_both_assemblers = megahit_seqs & spades_seqs
     megahit_only = megahit_seqs - spades_seqs
     spades_only = spades_seqs - megahit_seqs
     all_viral = megahit_seqs | spades_seqs
     
-    # 生成综合比较报告
+    # Generate comprehensive comparison report
     with open("${sample}_assembler_comparison.txt", 'w', encoding='utf-8') as f:
         f.write("="*100 + "\\n")
-        f.write("组装方法比较报告 - 病毒识别结果\\n")
+        f.write("Assembler Comparison Report - Viral Identification Results\\n")
         f.write("MEGAHIT vs metaSPAdes\\n")
-        f.write("样品: ${sample}\\n")
+        f.write("Sample: ${sample}\\n")
         f.write("="*100 + "\\n\\n")
         
-        f.write("[总体统计]\\n")
+        f.write("[Overall Statistics]\\n")
         f.write("-"*100 + "\\n")
-        f.write(f"MEGAHIT识别的病毒序列:          {len(megahit_seqs):,}\\n")
-        f.write(f"SPAdes识别的病毒序列:           {len(spades_seqs):,}\\n")
-        f.write(f"总病毒序列数（去重）:           {len(all_viral):,}\\n\\n")
+        f.write(f"MEGAHIT identified viral sequences:    {len(megahit_seqs):,}\\n")
+        f.write(f"SPAdes identified viral sequences:     {len(spades_seqs):,}\\n")
+        f.write(f"Total unique viral sequences:          {len(all_viral):,}\\n\\n")
         
-        f.write(f"两种方法共识病毒序列:           {len(consensus_both_assemblers):,}\\n")
-        f.write(f"仅MEGAHIT识别:                  {len(megahit_only):,}\\n")
-        f.write(f"仅SPAdes识别:                   {len(spades_only):,}\\n\\n")
+        f.write(f"Consensus viral sequences (both):      {len(consensus_both_assemblers):,}\\n")
+        f.write(f"MEGAHIT only:                          {len(megahit_only):,}\\n")
+        f.write(f"SPAdes only:                           {len(spades_only):,}\\n\\n")
         
-        # 计算一致性
+        # Calculate consistency
         if len(all_viral) > 0:
             consistency = len(consensus_both_assemblers) / len(all_viral) * 100
-            f.write(f"组装方法一致性:                 {consistency:.2f}%\\n\\n")
+            f.write(f"Assembler consistency:                 {consistency:.2f}%\\n\\n")
         
         f.write("="*100 + "\\n")
-        f.write("[推荐]\\n")
+        f.write("[Recommendation]\\n")
         f.write("-"*100 + "\\n")
-        f.write(f"高置信度病毒序列（两种方法都识别）: {len(consensus_both_assemblers):,}\\n")
-        f.write("建议优先使用这些共识序列进行下游分析。\\n\\n")
+        f.write(f"High-confidence viral sequences (identified by both methods): {len(consensus_both_assemblers):,}\\n")
+        f.write("Recommend prioritizing these consensus sequences for downstream analysis.\\n\\n")
         
-        f.write("[详细分析]\\n")
+        f.write("[Detailed Analysis]\\n")
         f.write("-"*100 + "\\n")
         
-        # MEGAHIT优势
+        # MEGAHIT advantages
         if len(megahit_only) > 0:
-            f.write(f"\\nMEGAHIT特有序列 ({len(megahit_only)} 个):\\n")
-            f.write("  - 可能代表低覆盖度或高复杂度区域\\n")
-            f.write("  - MEGAHIT对复杂结构的组装能力较强\\n")
+            f.write(f"\\nMEGAHIT-specific sequences ({len(megahit_only)}):\\n")
+            f.write("  - May represent low-coverage or high-complexity regions\\n")
+            f.write("  - MEGAHIT has stronger assembly capability for complex structures\\n")
         
-        # SPAdes优势
+        # SPAdes advantages
         if len(spades_only) > 0:
-            f.write(f"\\nSPAdes特有序列 ({len(spades_only)} 个):\\n")
-            f.write("  - 可能代表高覆盖度区域\\n")
-            f.write("  - SPAdes的kmer策略可能捕获更多细节\\n")
+            f.write(f"\\nSPAdes-specific sequences ({len(spades_only)}):\\n")
+            f.write("  - May represent high-coverage regions\\n")
+            f.write("  - SPAdes kmer strategy may capture more details\\n")
         
         f.write("\\n" + "="*100 + "\\n")
-        f.write("[统计汇总]\\n")
+        f.write("[Statistical Summary]\\n")
         f.write("-"*100 + "\\n")
         
-        # 计算每个assembler的共识序列比例
+        # Calculate consensus ratio for each assembler
         if len(megahit_seqs) > 0:
             megahit_consensus_pct = len(consensus_both_assemblers) / len(megahit_seqs) * 100
-            f.write(f"MEGAHIT序列中的共识比例:  {megahit_consensus_pct:.2f}%\\n")
+            f.write(f"Consensus ratio in MEGAHIT sequences:  {megahit_consensus_pct:.2f}%\\n")
         
         if len(spades_seqs) > 0:
             spades_consensus_pct = len(consensus_both_assemblers) / len(spades_seqs) * 100
-            f.write(f"SPAdes序列中的共识比例:   {spades_consensus_pct:.2f}%\\n")
+            f.write(f"Consensus ratio in SPAdes sequences:   {spades_consensus_pct:.2f}%\\n")
     
-    # 生成CSV详细对比
+    # Generate CSV detailed comparison
     comparison_data = []
     
     for seq in all_viral:
@@ -1084,7 +1084,7 @@ process COMPARE_ASSEMBLERS {
             'status': 'Consensus' if seq in consensus_both_assemblers else 'Assembler_specific'
         }
         
-        # 添加MEGAHIT信息
+        # Add MEGAHIT information
         if seq in megahit_seqs:
             megahit_row = megahit_df[megahit_df['sequence'] == seq].iloc[0]
             row['MEGAHIT_vs2_score'] = megahit_row.get('vs2_score', 'N/A')
@@ -1095,7 +1095,7 @@ process COMPARE_ASSEMBLERS {
             row['MEGAHIT_dvf_score'] = 'N/A'
             row['MEGAHIT_identified_by'] = 'N/A'
         
-        # 添加SPAdes信息
+        # Add SPAdes information
         if seq in spades_seqs:
             spades_row = spades_df[spades_df['sequence'] == seq].iloc[0]
             row['SPAdes_vs2_score'] = spades_row.get('vs2_score', 'N/A')
@@ -1111,21 +1111,21 @@ process COMPARE_ASSEMBLERS {
     comparison_df = pd.DataFrame(comparison_data)
     comparison_df.to_csv("${sample}_assembler_comparison.csv", index=False)
     
-    # 保存最终共识序列列表
+    # Save final consensus sequence list
     with open("${sample}_consensus_viral_sequences.txt", 'w') as f:
-        f.write("# 高置信度病毒序列（MEGAHIT和SPAdes共识）\\n")
-        f.write(f"# 样品: ${sample}\\n")
-        f.write(f"# 共识序列数: {len(consensus_both_assemblers)}\\n")
+        f.write("# High-confidence viral sequences (MEGAHIT and SPAdes consensus)\\n")
+        f.write(f"# Sample: ${sample}\\n")
+        f.write(f"# Consensus sequences: {len(consensus_both_assemblers)}\\n")
         f.write("#\\n")
         for seq in sorted(consensus_both_assemblers):
             f.write(seq + "\\n")
     
-    print(f"\\n组装方法比较完成: ${sample}")
-    print(f"  MEGAHIT: {len(megahit_seqs)} 病毒序列")
-    print(f"  SPAdes:  {len(spades_seqs)} 病毒序列")
-    print(f"  共识:    {len(consensus_both_assemblers)} 病毒序列")
+    print(f"\\nAssembler comparison complete: ${sample}")
+    print(f"  MEGAHIT: {len(megahit_seqs)} viral sequences")
+    print(f"  SPAdes:  {len(spades_seqs)} viral sequences")
+    print(f"  Consensus: {len(consensus_both_assemblers)} viral sequences")
     if len(all_viral) > 0:
-        print(f"  一致性:  {len(consensus_both_assemblers)/len(all_viral)*100:.1f}%")
+        print(f"  Consistency: {len(consensus_both_assemblers)/len(all_viral)*100:.1f}%")
     """
 }
 
