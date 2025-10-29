@@ -210,6 +210,7 @@ sbatch run_metagenome_assembly_classification_en.sh
 ```
 results/
 ├── fastp/                          # Quality control
+├── clean_reads                     # clean reads
 ├── assembly_megahit/               # MEGAHIT contigs
 ├── assembly_spades/                # SPAdes contigs
 ├── virsorter2_megahit/             # VirSorter2 results
@@ -464,4 +465,5 @@ Four-way validated, high-confidence viral sequences
 **Thank You!**
 
 Questions & Feedback Welcome
+
 
