@@ -241,10 +241,10 @@ sbatch run_metagenome_assembly_classification_en.sh
 bash run_metagenome_assembly_classification_en.sh
 ```
 
-**About -resume parameter（optional）**:
-- ℹ️ 默认脚本不启用 `-resume`，将从头完整运行
-- 如需跳过已完成步骤，可手动在命令行添加 `-resume`
-- `-resume` 将仅重跑失败/未完成步骤，显著节省时间
+**About -resume parameter (optional):**
+- The script does not enable `-resume` by default and performs a full run from scratch.
+- To skip completed steps, manually add the `-resume` flag on the command line.
+- With `-resume`, only failed or incomplete steps are re-run, saving time.
 
 #### Step 4: Monitor Execution
 
@@ -904,7 +904,7 @@ If you encounter issues, please provide the following information:
 - ✨ Generate final consensus viral sequence list (four-way validation)
 - ✨ Optional save clean reads and assembly contigs
 - ✨ Three-level validation system
-- ✨ 支持 `-resume` 可选参数（脚本默认从头运行）
+- ✨ Optional `-resume` support (script defaults to full run from scratch)
 
 **Improvements**:
 - 🔧 Optimize DeepVirFinder environment activation mechanism (absolute path + explicit PATH setting)
