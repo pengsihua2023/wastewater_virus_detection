@@ -213,10 +213,10 @@ results/
 ├── clean_reads/                    # Clean reads (optional: if save_clean_reads=true)
 ├── assembly_megahit/               # MEGAHIT contigs
 ├── assembly_spades/                # SPAdes contigs
-├── virsorter2_megahit/             # VirSorter2 results
-├── virsorter2_spades/
-├── deepvirfinder_megahit/          # DeepVirFinder results
-├── deepvirfinder_spades/
+├── virsorter2_megahit/             # Level 1 (single tool) - VirSorter2 results (MEGAHIT)
+├── virsorter2_spades/              # Level 1 (single tool) - VirSorter2 results (SPAdes)
+├── deepvirfinder_megahit/          # Level 1 (single tool) - DeepVirFinder results (MEGAHIT)
+├── deepvirfinder_spades/           # Level 1 (single tool) - DeepVirFinder results (SPAdes)
 ├── merged_viral_reports_megahit/   # Level 2 consensus ⭐⭐⭐⭐
 ├── merged_viral_reports_spades/
 └── assembler_comparison/           # Level 3 consensus ⭐⭐⭐⭐⭐
