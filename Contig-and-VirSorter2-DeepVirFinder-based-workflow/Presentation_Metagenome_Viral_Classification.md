@@ -3,10 +3,8 @@
 % Based on README_EN.md
 
 ---
-title: "Metagenome Viral Classification Workflow"
+## Metagenome Viral Classification Workflow
 subtitle: "Integration of VirSorter2 and DeepVirFinder with Assembler Comparison"
-author: "Workflow Documentation v5.1.0"
-date: "2025-10-30"
 ---
 
 # Slide 1: Title Slide
@@ -465,4 +463,5 @@ Four-way validated, high-confidence viral sequences
 **Thank You!**
 
 Questions & Feedback Welcome
+
 
