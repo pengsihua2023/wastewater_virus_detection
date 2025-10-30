@@ -6,7 +6,7 @@
 title: "Metagenome Viral Classification Workflow"
 subtitle: "Integration of VirSorter2 and DeepVirFinder with Assembler Comparison"
 author: "Workflow Documentation v5.1.0"
-date: "2025-10-28"
+date: "2025-10-30"
 ---
 
 # Slide 1: Title Slide
@@ -199,7 +199,7 @@ Edit script with database paths:
 sbatch run_metagenome_assembly_classification_en.sh
 ```
 
-**Note**: `-resume` enabled by default (skips completed steps)
+**Note**: Default is a full run (no `-resume`). Add `-resume` to reuse cached steps.
 
 ---
 
@@ -210,7 +210,7 @@ sbatch run_metagenome_assembly_classification_en.sh
 ```
 results/
 ├── fastp/                          # Quality control
-├── clean_reads                     # clean reads
+├── clean_reads/                    # Clean reads (optional: if save_clean_reads=true)
 ├── assembly_megahit/               # MEGAHIT contigs
 ├── assembly_spades/                # SPAdes contigs
 ├── virsorter2_megahit/             # VirSorter2 results
@@ -352,7 +352,7 @@ seqkit grep -f consensus_viral_sequences.txt \
 - **Use Level 3 consensus** for final analysis
 
 ### 2. Workflow Execution
-- ✅ Use `-resume` (enabled by default)
+- ✅ Optionally use `-resume` when re-running to skip completed steps
 - ✅ Monitor logs regularly
 - ✅ Check intermediate results
 
@@ -399,7 +399,7 @@ seqkit grep -f consensus_viral_sequences.txt \
 - **DeepVirFinder**: 4-8 CPUs per job
 
 ### Time Optimization
-- ✅ Use `-resume` (skip completed steps)
+- ✅ Optionally use `-resume` (skip completed steps on re-runs)
 - ✅ Parallel execution (4 tools run simultaneously)
 - ✅ Caching intermediate results
 
@@ -465,5 +465,4 @@ Four-way validated, high-confidence viral sequences
 **Thank You!**
 
 Questions & Feedback Welcome
-
 
