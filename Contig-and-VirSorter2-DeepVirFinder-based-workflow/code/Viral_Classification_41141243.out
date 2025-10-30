@@ -1,0 +1,514 @@
+==========================================
+🦠  Metagenome Viral Classification Workflow
+==========================================
+Start time: Wed Oct 29 20:12:39 EDT 2025
+Job ID: 41141243
+Node: ra1-17
+
+🔧 1. Setting up environment...
+   Conda base: /apps/eb/Miniforge3/24.11.3-0
+   Target env: /home/sp96859/.conda/envs/nextflow_env
+   After PATH update:
+   - Python path: /home/sp96859/.conda/envs/nextflow_env/bin/python
+   - CONDA_DEFAULT_ENV: nextflow_env
+✅ Conda environment activated successfully!
+   Environment: nextflow_env
+   Python: /home/sp96859/.conda/envs/nextflow_env/bin/python
+🧪 2. Verifying tools...
+✅ Nextflow: /home/sp96859/.conda/envs/nextflow_env/bin/nextflow
+✅ Apptainer: /usr/bin/apptainer
+
+🔍 Checking VirSorter2 dependencies...
+   Current Python: /home/sp96859/.conda/envs/nextflow_env/bin/python
+   Python version: Python 3.9.23
+✅ screed module: installed (version: 1.0.4)
+✅ VirSorter2: /home/sp96859/.conda/envs/nextflow_env/bin/virsorter
+   Version: 2.2.4
+
+ℹ️  Note: Workflow execution environment
+   - Quality control (fastp): Conda environment
+   - Assembly tools (MEGAHIT, metaSPAdes): Apptainer containers
+   - Viral identification tools:
+     * VirSorter2: Pre-installed in nextflow_env ✅
+     * DeepVirFinder: Pre-installed in dvf environment ✅
+   Container images and Conda environments will be auto-downloaded on first run
+
+🗄️ 3. Verifying databases and tools...
+✅ VirSorter2 database: /scratch/sp96859/Meta-genome-data-analysis/Apptainer/databases/virsorter2/db
+   Database size: 14G
+✅ DeepVirFinder: /scratch/sp96859/Meta-genome-data-analysis/Apptainer/Contig-based-VirSorter2-DeepVirFinder/DeepVirFinder
+
+📁 4. Verifying input files...
+✅ Samplesheet: samplesheet.csv
+📊 Found 3 samples
+🧹 5. Cleaning previous results...
+🚀 6. Running Metagenome Viral Classification workflow...
+Command: nextflow run metagenome_assembly_classification_workflow_en.nf -c metagenome_assembly_classification_en.config --input samplesheet.csv --outdir results --virsorter2_db /scratch/sp96859/Meta-genome-data-analysis/Apptainer/databases/virsorter2/db --deepvirfinder_dir /scratch/sp96859/Meta-genome-data-analysis/Apptainer/Contig-based-VirSorter2-DeepVirFinder/DeepVirFinder
+
+📝 Workflow steps:
+   1. fastp quality control (auto adapter removal, low-quality read filtering)
+   2. MEGAHIT and metaSPAdes parallel assembly
+   3. VirSorter2 viral sequence identification (machine learning + rules)
+   4. DeepVirFinder viral prediction (deep learning)
+   5. Tool result merging (VirSorter2 + DeepVirFinder per assembler)
+   6. Assembler comparison (MEGAHIT vs SPAdes) → Final consensus viral list ⭐
+
+✅ Note: Using VirSorter2 from nextflow_env environment
+✅ Note: Using DeepVirFinder from dvf environment
+✅ Note: Full run from scratch (no resume mode)
+
+
+ N E X T F L O W   ~  version 25.04.7
+
+Launching `metagenome_assembly_classification_workflow_en.nf` [magical_murdock] DSL2 - revision: df9a0468e5
+
+
+==========================================
+🦠 Metagenome Viral Classification Workflow
+==========================================
+Workflow version: 5.1.0
+Input samplesheet: samplesheet.csv
+Output directory: results
+
+Quality Control:
+- fastp QC: Enabled
+- Save clean reads: Yes
+
+Assembly Methods:
+- MEGAHIT: Enabled
+- metaSPAdes: Enabled
+
+Viral Identification:
+- VirSorter2: Enabled
+  Database: /scratch/sp96859/Meta-genome-data-analysis/Apptainer/databases/virsorter2/db
+- DeepVirFinder: Enabled
+  Directory: /scratch/sp96859/Meta-genome-data-analysis/Apptainer/Contig-based-VirSorter2-DeepVirFinder/DeepVirFinder
+
+Result Merging:
+- Merge viral reports: Enabled
+==========================================
+
+[-        ] FASTP                 -
+[-        ] MEGAHIT_ASSEMBLY      -
+[-        ] SPADES_ASSEMBLY       -
+[-        ] VIRSORTER2_MEGAHIT    -
+[-        ] VIRSORTER2_SPADES     -
+[-        ] DEEPVIRFINDER_MEGAHIT -
+[-        ] DEEPVIRFINDER_SPADES  -
+
+[-        ] FASTP                       | 0 of 1
+[-        ] MEGAHIT_ASSEMBLY            -
+[-        ] SPADES_ASSEMBLY             -
+[-        ] VIRSORTER2_MEGAHIT          -
+[-        ] VIRSORTER2_SPADES           -
+[-        ] DEEPVIRFINDER_MEGAHIT       -
+[-        ] DEEPVIRFINDER_SPADES        -
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT -
+[-        ] MERGE_VIRAL_REPORTS_SPADES  -
+[-        ] COMPARE_ASSEMBLERS          -
+
+executor >  slurm (1)
+[3b/ac22d8] FASTP (llnl_66ce4dde)       | 0 of 1
+[-        ] MEGAHIT_ASSEMBLY            -
+[-        ] SPADES_ASSEMBLY             -
+[-        ] VIRSORTER2_MEGAHIT          -
+[-        ] VIRSORTER2_SPADES           -
+[-        ] DEEPVIRFINDER_MEGAHIT       -
+[-        ] DEEPVIRFINDER_SPADES        -
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT -
+[-        ] MERGE_VIRAL_REPORTS_SPADES  -
+[-        ] COMPARE_ASSEMBLERS          -
+
+executor >  slurm (1)
+[3b/ac22d8] FASTP (llnl_66ce4dde)       | 0 of 1
+[-        ] MEGAHIT_ASSEMBLY            -
+[-        ] SPADES_ASSEMBLY             -
+[-        ] VIRSORTER2_MEGAHIT          -
+[-        ] VIRSORTER2_SPADES           -
+[-        ] DEEPVIRFINDER_MEGAHIT       -
+[-        ] DEEPVIRFINDER_SPADES        -
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT -
+[-        ] MERGE_VIRAL_REPORTS_SPADES  -
+[-        ] COMPARE_ASSEMBLERS          -
+
+executor >  slurm (2)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[-        ] MEGAHIT_ASSEMBLY               | 0 of 1
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 0 of 1
+[-        ] VIRSORTER2_MEGAHIT             -
+[-        ] VIRSORTER2_SPADES              -
+[-        ] DEEPVIRFINDER_MEGAHIT          -
+[-        ] DEEPVIRFINDER_SPADES           -
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[-        ] MERGE_VIRAL_REPORTS_SPADES     -
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (3)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 0 of 1
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 0 of 1
+[-        ] VIRSORTER2_MEGAHIT             -
+[-        ] VIRSORTER2_SPADES              -
+[-        ] DEEPVIRFINDER_MEGAHIT          -
+[-        ] DEEPVIRFINDER_SPADES           -
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[-        ] MERGE_VIRAL_REPORTS_SPADES     -
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (3)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 0 of 1
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 0 of 1
+[-        ] VIRSORTER2_MEGAHIT             -
+[-        ] VIRSORTER2_SPADES              -
+[-        ] DEEPVIRFINDER_MEGAHIT          -
+[-        ] DEEPVIRFINDER_SPADES           -
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[-        ] MERGE_VIRAL_REPORTS_SPADES     -
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (3)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 0 of 1
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 0 of 1
+[-        ] VIRSORTER2_MEGAHIT             -
+[-        ] VIRSORTER2_SPADES              -
+[-        ] DEEPVIRFINDER_MEGAHIT          -
+[-        ] DEEPVIRFINDER_SPADES           -
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[-        ] MERGE_VIRAL_REPORTS_SPADES     -
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (3)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 0 of 1
+[-        ] VIRSORTER2_MEGAHIT             -
+[-        ] VIRSORTER2_SPADES              -
+[-        ] DEEPVIRFINDER_MEGAHIT          -
+[-        ] DEEPVIRFINDER_SPADES           -
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[-        ] MERGE_VIRAL_REPORTS_SPADES     -
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (5)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 0 of 1
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 0 of 1
+[-        ] VIRSORTER2_SPADES              -
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 0 of 1
+[-        ] DEEPVIRFINDER_SPADES           -
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[-        ] MERGE_VIRAL_REPORTS_SPADES     -
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (5)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 0 of 1
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 0 of 1
+[-        ] VIRSORTER2_SPADES              -
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 0 of 1
+[-        ] DEEPVIRFINDER_SPADES           -
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[-        ] MERGE_VIRAL_REPORTS_SPADES     -
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (6)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 0 of 1
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 0 of 1
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 0 of 1
+[-        ] DEEPVIRFINDER_SPADES           | 0 of 1
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[-        ] MERGE_VIRAL_REPORTS_SPADES     -
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (7)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 0 of 1
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 0 of 1
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 0 of 1
+[17/0d82b6] DEE…4dde_SPAdes_DeepVirFinder) | 0 of 1
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[-        ] MERGE_VIRAL_REPORTS_SPADES     -
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (7)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 0 of 1
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 0 of 1
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 0 of 1
+[17/0d82b6] DEE…4dde_SPAdes_DeepVirFinder) | 0 of 1
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[-        ] MERGE_VIRAL_REPORTS_SPADES     -
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (7)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 0 of 1
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 0 of 1
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 0 of 1
+[17/0d82b6] DEE…4dde_SPAdes_DeepVirFinder) | 1 of 1 ✔
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[-        ] MERGE_VIRAL_REPORTS_SPADES     -
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (7)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 0 of 1
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 1 of 1 ✔
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 0 of 1
+[17/0d82b6] DEE…4dde_SPAdes_DeepVirFinder) | 1 of 1 ✔
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[-        ] MERGE_VIRAL_REPORTS_SPADES     | 0 of 1
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (8)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 0 of 1
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 1 of 1 ✔
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 0 of 1
+[17/0d82b6] DEE…4dde_SPAdes_DeepVirFinder) | 1 of 1 ✔
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[c5/4fd5b9] MER…DES (llnl_66ce4dde_SPAdes) | 0 of 1
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (8)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 0 of 1
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 1 of 1 ✔
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 0 of 1
+[17/0d82b6] DEE…4dde_SPAdes_DeepVirFinder) | 1 of 1 ✔
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[c5/4fd5b9] MER…DES (llnl_66ce4dde_SPAdes) | 0 of 1
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (8)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 0 of 1
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 1 of 1 ✔
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 0 of 1
+[17/0d82b6] DEE…4dde_SPAdes_DeepVirFinder) | 1 of 1 ✔
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[c5/4fd5b9] MER…DES (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (8)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 0 of 1
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 1 of 1 ✔
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 1 of 1 ✔
+[17/0d82b6] DEE…4dde_SPAdes_DeepVirFinder) | 1 of 1 ✔
+[-        ] MERGE_VIRAL_REPORTS_MEGAHIT    -
+[c5/4fd5b9] MER…DES (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (9)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 1 of 1 ✔
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 1 of 1 ✔
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 1 of 1 ✔
+[17/0d82b6] DEE…4dde_SPAdes_DeepVirFinder) | 1 of 1 ✔
+[bf/ac719f] MER…IT (llnl_66ce4dde_MEGAHIT) | 0 of 1
+[c5/4fd5b9] MER…DES (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (9)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 1 of 1 ✔
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 1 of 1 ✔
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 1 of 1 ✔
+[17/0d82b6] DEE…4dde_SPAdes_DeepVirFinder) | 1 of 1 ✔
+[bf/ac719f] MER…IT (llnl_66ce4dde_MEGAHIT) | 0 of 1
+[c5/4fd5b9] MER…DES (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[-        ] COMPARE_ASSEMBLERS             -
+
+executor >  slurm (10)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 1 of 1 ✔
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 1 of 1 ✔
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 1 of 1 ✔
+[17/0d82b6] DEE…4dde_SPAdes_DeepVirFinder) | 1 of 1 ✔
+[bf/ac719f] MER…IT (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[c5/4fd5b9] MER…DES (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[07/6900a7] COM…4dde_Assembler_Comparison) | 0 of 1
+
+executor >  slurm (10)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 1 of 1 ✔
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 1 of 1 ✔
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 1 of 1 ✔
+[17/0d82b6] DEE…4dde_SPAdes_DeepVirFinder) | 1 of 1 ✔
+[bf/ac719f] MER…IT (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[c5/4fd5b9] MER…DES (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[07/6900a7] COM…4dde_Assembler_Comparison) | 0 of 1
+
+executor >  slurm (10)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 1 of 1 ✔
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 1 of 1 ✔
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 1 of 1 ✔
+[17/0d82b6] DEE…4dde_SPAdes_DeepVirFinder) | 1 of 1 ✔
+[bf/ac719f] MER…IT (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[c5/4fd5b9] MER…DES (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[07/6900a7] COM…4dde_Assembler_Comparison) | 1 of 1 ✔
+
+executor >  slurm (10)
+[3b/ac22d8] FASTP (llnl_66ce4dde)          | 1 of 1 ✔
+[aa/5aad17] MEG…LY (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[e5/75e747] SPA…BLY (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[13/7c745c] VIR…ce4dde_MEGAHIT_VirSorter2) | 1 of 1 ✔
+[e8/ab597d] VIR…6ce4dde_SPAdes_VirSorter2) | 1 of 1 ✔
+[98/c071bc] DEE…dde_MEGAHIT_DeepVirFinder) | 1 of 1 ✔
+[17/0d82b6] DEE…4dde_SPAdes_DeepVirFinder) | 1 of 1 ✔
+[bf/ac719f] MER…IT (llnl_66ce4dde_MEGAHIT) | 1 of 1 ✔
+[c5/4fd5b9] MER…DES (llnl_66ce4dde_SPAdes) | 1 of 1 ✔
+[07/6900a7] COM…4dde_Assembler_Comparison) | 1 of 1 ✔
+
+    ==========================================
+    🎯 Metagenome Viral Classification Results
+    ==========================================
+    Pipeline completed successfully!
+    
+    Results directory: results
+    
+    Generated files:
+    - fastp/: Quality control reports
+      * *_fastp.html: HTML quality reports
+      * *_fastp.json: JSON quality data
+      
+    - clean_reads/: Filtered clean reads (if save_clean_reads=true)
+      * *_clean_R1.fastq.gz: Forward clean reads
+      * *_clean_R2.fastq.gz: Reverse clean reads
+      
+    - assembly_megahit/: MEGAHIT assembly results
+      * *_megahit_contigs.fa: Assembled contigs
+      
+    - assembly_spades/: metaSPAdes assembly results
+      * *_spades_contigs.fa: Assembled contigs
+      
+    - virsorter2_megahit/: VirSorter2 viral identification (MEGAHIT)
+      * *_megahit_vs2_final-viral-score.tsv: Viral scores
+      * *_megahit_vs2_final-viral-combined.fa: Identified viral contigs
+      
+    - virsorter2_spades/: VirSorter2 viral identification (SPAdes)
+      * *_spades_vs2_final-viral-score.tsv: Viral scores
+      * *_spades_vs2_final-viral-combined.fa: Identified viral contigs
+      
+    - deepvirfinder_megahit/: DeepVirFinder viral prediction (MEGAHIT)
+      * *_megahit_dvf_output.txt: Prediction results with scores and p-values
+      
+    - deepvirfinder_spades/: DeepVirFinder viral prediction (SPAdes)
+      * *_spades_dvf_output.txt: Prediction results with scores and p-values
+      
+    - merged_viral_reports_megahit/: Integrated viral analysis (MEGAHIT)
+      * *_megahit_viral_merged_report.txt: Comprehensive viral identification report
+      * *_megahit_viral_merged_report.csv: Detailed comparison data
+      * *_megahit_viral_consensus.txt: High-confidence viral sequences list
+      
+    - merged_viral_reports_spades/: Integrated viral analysis (SPAdes)
+      * *_spades_viral_merged_report.txt: Comprehensive viral identification report
+      * *_spades_viral_merged_report.csv: Detailed comparison data
+      * *_spades_viral_consensus.txt: High-confidence viral sequences list
+    
+    - assembler_comparison/: MEGAHIT vs SPAdes comparison ⭐
+      * *_assembler_comparison.txt: Comprehensive assembler comparison report
+      * *_assembler_comparison.csv: Detailed comparison data
+      * *_consensus_viral_sequences.txt: Final high-confidence viral sequences (both assemblers)
+    
+    ==========================================
+    
+Completed at: 29-Oct-2025 23:59:27
+Duration    : 3h 46m 41s
+CPU hours   : 107.4
+Succeeded   : 10
+
+
+
+==========================================
+🎯 Workflow Results
+==========================================
+✅ Workflow completed successfully!
+📁 Results directory created: results/
+📊 Generated results:
+  ✅ fastp quality reports: results/fastp/
+     - Generated 1 HTML quality reports
+  ✅ Clean reads: results/clean_reads/
+     - Generated 2 clean read files
+  ✅ MEGAHIT assembly: results/assembly_megahit/
+     - Generated 1 contig files
+  ✅ SPAdes assembly: results/assembly_spades/
+     - Generated 1 contig files
+  ✅ VirSorter2 MEGAHIT results: results/virsorter2_megahit/
+     - Generated 1 viral identification reports
+  ✅ VirSorter2 SPAdes results: results/virsorter2_spades/
+     - Generated 1 viral identification reports
+  ✅ DeepVirFinder MEGAHIT results: results/deepvirfinder_megahit/
+     - Generated 1 viral prediction reports
+  ✅ DeepVirFinder SPAdes results: results/deepvirfinder_spades/
+     - Generated 1 viral prediction reports
+  ✅ Merged viral reports (MEGAHIT): results/merged_viral_reports_megahit/
+     - Generated 1 comprehensive viral analysis reports
+  ✅ Merged viral reports (SPAdes): results/merged_viral_reports_spades/
+     - Generated 1 comprehensive viral analysis reports
+  ✅ Assembler comparison (MEGAHIT vs SPAdes): results/assembler_comparison/
+     - Generated 1 assembler comparison reports
+     - Generated 1 final consensus viral sequence lists
+
+📋 Summary of key viral identification files:
+  VirSorter2 viral scores:
+results/virsorter2_megahit/llnl_66ce4dde_megahit_vs2_final-viral-score.tsv
+results/virsorter2_spades/llnl_66ce4dde_spades_vs2_final-viral-score.tsv
+
+  DeepVirFinder predictions:
+results/deepvirfinder_megahit/llnl_66ce4dde_megahit_dvf_output.txt
+results/deepvirfinder_spades/llnl_66ce4dde_spades_dvf_output.txt
+
+  Merged viral reports:
+results/merged_viral_reports_megahit/llnl_66ce4dde_megahit_viral_merged_report.csv
+results/merged_viral_reports_megahit/llnl_66ce4dde_megahit_viral_consensus.txt
+results/merged_viral_reports_megahit/llnl_66ce4dde_megahit_viral_merged_report.txt
+results/merged_viral_reports_spades/llnl_66ce4dde_spades_viral_consensus.txt
+results/merged_viral_reports_spades/llnl_66ce4dde_spades_viral_merged_report.csv
+results/merged_viral_reports_spades/llnl_66ce4dde_spades_viral_merged_report.txt
+
+  Assembler comparison (MEGAHIT vs SPAdes):
+results/assembler_comparison/llnl_66ce4dde_assembler_comparison.txt
+
+  ⭐ Final consensus viral sequences (recommended for downstream analysis):
+results/assembler_comparison/llnl_66ce4dde_consensus_viral_sequences.txt
+
+Total files: 23
+
+End time: Wed Oct 29 23:59:28 EDT 2025
+==========================================
